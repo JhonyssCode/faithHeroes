@@ -51,13 +51,37 @@
             }
           },
           {
-            "id": "d63037fd-1207-4d62-a104-170f4c817eeb",
-            "command": "EVENT_SET_VALUE",
+            "id": "736bd2ab-cbb5-5017-a84d-20e813251415",
+            "command": "EVENT_IF",
             "args": {
               "variable": "0",
-              "value": {
-                "type": "true"
+              "condition": {
+                "type": "variable",
+                "value": "0"
               }
+            },
+            "children": {
+              "true": [],
+              "false": [
+                {
+                  "id": "943c47fa-fb97-5467-968e-c0c6ea89d3b1",
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": "Fragmento 1/4\nOvelha perdida!",
+                    "avatarId": ""
+                  }
+                },
+                {
+                  "id": "d63037fd-1207-4d62-a104-170f4c817eeb",
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "0",
+                    "value": {
+                      "type": "true"
+                    }
+                  }
+                }
+              ]
             }
           }
         ],

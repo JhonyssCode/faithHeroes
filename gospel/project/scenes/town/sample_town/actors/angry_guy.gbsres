@@ -44,7 +44,7 @@
             "id": "be420a1a-743e-4afc-a997-daf721708b34",
             "command": "EVENT_SET_VALUE",
             "args": {
-              "variable": "4",
+              "variable": "L1",
               "value": {
                 "type": "true"
               }

@@ -130,13 +130,37 @@
             }
           },
           {
-            "id": "de6e9177-51ea-4573-b448-96538026fefb",
-            "command": "EVENT_SET_VALUE",
+            "id": "c5e758db-2efb-5de1-88d9-bdf5eae0d70e",
+            "command": "EVENT_IF",
             "args": {
-              "variable": "7",
-              "value": {
-                "type": "true"
+              "variable": "1",
+              "condition": {
+                "type": "variable",
+                "value": "1"
               }
+            },
+            "children": {
+              "true": [],
+              "false": [
+                {
+                  "id": "edbc2d4d-be67-5ed4-86bc-9b74e035b68c",
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": "Fragmento 2/4\nNoé e a Arca!",
+                    "avatarId": ""
+                  }
+                },
+                {
+                  "id": "de6e9177-51ea-4573-b448-96538026fefb",
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "1",
+                    "value": {
+                      "type": "true"
+                    }
+                  }
+                }
+              ]
             }
           }
         ],

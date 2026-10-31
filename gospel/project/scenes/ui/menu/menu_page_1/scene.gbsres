@@ -35,6 +35,146 @@
       }
     },
     {
+      "id": "013135be-6ec5-563f-bb5e-6a55102fa007",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "Diário de\nFragmentos",
+        "avatarId": ""
+      }
+    },
+    {
+      "id": "af4c9942-34de-538a-a4dc-1c2f2c29e229",
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "0",
+        "condition": {
+          "type": "variable",
+          "value": "0"
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "id": "e0416d42-ac2d-5e97-97f4-ed344f70731f",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "1/4 Ovelha\nObtido",
+              "avatarId": ""
+            }
+          }
+        ],
+        "false": [
+          {
+            "id": "d0efeb0f-2fde-5f73-9029-5df7bc6ab35b",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "1/4 Ovelha\nAinda não obtido",
+              "avatarId": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "1dce5248-9fc6-521c-93a0-679f5efda055",
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "1",
+        "condition": {
+          "type": "variable",
+          "value": "1"
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "id": "8b04f1b8-b291-505e-ad99-d78e223e2a7c",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "2/4 Arca\nObtido",
+              "avatarId": ""
+            }
+          }
+        ],
+        "false": [
+          {
+            "id": "02da30a3-142e-581e-9aa6-48bd68476551",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "2/4 Arca\nAinda não obtido",
+              "avatarId": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "9983d003-c8bc-5378-8065-3175ff7dea29",
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "2",
+        "condition": {
+          "type": "variable",
+          "value": "2"
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "id": "9d60911e-3dab-5497-9fcf-02676c5760fe",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "3/4 Golias\nObtido",
+              "avatarId": ""
+            }
+          }
+        ],
+        "false": [
+          {
+            "id": "9cae2fa4-850c-5b66-bc5d-fdf337990261",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "3/4 Golias\nAinda não obtido",
+              "avatarId": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "575a432c-1f6c-5713-9e82-693df353a1fb",
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "3",
+        "condition": {
+          "type": "variable",
+          "value": "3"
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "id": "a04bc7c0-6517-5059-b2e9-587a8625e9a0",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "4/4 Daniel\nObtido",
+              "avatarId": ""
+            }
+          }
+        ],
+        "false": [
+          {
+            "id": "82fa18f8-f30e-59e4-9399-87c225646348",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "4/4 Daniel\nAinda não obtido",
+              "avatarId": ""
+            }
+          }
+        ]
+      }
+    },
+    {
       "id": "caf988fd-46ba-4df4-87e3-afe81256c4cd",
       "command": "EVENT_AWAIT_INPUT",
       "args": {

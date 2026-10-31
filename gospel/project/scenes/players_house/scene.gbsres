@@ -78,6 +78,38 @@
         "musicId": "326b3cbc-1e3d-4a43-846f-c962ece2c317",
         "loop": true
       }
+    },
+    {
+      "id": "02219a94-1eab-5d1b-ac2f-bb7a28f8bd54",
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "daf646b6-85ce-56ee-a78e-c0b553764004",
+        "condition": {
+          "type": "variable",
+          "value": "daf646b6-85ce-56ee-a78e-c0b553764004"
+        }
+      },
+      "children": {
+        "true": [],
+        "false": [
+          {
+            "id": "ed1f0a1d-41bd-584b-bd5f-c686ea76967d",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "Samuel, pastor\nde Belém, encontra\num rolo brilhante.",
+              "avatarId": ""
+            }
+          },
+          {
+            "id": "e283d77f-70eb-568c-85fd-9df0f7c60b29",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "Examine a casa.\nToque no rolo\npara começar.",
+              "avatarId": ""
+            }
+          }
+        ]
+      }
     }
   ],
   "playerHit1Script": [],

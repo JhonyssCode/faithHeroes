@@ -12,20 +12,62 @@
   "prefabScriptOverrides": {},
   "script": [
     {
-      "id": "ea30eedc-a26d-44f1-aa67-daa6d2990962",
-      "command": "EVENT_SWITCH_SCENE",
+      "id": "3f0680e0-748c-54f0-9a64-52384d3ed963",
+      "command": "EVENT_IF",
       "args": {
-        "sceneId": "51d42da5-b7ce-48b4-a435-1902368d6d5c",
-        "x": {
-          "type": "number",
-          "value": 14
-        },
-        "y": {
-          "type": "number",
-          "value": 18
-        },
-        "direction": "up",
-        "fadeSpeed": "4"
+        "variable": "2",
+        "condition": {
+          "type": "variable",
+          "value": "2"
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "id": "ea30eedc-a26d-44f1-aa67-daa6d2990962",
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "51d42da5-b7ce-48b4-a435-1902368d6d5c",
+              "x": {
+                "type": "number",
+                "value": 14
+              },
+              "y": {
+                "type": "number",
+                "value": 18
+              },
+              "direction": "up",
+              "fadeSpeed": "4"
+            }
+          }
+        ],
+        "false": [
+          {
+            "id": "f7b3676e-4d6f-5f58-8a25-865a2f208099",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "Golias resiste!\nTente outra vez.",
+              "avatarId": ""
+            }
+          },
+          {
+            "id": "9d28ac4b-ab91-536c-aaae-00ccb130e4e1",
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "6bcc8670-b44d-4892-a37a-77a35f5a7668",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 9
+              },
+              "direction": "right",
+              "fadeSpeed": "2"
+            }
+          }
+        ]
       }
     }
   ],

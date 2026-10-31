@@ -27,11 +27,11 @@
       "id": "ea4b563c-2be6-4022-845d-a436911059c5",
       "command": "EVENT_IF",
       "args": {
-        "variable": "9",
+        "variable": "3",
         "__collapseElse": false,
         "condition": {
           "type": "variable",
-          "value": "9"
+          "value": "3"
         }
       },
       "children": {
@@ -65,10 +65,18 @@
             }
           },
           {
+            "id": "9abb60fe-a430-56ba-b05c-9161720edfe9",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "Fragmento 4/4\nDaniel e os leões!",
+              "avatarId": ""
+            }
+          },
+          {
             "id": "65f97ab7-ef10-4ce2-899c-946a6cf420e3",
             "command": "EVENT_SET_VALUE",
             "args": {
-              "variable": "9",
+              "variable": "3",
               "value": {
                 "type": "true"
               }
@@ -83,11 +91,11 @@
       "id": "7ef18fac-6a8e-4ec8-a4a0-c452e46047e4",
       "command": "EVENT_IF",
       "args": {
-        "variable": "9",
+        "variable": "3",
         "__collapseElse": false,
         "condition": {
           "type": "variable",
-          "value": "9"
+          "value": "3"
         }
       },
       "children": {

@@ -21,6 +21,73 @@
         "avatarId": ""
       },
       "__type": "event"
+    },
+    {
+      "id": "2e8952c6-50b0-546c-ace8-cce6a714fb48",
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "daf646b6-85ce-56ee-a78e-c0b553764004",
+        "condition": {
+          "type": "variable",
+          "value": "daf646b6-85ce-56ee-a78e-c0b553764004"
+        }
+      },
+      "children": {
+        "true": [],
+        "false": [
+          {
+            "id": "4f8e1e91-5d14-5e2d-8a23-2fd6577558a5",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "Samuel: Que rolo\né esse?",
+              "avatarId": ""
+            }
+          },
+          {
+            "id": "a86a92ad-0cda-577a-803a-9d3b858bc086",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "Voz: Confie, mesmo\nsem ver o fim\ndo caminho.",
+              "avatarId": ""
+            }
+          },
+          {
+            "id": "4480b483-fb13-5d76-9012-73e829f4a3ff",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "Reúna os quatro\nfragmentos para\nler a mensagem.",
+              "avatarId": ""
+            }
+          },
+          {
+            "id": "48f88b8d-ec7c-507b-8826-fab04ba58f61",
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "daf646b6-85ce-56ee-a78e-c0b553764004",
+              "value": {
+                "type": "true"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "c98df2f5-f7f1-5366-aa75-ddfea3bb094d",
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "94c18861-b352-4f49-a64d-52f2e3415077",
+        "x": {
+          "type": "number",
+          "value": 1
+        },
+        "y": {
+          "type": "number",
+          "value": 48
+        },
+        "direction": "right",
+        "fadeSpeed": "2"
+      }
     }
   ],
   "leaveScript": []

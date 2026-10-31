@@ -1,0 +1,202 @@
+{
+  "_resourceType": "actor",
+  "id": "a66ecd9c-13d4-5614-b851-816f87a33feb",
+  "_index": 16,
+  "symbol": "actor_hf_golias",
+  "prefabId": "",
+  "name": "Golias (placeholder)",
+  "coordinateType": "tiles",
+  "x": 216,
+  "y": 9,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "b4845aec-11e3-475b-8a9a-0a01b920c710",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "1",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "id": "f3754a23-511b-5b18-8364-7fcd506ef8e5",
+      "command": "EVENT_CAMERA_SHAKE",
+      "args": {
+        "time": 0.2,
+        "magnitude": {
+          "type": "number",
+          "value": 2
+        }
+      }
+    }
+  ],
+  "startScript": [
+    {
+      "id": "934431b1-90f6-5f5c-b64e-daacd0f3c340",
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L0",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      }
+    }
+  ],
+  "updateScript": [
+    {
+      "id": "43cbbe8d-f790-5d95-a8d4-9a10c230d8fa",
+      "command": "EVENT_ACTOR_MOVE_RELATIVE",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": -4
+        },
+        "moveType": "vertical",
+        "useCollisions": false,
+        "collideWith": []
+      }
+    },
+    {
+      "id": "f75fa9ca-dd1f-5dcc-a551-69f492c1fd52",
+      "command": "EVENT_ACTOR_MOVE_RELATIVE",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 8
+        },
+        "moveType": "vertical",
+        "useCollisions": false,
+        "collideWith": []
+      }
+    },
+    {
+      "id": "17e31218-db07-55ae-b0d0-3f0bfbea1dce",
+      "command": "EVENT_ACTOR_MOVE_RELATIVE",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": -4
+        },
+        "moveType": "vertical",
+        "useCollisions": false,
+        "collideWith": []
+      }
+    }
+  ],
+  "hit1Script": [
+    {
+      "id": "2a007307-780e-599a-a496-94c2a3d49143",
+      "command": "EVENT_INC_VALUE",
+      "args": {
+        "variable": "L0"
+      }
+    },
+    {
+      "id": "e6e2409e-f623-53ea-8fe6-33d6f7b7b4c0",
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "L0",
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 5
+          }
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "id": "146a5786-14d9-5203-b92b-3329483cc232",
+            "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+            "args": {
+              "actorId": "$self$"
+            }
+          },
+          {
+            "id": "fbb1924c-d3d6-56c1-92ad-6d9262dd30ac",
+            "command": "EVENT_ACTOR_STOP_UPDATE",
+            "args": {
+              "actorId": "$self$"
+            }
+          },
+          {
+            "id": "d82e940b-33a2-57ea-bf04-06ebb03d54d9",
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "2",
+              "condition": {
+                "type": "variable",
+                "value": "2"
+              }
+            },
+            "children": {
+              "true": [],
+              "false": [
+                {
+                  "id": "783d662b-b33d-544b-a315-7f54f86bb9ae",
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": "Golias caiu!\nDeus nos dá\ncoragem.",
+                    "avatarId": ""
+                  }
+                },
+                {
+                  "id": "b4af62bd-6062-5bd6-b6aa-9ed82949da47",
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": "Fragmento 3/4\nDavi e Golias!",
+                    "avatarId": ""
+                  }
+                },
+                {
+                  "id": "5fd44e31-db44-531f-8228-4648aff1d2fd",
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "2",
+                    "value": {
+                      "type": "true"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "a75aa2b5-45e1-5272-9425-67220d41c202",
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            }
+          }
+        ],
+        "false": []
+      }
+    }
+  ],
+  "hit2Script": [],
+  "hit3Script": []
+}

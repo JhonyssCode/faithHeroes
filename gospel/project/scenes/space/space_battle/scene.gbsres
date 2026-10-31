@@ -28,6 +28,30 @@
   "autoFadeSpeed": 1,
   "script": [
     {
+      "id": "29d35ce3-f05d-52a2-bb26-7788927fa3e2",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "Davi enfrenta\nGolias no vale.",
+        "avatarId": ""
+      }
+    },
+    {
+      "id": "842ab9d9-fe8a-57ce-85cd-4dbb3421179e",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "Samuel: Vou com\na funda e\ncinco pedras.",
+        "avatarId": ""
+      }
+    },
+    {
+      "id": "5864187a-b17f-57be-904e-bb271a0dde6f",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "A: lançar pedras.\nAcerte Golias\ncinco vezes.",
+        "avatarId": ""
+      }
+    },
+    {
       "id": "349d17cf-18f1-42be-acc2-e76c9441d1ce",
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {

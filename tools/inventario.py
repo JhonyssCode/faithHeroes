@@ -3,7 +3,7 @@ from recursos import ROOT, inventario
 rows = list(inventario())
 if not rows:
     raise SystemExit('Nenhum texto encontrado.')
-lines = ['# Inventário de textos — estado original', '', 'Arquivo, cena, objeto e texto original. Quebras de linha aparecem como `\\n`.', '']
+lines = ['# Inventário de textos — estado atual', '', 'Arquivo, cena, objeto e texto original. Quebras de linha aparecem como `\\n`.', '']
 for path, scene, name, text in rows:
     lines.append(f'- Arquivo: `{path}` | Cena: {scene!r} | Objeto: {name!r} | Texto: {text!r}')
 (ROOT / 'docs').mkdir(exist_ok=True)

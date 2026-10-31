@@ -73,6 +73,136 @@
         "musicId": "326b3cbc-1e3d-4a43-846f-c962ece2c317",
         "loop": true
       }
+    },
+    {
+      "id": "6af19c39-c8f3-5620-81a5-5cba9dfffb74",
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "0",
+        "condition": {
+          "type": "variable",
+          "value": "0"
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "id": "293435ec-c797-597e-a000-6f0637b96e9d",
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "1",
+              "condition": {
+                "type": "variable",
+                "value": "1"
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "id": "d8e70c11-9077-57bc-82e5-5ca470b2ea89",
+                  "command": "EVENT_IF",
+                  "args": {
+                    "variable": "2",
+                    "condition": {
+                      "type": "variable",
+                      "value": "2"
+                    }
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "id": "61dee809-00df-575a-83b8-9c386839db4a",
+                        "command": "EVENT_IF",
+                        "args": {
+                          "variable": "3",
+                          "condition": {
+                            "type": "variable",
+                            "value": "3"
+                          }
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "id": "05e12a79-0ec5-5913-b621-1caf82fa7899",
+                              "command": "EVENT_IF",
+                              "args": {
+                                "variable": "a47f7637-d042-55cb-b424-17390d6d8828",
+                                "condition": {
+                                  "type": "variable",
+                                  "value": "a47f7637-d042-55cb-b424-17390d6d8828"
+                                }
+                              },
+                              "children": {
+                                "true": [],
+                                "false": [
+                                  {
+                                    "id": "9c28f8b2-e272-5d39-b1dc-ad93cfea12c0",
+                                    "command": "EVENT_TEXT",
+                                    "args": {
+                                      "text": "Escriba: O rolo\nestá completo,\nSamuel.",
+                                      "avatarId": ""
+                                    }
+                                  },
+                                  {
+                                    "id": "1b998772-581f-53c7-b118-25072c9ff452",
+                                    "command": "EVENT_TEXT",
+                                    "args": {
+                                      "text": "Leia a mensagem.",
+                                      "avatarId": ""
+                                    }
+                                  },
+                                  {
+                                    "id": "58a3ff0d-eff6-52ee-bcb6-5679ef37df30",
+                                    "command": "EVENT_TEXT",
+                                    "args": {
+                                      "text": "Seja forte e\ncorajoso. O Senhor\nestá com você.",
+                                      "avatarId": ""
+                                    }
+                                  },
+                                  {
+                                    "id": "7e5923cc-0e4d-57f1-bfb7-f48d4a751bb1",
+                                    "command": "EVENT_TEXT",
+                                    "args": {
+                                      "text": "Josué 1:9\nParáfrase",
+                                      "avatarId": ""
+                                    }
+                                  },
+                                  {
+                                    "id": "700184a0-7932-5d86-9733-0b04129067bf",
+                                    "command": "EVENT_TEXT",
+                                    "args": {
+                                      "text": "Obrigado por\njogar\nHERÓIS DA FÉ!",
+                                      "avatarId": ""
+                                    }
+                                  },
+                                  {
+                                    "id": "65f30e2b-59c1-5615-bcf5-316d7d5bc4f8",
+                                    "command": "EVENT_SET_VALUE",
+                                    "args": {
+                                      "variable": "a47f7637-d042-55cb-b424-17390d6d8828",
+                                      "value": {
+                                        "type": "true"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ],
+                          "false": []
+                        }
+                      }
+                    ],
+                    "false": []
+                  }
+                }
+              ],
+              "false": []
+            }
+          }
+        ],
+        "false": []
+      }
     }
   ],
   "playerHit1Script": [],

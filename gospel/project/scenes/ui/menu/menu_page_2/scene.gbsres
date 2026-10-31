@@ -26,6 +26,14 @@
       }
     },
     {
+      "id": "e85362ff-6369-508b-9b0b-f452f37e30d4",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "Start abre o\ndiário na jornada.\nA: próxima página.",
+        "avatarId": ""
+      }
+    },
+    {
       "id": "465754f7-74aa-4ac6-b151-5cee26c58434",
       "command": "EVENT_AWAIT_INPUT",
       "args": {

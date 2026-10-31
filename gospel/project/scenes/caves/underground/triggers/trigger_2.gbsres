@@ -15,12 +15,12 @@
       "id": "ba8e33ae-abb6-4813-9983-d09e929e43de",
       "command": "EVENT_IF",
       "args": {
-        "variable": "1",
+        "variable": "34992412-4206-55fe-a6fe-5780f55d14cb",
         "__collapseElse": false,
         "__disableElse": true,
         "condition": {
           "type": "variable",
-          "value": "1"
+          "value": "34992412-4206-55fe-a6fe-5780f55d14cb"
         }
       },
       "children": {

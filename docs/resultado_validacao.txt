@@ -1,0 +1,7 @@
+Estrutura: 283 JSONs; 17 cenas; textos e destinos válidos.
+Portões: 32 combinações verificadas; ambos exigem os quatro fragmentos.
+Recompensas: ovelha, 0–3 obstáculos, cinco impactos e baú sem duplicação verificados.
+Final: 16 combinações verificadas; mensagem exibida uma vez com os quatro fragmentos.
+PASSOU — simulação estática; ROM e jogabilidade não executadas.
+283 arquivos verificados; 0 erros.
+0 caixas com avisos; nenhuma alteração aplicada.

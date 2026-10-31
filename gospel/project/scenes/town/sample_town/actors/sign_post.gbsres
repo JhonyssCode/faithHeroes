@@ -29,6 +29,22 @@
           "Vila de Belém.\nPortais: Arca,\nVale e Cova."
         ]
       }
+    },
+    {
+      "id": "95ffb447-f0a3-5124-8ffc-bcd5c835c7d6",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "Arca: oeste.\nCova: centro.\nDavi: nordeste.",
+        "avatarId": ""
+      }
+    },
+    {
+      "id": "417c248d-f1d0-5e6f-bd04-52400eeb00bb",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "Encontre a ovelha\ne volte ao pastor.\nStart: diário.",
+        "avatarId": ""
+      }
     }
   ],
   "startScript": [],

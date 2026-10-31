@@ -150,7 +150,7 @@
             "id": "2ccc46ed-fda5-4861-827f-cff47764b1e0",
             "command": "EVENT_SET_VALUE",
             "args": {
-              "variable": "6",
+              "variable": "L1",
               "value": {
                 "type": "true"
               }

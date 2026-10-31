@@ -160,6 +160,21 @@
       "id": "5fa52cd0-57cd-414c-8b93-5601c6e9636f__L0",
       "name": "Defeated",
       "symbol": "var_defeated_2"
+    },
+    {
+      "id": "34992412-4206-55fe-a6fe-5780f55d14cb",
+      "name": "Cova Resolvida",
+      "symbol": "var_hf_cova_resolvida"
+    },
+    {
+      "id": "daf646b6-85ce-56ee-a78e-c0b553764004",
+      "name": "Rolo Encontrado",
+      "symbol": "var_hf_rolo_encontrado"
+    },
+    {
+      "id": "a47f7637-d042-55cb-b424-17390d6d8828",
+      "name": "Mensagem Final Lida",
+      "symbol": "var_hf_final_lido"
     }
   ],
   "constants": []
