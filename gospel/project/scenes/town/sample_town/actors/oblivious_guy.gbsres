@@ -1,17 +1,17 @@
 {
   "_resourceType": "actor",
   "id": "5cf6eb6c-be62-4efc-9cbb-14a8efac21a8",
-  "_index": 5,
+  "_index": 6,
   "symbol": "actor_oblivious_guy",
   "prefabId": "",
   "name": "Oblivious Guy",
   "coordinateType": "tiles",
-  "x": 18,
-  "y": 16,
+  "x": 36,
+  "y": 20,
   "frame": 0,
   "animate": false,
   "spriteSheetId": "dfa75239-299d-41fe-a6cd-9e9438da1938",
-  "paletteId": "",
+  "paletteId": "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
@@ -22,31 +22,19 @@
   "prefabScriptOverrides": {},
   "script": [
     {
-      "id": "b1c3d75d-d579-47af-8f3e-4cd96178fbb0",
+      "id": "1d805b5f-7b13-5234-8804-1b4a5509e3db",
       "command": "EVENT_TEXT",
       "args": {
-        "text": "Olha aquela ave!\nDeus cuida delas."
+        "text": "A Arca fica no\nnoroeste. Noé\nprecisa dos",
+        "avatarId": ""
       }
     },
     {
-      "id": "0830a973-dd64-44ad-ad07-a677a31a27aa",
-      "command": "EVENT_SET_VALUE",
+      "id": "f60d3824-fb2e-5898-aff4-eec3ff314a21",
+      "command": "EVENT_TEXT",
       "args": {
-        "variable": "15",
-        "value": {
-          "type": "true"
-        }
-      }
-    },
-    {
-      "id": "8ffac2a0-a735-40f1-b51e-dd270cc09ba9",
-      "command": "EVENT_ACTOR_SET_DIRECTION",
-      "args": {
-        "actorId": "5cf6eb6c-be62-4efc-9cbb-14a8efac21a8",
-        "direction": {
-          "type": "direction",
-          "value": "down"
-        }
+        "text": "animais.",
+        "avatarId": ""
       }
     }
   ],

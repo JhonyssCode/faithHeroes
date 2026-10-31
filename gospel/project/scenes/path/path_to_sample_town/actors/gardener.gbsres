@@ -1,17 +1,17 @@
 {
   "_resourceType": "actor",
   "id": "871ea302-1cc1-463c-b9d7-530aac38fe81",
-  "_index": 1,
+  "_index": 0,
   "symbol": "actor_gardener",
   "prefabId": "",
-  "name": "Gardener",
+  "name": "Noé",
   "coordinateType": "tiles",
   "x": 45,
   "y": 13,
   "frame": 0,
   "animate": false,
   "spriteSheetId": "b073d693-12e6-43bf-bb2b-d7e78641fed3",
-  "paletteId": "",
+  "paletteId": "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
   "direction": "right",
   "moveSpeed": 1,
   "animSpeed": 15,
@@ -22,168 +22,186 @@
   "prefabScriptOverrides": {},
   "script": [
     {
-      "id": "0846c4dc-f631-429b-9a84-ee2dab5b76e1",
+      "id": "091f35a8-bcb4-548a-a689-87f3cfc1085d",
       "command": "EVENT_IF",
       "args": {
-        "variable": "L0",
-        "__collapseElse": false,
-        "__disableElse": true,
-        "__collapse": false,
+        "variable": "1",
         "condition": {
-          "type": "eq",
-          "valueA": {
-            "type": "variable",
-            "value": "L0"
-          },
-          "valueB": {
-            "type": "false"
-          }
+          "type": "variable",
+          "value": "1"
         }
       },
       "children": {
         "true": [
           {
-            "id": "b0b9eb08-2f9f-410e-9d45-49ced279a11f",
+            "id": "f7040166-3c46-432c-b06e-424820035d34",
             "command": "EVENT_TEXT",
             "args": {
-              "text": [
-                "Noé: Precisamos\nlimpar o caminho\npara os animais."
-              ],
+              "text": "Os pares chegaram!\nA relíquia está\nno diário.",
               "avatarId": ""
-            }
-          },
-          {
-            "id": "3cb785b3-96e0-4b62-a743-14057e40785b",
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "Há três obstáculos\nno caminho!"
-              ],
-              "avatarId": ""
-            }
-          },
-          {
-            "id": "96e63d51-0006-4f7d-9e0e-28186f6dc0ca",
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "L0",
-              "value": {
-                "type": "true"
-              }
-            }
-          }
-        ],
-        "false": []
-      }
-    },
-    {
-      "id": "584589d0-422d-4abf-bf45-949db9f534f3",
-      "command": "EVENT_IF",
-      "args": {
-        "variable": "12",
-        "operator": "==",
-        "comparator": "0",
-        "__collapseElse": false,
-        "__collapse": false,
-        "condition": {
-          "type": "eq",
-          "valueA": {
-            "type": "variable",
-            "value": "12"
-          },
-          "valueB": {
-            "type": "number",
-            "value": 0
-          }
-        }
-      },
-      "children": {
-        "true": [
-          {
-            "id": "47425956-cf57-4e4a-8e47-338087c7cbf5",
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "A chuva passou!\nOs animais estão\nem segurança."
-              ],
-              "avatarId": "",
-              "__collapse": false
-            }
-          },
-          {
-            "id": "151c3edb-404b-41fe-aa85-54178268d123",
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "Um arco no céu!\nDeus fez uma\npromessa de paz."
-              ],
-              "avatarId": "",
-              "__collapse": false
-            }
-          },
-          {
-            "id": "88bd4a38-faed-403e-a6ee-c81569ad79f1",
-            "command": "EVENT_ACTOR_EMOTE",
-            "args": {
-              "actorId": "$self$",
-              "emoteId": "362efd0f-67c7-491a-8b49-482b17b23e32"
-            }
-          },
-          {
-            "id": "c5e758db-2efb-5de1-88d9-bdf5eae0d70e",
-            "command": "EVENT_IF",
-            "args": {
-              "variable": "1",
-              "condition": {
-                "type": "variable",
-                "value": "1"
-              }
-            },
-            "children": {
-              "true": [],
-              "false": [
-                {
-                  "id": "edbc2d4d-be67-5ed4-86bc-9b74e035b68c",
-                  "command": "EVENT_TEXT",
-                  "args": {
-                    "text": "Fragmento 2/4\nNoé e a Arca!",
-                    "avatarId": ""
-                  }
-                },
-                {
-                  "id": "de6e9177-51ea-4573-b448-96538026fefb",
-                  "command": "EVENT_SET_VALUE",
-                  "args": {
-                    "variable": "1",
-                    "value": {
-                      "type": "true"
-                    }
-                  }
-                }
-              ]
             }
           }
         ],
         "false": [
           {
-            "id": "75ea9719-7d3b-4215-bee0-c60b17cf4021",
-            "command": "EVENT_TEXT",
+            "id": "a58a90ca-2b55-50a0-9441-64cbe7975e52",
+            "command": "EVENT_IF",
             "args": {
-              "text": [
-                "Ainda faltam\n$12$ obstáculos.\nAjude os animais!"
-              ],
-              "avatarId": ""
-            }
-          },
-          {
-            "id": "7bc8c0a9-9f4e-45ac-ac5b-60cd877f4f6d",
-            "command": "EVENT_ACTOR_SET_DIRECTION",
-            "args": {
-              "actorId": "$self$",
-              "direction": {
-                "type": "direction",
-                "value": "right"
+              "variable": "20",
+              "condition": {
+                "type": "variable",
+                "value": "20"
               }
+            },
+            "children": {
+              "true": [
+                {
+                  "id": "d0c3dd36-e13c-5338-9e79-4771b0e8f148",
+                  "command": "EVENT_IF",
+                  "args": {
+                    "variable": "21",
+                    "condition": {
+                      "type": "variable",
+                      "value": "21"
+                    }
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "id": "bc0b2110-527a-5237-916f-e8dcf549bcb6",
+                        "command": "EVENT_IF",
+                        "args": {
+                          "variable": "22",
+                          "condition": {
+                            "type": "variable",
+                            "value": "22"
+                          }
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "id": "ad2f6b43-cf49-5f1c-96cf-14e13368f1c9",
+                              "command": "EVENT_SET_VALUE",
+                              "args": {
+                                "variable": "1",
+                                "value": {
+                                  "type": "true"
+                                }
+                              }
+                            },
+                            {
+                              "id": "2df13c09-b073-4a5b-8278-c31acdfa9a16",
+                              "command": "EVENT_INC_VALUE",
+                              "args": {
+                                "variable": "39"
+                              }
+                            },
+                            {
+                              "id": "8795e6e1-0899-538c-81b1-ec8bca722dce",
+                              "command": "EVENT_SOUND_PLAY_EFFECT",
+                              "args": {
+                                "type": "beep",
+                                "pitch": 4,
+                                "duration": 0.08,
+                                "priority": "high",
+                                "wait": false
+                              }
+                            },
+                            {
+                              "id": "8524901e-5737-5190-9eed-e8199521c270",
+                              "command": "EVENT_WAIT",
+                              "args": {
+                                "time": {
+                                  "type": "number",
+                                  "value": 0.07
+                                },
+                                "frames": {
+                                  "type": "number",
+                                  "value": 4
+                                }
+                              }
+                            },
+                            {
+                              "id": "5853003e-7261-5065-aea7-64f7e1e8ddce",
+                              "command": "EVENT_SOUND_PLAY_EFFECT",
+                              "args": {
+                                "type": "beep",
+                                "pitch": 6,
+                                "duration": 0.08,
+                                "priority": "high",
+                                "wait": false
+                              }
+                            },
+                            {
+                              "id": "b4484c29-8518-5288-af92-61ef467b7b45",
+                              "command": "EVENT_WAIT",
+                              "args": {
+                                "time": {
+                                  "type": "number",
+                                  "value": 0.07
+                                },
+                                "frames": {
+                                  "type": "number",
+                                  "value": 4
+                                }
+                              }
+                            },
+                            {
+                              "id": "56bf2bc6-1557-5b0a-a3f5-243a9d4f5889",
+                              "command": "EVENT_SOUND_PLAY_EFFECT",
+                              "args": {
+                                "type": "beep",
+                                "pitch": 8,
+                                "duration": 0.12,
+                                "priority": "high",
+                                "wait": false
+                              }
+                            },
+                            {
+                              "id": "cdde6e92-fafa-5802-847a-42f095bd03a2",
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "text": "Promessa obtida!\nRelíquias: $39$/4\nGn 9:12-17",
+                                "avatarId": ""
+                              }
+                            }
+                          ],
+                          "false": [
+                            {
+                              "id": "5e70cb70-a26a-44a6-a5d5-983c70cbaf82",
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "text": "Pares salvos: $38$\nResgate 3 pares\ne volte aqui.",
+                                "avatarId": ""
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "false": [
+                      {
+                        "id": "2798c279-d78a-4c4e-aa8e-e8c0daf59e8a",
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": "Pares salvos: $38$\nResgate 3 pares\ne volte aqui.",
+                          "avatarId": ""
+                        }
+                      }
+                    ]
+                  }
+                }
+              ],
+              "false": [
+                {
+                  "id": "9f4a2bd7-d0eb-4ca9-8c15-1fa21d3c197b",
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": "Pares salvos: $38$\nResgate 3 pares\ne volte aqui.",
+                    "avatarId": ""
+                  }
+                }
+              ]
             }
           }
         ]

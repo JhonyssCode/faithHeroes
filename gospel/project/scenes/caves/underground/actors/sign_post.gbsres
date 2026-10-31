@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
   "id": "822a9491-3999-4d38-baa2-11cd379dcbb7",
-  "_index": 0,
+  "_index": 5,
   "symbol": "actor_sign_post_0",
   "prefabId": "",
   "name": "Sign Post",
@@ -11,7 +11,7 @@
   "frame": 0,
   "animate": false,
   "spriteSheetId": "30b8266a-0533-4f90-bd33-e97dc1d498ea",
-  "paletteId": "",
+  "paletteId": "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
@@ -22,32 +22,120 @@
   "prefabScriptOverrides": {},
   "script": [
     {
-      "id": "7ba26d3c-c1ca-46c8-a4ae-ed0a431b1d03",
-      "command": "EVENT_TEXT",
+      "id": "4fa2a7e4-3206-53a9-a0e1-6f4473dd3894",
+      "command": "EVENT_IF",
       "args": {
-        "text": "Cova dos leões.\nLeve o bloco\naté a marca."
-      }
-    },
-    {
-      "id": "1cf687c1-e1fe-4e89-a7ef-9ddc6412ef4f",
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": "Se ficar preso,\nfale comigo para\nrecomeçar."
-      }
-    },
-    {
-      "id": "a50d16e9-2660-4fde-94c2-825e6fe799ee",
-      "command": "EVENT_ACTOR_SET_POSITION",
-      "args": {
-        "actorId": "27de6d44-f7c0-48df-a952-2c87471bbfd4",
-        "x": {
-          "type": "number",
-          "value": 24
-        },
-        "y": {
-          "type": "number",
-          "value": 18
+        "variable": "34992412-4206-55fe-a6fe-5780f55d14cb",
+        "condition": {
+          "type": "variable",
+          "value": "34992412-4206-55fe-a6fe-5780f55d14cb"
         }
+      },
+      "children": {
+        "true": [
+          {
+            "id": "1954969c-dcf2-5a70-a646-8856c31b0283",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "A passagem está\naberta. A relíquia\nespera na câmara.",
+              "avatarId": ""
+            }
+          }
+        ],
+        "false": [
+          {
+            "id": "8499a32e-5827-499b-ac0c-a1de28bb400d",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "Leve à marca.\nQuer recomeçar?",
+              "avatarId": ""
+            }
+          },
+          {
+            "id": "0e4cac1e-6dea-55a7-81e0-50cb6b9e3674",
+            "command": "EVENT_CHOICE",
+            "args": {
+              "variable": "L0",
+              "trueText": "Recomeçar",
+              "falseText": "Cancelar"
+            }
+          },
+          {
+            "id": "bbd5de02-c240-5c28-9ecb-dab22634e10f",
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "L0",
+              "condition": {
+                "type": "variable",
+                "value": "L0"
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "id": "516b1446-4558-5aab-9c8c-b35ede3a3119",
+                  "command": "EVENT_ACTOR_SET_POSITION",
+                  "args": {
+                    "actorId": "27de6d44-f7c0-48df-a952-2c87471bbfd4",
+                    "x": {
+                      "type": "number",
+                      "value": 24
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 18
+                    }
+                  }
+                },
+                {
+                  "id": "1d26d6c4-fa2d-5aa1-902c-b4fd6e207b04",
+                  "command": "EVENT_SOUND_PLAY_EFFECT",
+                  "args": {
+                    "type": "beep",
+                    "pitch": 4,
+                    "duration": 0.08,
+                    "priority": "high",
+                    "wait": false
+                  }
+                },
+                {
+                  "id": "6b76af80-fbf4-4db0-b066-87533cad034f",
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "35",
+                    "value": {
+                      "type": "number",
+                      "value": 24
+                    }
+                  }
+                },
+                {
+                  "id": "4cc8300d-f8be-4684-aab6-ea56ec9ac606",
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "36",
+                    "value": {
+                      "type": "number",
+                      "value": 18
+                    }
+                  }
+                },
+                {
+                  "id": "ed24c609-5bcb-4602-8a2f-03e85f3cbf7a",
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "37",
+                    "value": {
+                      "type": "number",
+                      "value": 1
+                    }
+                  }
+                }
+              ],
+              "false": []
+            }
+          }
+        ]
       }
     }
   ],

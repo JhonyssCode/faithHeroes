@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
   "id": "8f5f5957-42fe-4d73-9633-15d497f65d3b",
-  "_index": 6,
+  "_index": 1,
   "symbol": "actor_27",
   "prefabId": "",
   "name": "HealthUI",
@@ -11,7 +11,7 @@
   "frame": 0,
   "animate": false,
   "spriteSheetId": "51f59acc-a997-436c-81e9-fb1a6a2501da",
-  "paletteId": "",
+  "paletteId": "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 255,

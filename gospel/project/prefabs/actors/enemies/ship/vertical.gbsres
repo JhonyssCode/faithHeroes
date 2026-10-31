@@ -23,18 +23,6 @@
       "children": {
         "script": [
           {
-            "id": "76c48310-1a46-4b6f-91d9-297bf21d8430",
-            "command": "EVENT_CAMERA_SHAKE",
-            "args": {
-              "time": 0.5,
-              "magnitude": {
-                "type": "number",
-                "value": 5
-              }
-            },
-            "children": {}
-          },
-          {
             "id": "a03caa04-c308-4ef9-8d3d-398c5e79ec60",
             "command": "EVENT_SOUND_PLAY_EFFECT",
             "args": {

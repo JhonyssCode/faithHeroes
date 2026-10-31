@@ -81,18 +81,6 @@
         "__comment": false
       },
       "id": "6ec3121c-f851-483b-9b3a-1052307fd643"
-    },
-    {
-      "id": "4b0baf89-9595-4bf7-a7aa-c2b9141064d9",
-      "command": "EVENT_CAMERA_SHAKE",
-      "args": {
-        "time": 0.5,
-        "magnitude": {
-          "type": "number",
-          "value": 5
-        },
-        "__collapse": false
-      }
     }
   ]
 }

@@ -1,4 +1,6 @@
-# Lógica dos fragmentos
+# Lógica dos fragmentos — referência da versão 1
+
+A versão atual tem resgate de pares, arena separada, novos contadores e persistência do bloco. Consulte `versao2.md` e os testes `tools/verificar_v2.py`. O texto abaixo foi mantido como referência histórica.
 
 ## Estado
 

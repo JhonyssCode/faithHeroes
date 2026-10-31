@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
   "id": "98159e3a-0bfe-44ec-8312-9dcef04c253f",
-  "_index": 0,
+  "_index": 10,
   "symbol": "actor_turnip_1",
   "prefabId": "5fa52cd0-57cd-414c-8b93-5601c6e9636f",
   "name": "Turnip 1",
@@ -11,7 +11,7 @@
   "frame": 0,
   "animate": true,
   "spriteSheetId": "f88eea80-c5b4-4e10-b49f-7a8aa8bd477e",
-  "paletteId": "",
+  "paletteId": "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
   "direction": "down",
   "moveSpeed": 0.5,
   "animSpeed": 15,
@@ -130,17 +130,6 @@
                     "y": {
                       "type": "number",
                       "value": 13
-                    }
-                  }
-                },
-                {
-                  "id": "bb032da2-cd1f-4d06-922b-6d7c90f29fbf",
-                  "command": "EVENT_CAMERA_SHAKE",
-                  "args": {
-                    "time": 0.5,
-                    "magnitude": {
-                      "type": "number",
-                      "value": 5
                     }
                   }
                 }

@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
   "id": "183a084a-fe5e-4583-861c-d6f8f04c7eb8",
-  "_index": 1,
+  "_index": 0,
   "symbol": "actor_elephant",
   "prefabId": "",
   "name": "Elephant",
@@ -11,7 +11,7 @@
   "frame": 0,
   "animate": false,
   "spriteSheetId": "55561033-cbbb-4d7b-9961-4db33c1d596c",
-  "paletteId": "",
+  "paletteId": "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,

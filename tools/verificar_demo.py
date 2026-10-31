@@ -3,6 +3,11 @@ import itertools
 import json
 from recursos import ROOT, arquivos, textos
 
+if (ROOT / 'artes/v2/config.json').exists():
+    from verificar_v2 import main
+    main()
+    raise SystemExit(0)
+
 P = ROOT / 'gospel/project'
 def load(name):
     return json.loads((P / name).read_text(encoding='utf-8'))

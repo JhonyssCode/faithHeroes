@@ -1,17 +1,17 @@
 {
   "_resourceType": "actor",
   "id": "8e54ced2-d4e9-4eb9-9dcf-b6122f973ace",
-  "_index": 7,
+  "_index": 4,
   "symbol": "actor_hider",
   "prefabId": "",
   "name": "Hider",
   "coordinateType": "tiles",
-  "x": 36,
-  "y": 24,
+  "x": 20,
+  "y": 39,
   "frame": 0,
   "animate": false,
   "spriteSheetId": "46a3db76-878e-4896-892b-d1afa7d5e2f0",
-  "paletteId": "",
+  "paletteId": "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
@@ -22,30 +22,19 @@
   "prefabScriptOverrides": {},
   "script": [
     {
-      "id": "687b8207-3228-4376-8517-bb7327e777fb",
-      "command": "EVENT_ACTOR_EMOTE",
-      "args": {
-        "actorId": "$self$",
-        "emoteId": "c8d5eadd-dced-43df-8367-1e4d9bfc7923"
-      }
-    },
-    {
-      "id": "2c8ba53e-becc-4a5f-8b4f-a34e41ad48f9",
+      "id": "3422aa62-1e2c-5585-8c34-0005a02c61d1",
       "command": "EVENT_TEXT",
       "args": {
-        "text": [
-          "Você me achou!\nSó queria ver\nde longe."
-        ]
+        "text": "As relíquias\nacendem os quatro\nmarcos desta",
+        "avatarId": ""
       }
     },
     {
-      "id": "226d1384-37ce-44f8-a831-aa3f84c9e478",
-      "command": "EVENT_SET_VALUE",
+      "id": "7e1975f3-1a0d-5f44-bc3b-0d100ee6d52b",
+      "command": "EVENT_TEXT",
       "args": {
-        "variable": "L1",
-        "value": {
-          "type": "true"
-        }
+        "text": "praça.",
+        "avatarId": ""
       }
     }
   ],

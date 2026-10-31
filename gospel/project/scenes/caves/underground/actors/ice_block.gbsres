@@ -11,7 +11,7 @@
   "frame": 0,
   "animate": false,
   "spriteSheetId": "09ad70c6-3ce5-4b97-9e96-466221418a45",
-  "paletteId": "",
+  "paletteId": "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
   "direction": "down",
   "moveSpeed": 2,
   "animSpeed": 15,
@@ -65,13 +65,6 @@
             "children": {
               "true": [
                 {
-                  "id": "bea3f398-cf7f-423c-a9cb-7c0c0bb333c6",
-                  "command": "EVENT_TEXT",
-                  "args": {
-                    "text": "O caminho abriu!"
-                  }
-                },
-                {
                   "id": "fa55067d-67a7-431e-bc63-f324dd08852f",
                   "command": "EVENT_SET_VALUE",
                   "args": {
@@ -94,6 +87,13 @@
                   "args": {
                     "actorId": "a65cba5e-5d01-4f02-b32c-ed99c9276ad3"
                   }
+                },
+                {
+                  "id": "bea3f398-cf7f-423c-a9cb-7c0c0bb333c6",
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": "O caminho abriu!"
+                  }
                 }
               ],
               "false": []
@@ -110,6 +110,27 @@
         "__collapse": false,
         "value": {
           "type": "true"
+        }
+      }
+    },
+    {
+      "id": "8ad5880c-9dc0-46c2-8103-dbe9a79b265e",
+      "command": "EVENT_ACTOR_GET_POSITION",
+      "args": {
+        "actorId": "$self$",
+        "vectorX": "35",
+        "vectorY": "36",
+        "units": "tiles"
+      }
+    },
+    {
+      "id": "fee6944a-6051-4e58-b7b8-0d7ef27fbb55",
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "37",
+        "value": {
+          "type": "number",
+          "value": 1
         }
       }
     }

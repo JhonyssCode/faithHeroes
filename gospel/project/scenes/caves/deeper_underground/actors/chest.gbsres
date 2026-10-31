@@ -11,7 +11,7 @@
   "frame": 0,
   "animate": false,
   "spriteSheetId": "d4206af4-4d12-4cfd-a4a8-faa11d4aff34",
-  "paletteId": "",
+  "paletteId": "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
@@ -47,6 +47,23 @@
         ],
         "false": [
           {
+            "id": "b6eb8e8e-3dd7-549a-8807-2c4515d6d818",
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "3",
+              "value": {
+                "type": "true"
+              }
+            }
+          },
+          {
+            "id": "46c7d686-2537-4073-ad9c-d478feccf2de",
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "39"
+            }
+          },
+          {
             "command": "EVENT_ACTOR_SET_STATE",
             "args": {
               "actorId": "$self$",
@@ -55,31 +72,72 @@
             "id": "82a92fd2-66d2-4cad-aed9-809bfad282c3"
           },
           {
-            "id": "7f0ecbb1-df33-4802-8b69-ab68970f7562",
-            "command": "EVENT_TEXT",
+            "id": "1d5c7e16-8e3f-5dac-90f0-4787f7cd38cb",
+            "command": "EVENT_SOUND_PLAY_EFFECT",
             "args": {
-              "text": [
-                "Deus guardou\nDaniel dos leões."
-              ],
-              "avatarId": ""
+              "type": "beep",
+              "pitch": 4,
+              "duration": 0.08,
+              "priority": "high",
+              "wait": false
             }
           },
           {
-            "id": "9abb60fe-a430-56ba-b05c-9161720edfe9",
-            "command": "EVENT_TEXT",
+            "id": "1adc6802-d16c-5a74-8ad7-afce4402a8a8",
+            "command": "EVENT_WAIT",
             "args": {
-              "text": "Fragmento 4/4\nDaniel e os leões!",
-              "avatarId": ""
-            }
-          },
-          {
-            "id": "65f97ab7-ef10-4ce2-899c-946a6cf420e3",
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "3",
-              "value": {
-                "type": "true"
+              "time": {
+                "type": "number",
+                "value": 0.07
+              },
+              "frames": {
+                "type": "number",
+                "value": 4
               }
+            }
+          },
+          {
+            "id": "dc9fd0a3-4070-5b09-8c05-2ef6e67b4626",
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "beep",
+              "pitch": 6,
+              "duration": 0.08,
+              "priority": "high",
+              "wait": false
+            }
+          },
+          {
+            "id": "21015e5c-e8ea-585a-b7cb-c7801bcdfbfe",
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": {
+                "type": "number",
+                "value": 0.07
+              },
+              "frames": {
+                "type": "number",
+                "value": 4
+              }
+            }
+          },
+          {
+            "id": "e07aeb47-acf3-547a-8ec1-da4b0d37cc6f",
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "beep",
+              "pitch": 8,
+              "duration": 0.12,
+              "priority": "high",
+              "wait": false
+            }
+          },
+          {
+            "id": "0b57165a-6c4d-5720-a3bd-748c719330dd",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "Fé renovada!\nRelíquias: $39$/4\nDn 6:22",
+              "avatarId": ""
             }
           }
         ]

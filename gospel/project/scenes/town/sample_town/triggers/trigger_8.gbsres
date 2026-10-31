@@ -5,14 +5,14 @@
   "symbol": "trigger_7",
   "prefabId": "",
   "name": "",
-  "x": 16,
-  "y": 40,
+  "x": 28,
+  "y": 9,
   "width": 2,
   "height": 1,
   "prefabScriptOverrides": {},
   "script": [
     {
-      "id": "0feab862-2e4d-51f8-a08a-4587c6d85444",
+      "id": "175b8ec8-2094-4115-b9bc-263e21268f02",
       "command": "EVENT_IF",
       "args": {
         "variable": "0",
@@ -24,7 +24,7 @@
       "children": {
         "true": [
           {
-            "id": "0c45e3d0-06b1-55e5-9c14-070d639196cc",
+            "id": "7f9ad4f8-b7e3-4dfc-85ee-a0870c4ef679",
             "command": "EVENT_IF",
             "args": {
               "variable": "1",
@@ -36,7 +36,7 @@
             "children": {
               "true": [
                 {
-                  "id": "aaf644e2-a2b4-5075-9e45-a4f04581922a",
+                  "id": "d9e631fb-0d80-4050-a4fa-24de253f1fb1",
                   "command": "EVENT_IF",
                   "args": {
                     "variable": "2",
@@ -48,7 +48,7 @@
                   "children": {
                     "true": [
                       {
-                        "id": "69b9292a-0e97-5842-a1d1-de5a68862779",
+                        "id": "27a6468c-e492-4e93-8ef3-e2ae66c4519d",
                         "command": "EVENT_IF",
                         "args": {
                           "variable": "3",
@@ -60,7 +60,7 @@
                         "children": {
                           "true": [
                             {
-                              "id": "050734ac-8607-5c59-a83f-58b8f4932a7d",
+                              "id": "a831b04d-109e-4b3c-b55c-acc9c17b2f50",
                               "command": "EVENT_SWITCH_SCENE",
                               "args": {
                                 "sceneId": "1b7f9ffd-2bbb-470b-9189-c2ac435d2a55",
@@ -79,18 +79,17 @@
                           ],
                           "false": [
                             {
-                              "id": "c3d7fe25-7111-461e-88c1-ede54ab30c2c",
+                              "id": "4cfef4b9-ca27-43d8-8b3c-fea00be3c1eb",
                               "command": "EVENT_TEXT",
                               "args": {
-                                "text": "Selado. Reúna 4\nfragmentos.",
-                                "avatarId": ""
+                                "text": "Reúna as quatro\nrelíquias. Start\nmostra a pista."
                               }
                             },
                             {
-                              "id": "41d62a66-81ce-423b-9a7f-3be48197adcb",
+                              "id": "b17ac09c-4765-42c6-a35e-5597695d06e4",
                               "command": "EVENT_ACTOR_MOVE_RELATIVE",
                               "args": {
-                                "actorId": "$self$",
+                                "actorId": "player",
                                 "x": {
                                   "type": "number",
                                   "value": 0
@@ -99,7 +98,7 @@
                                   "type": "number",
                                   "value": 1
                                 },
-                                "moveType": "horizontal",
+                                "moveType": "vertical",
                                 "useCollisions": false,
                                 "collideWith": []
                               }
@@ -110,18 +109,17 @@
                     ],
                     "false": [
                       {
-                        "id": "aa249c2c-a479-4c37-bfb8-6ed0354020e8",
+                        "id": "87d4c8e1-7c21-4790-91d5-dfaf3f32f36d",
                         "command": "EVENT_TEXT",
                         "args": {
-                          "text": "Selado. Reúna 4\nfragmentos.",
-                          "avatarId": ""
+                          "text": "Reúna as quatro\nrelíquias. Start\nmostra a pista."
                         }
                       },
                       {
-                        "id": "245784f1-e731-4e1e-8ae6-7b1c2ec3403d",
+                        "id": "35df420f-c95b-45e9-accf-f46804b108ab",
                         "command": "EVENT_ACTOR_MOVE_RELATIVE",
                         "args": {
-                          "actorId": "$self$",
+                          "actorId": "player",
                           "x": {
                             "type": "number",
                             "value": 0
@@ -130,7 +128,7 @@
                             "type": "number",
                             "value": 1
                           },
-                          "moveType": "horizontal",
+                          "moveType": "vertical",
                           "useCollisions": false,
                           "collideWith": []
                         }
@@ -141,18 +139,17 @@
               ],
               "false": [
                 {
-                  "id": "e18b1ee1-9a89-43e5-93b8-fbe548650cde",
+                  "id": "41fb1298-6d24-4791-954b-86c2d7041e6f",
                   "command": "EVENT_TEXT",
                   "args": {
-                    "text": "Selado. Reúna 4\nfragmentos.",
-                    "avatarId": ""
+                    "text": "Reúna as quatro\nrelíquias. Start\nmostra a pista."
                   }
                 },
                 {
-                  "id": "56daf923-4f86-4c49-8319-7d0f9b3a803b",
+                  "id": "dadf0b6d-7220-4cf2-a2b5-60fa4383f7d1",
                   "command": "EVENT_ACTOR_MOVE_RELATIVE",
                   "args": {
-                    "actorId": "$self$",
+                    "actorId": "player",
                     "x": {
                       "type": "number",
                       "value": 0
@@ -161,7 +158,7 @@
                       "type": "number",
                       "value": 1
                     },
-                    "moveType": "horizontal",
+                    "moveType": "vertical",
                     "useCollisions": false,
                     "collideWith": []
                   }
@@ -172,18 +169,17 @@
         ],
         "false": [
           {
-            "id": "45c86341-218b-4876-b288-1b473b52849e",
+            "id": "c4014b22-3087-4c34-843e-7bfac6616a25",
             "command": "EVENT_TEXT",
             "args": {
-              "text": "Selado. Reúna 4\nfragmentos.",
-              "avatarId": ""
+              "text": "Reúna as quatro\nrelíquias. Start\nmostra a pista."
             }
           },
           {
-            "id": "fd7351f0-ae2a-489b-b773-b335ecda1be9",
+            "id": "02b8393e-576b-43eb-9c00-ca9b5db99b9f",
             "command": "EVENT_ACTOR_MOVE_RELATIVE",
             "args": {
-              "actorId": "$self$",
+              "actorId": "player",
               "x": {
                 "type": "number",
                 "value": 0
@@ -192,7 +188,7 @@
                 "type": "number",
                 "value": 1
               },
-              "moveType": "horizontal",
+              "moveType": "vertical",
               "useCollisions": false,
               "collideWith": []
             }

@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
   "id": "1959165a-339d-444a-b69b-098086e5ebca",
-  "_index": 1,
+  "_index": 0,
   "symbol": "actor_portal",
   "prefabId": "",
   "name": "Portal",
@@ -11,7 +11,7 @@
   "frame": 0,
   "animate": true,
   "spriteSheetId": "94eb6557-0cfc-453e-8e1f-ddb191ac8536",
-  "paletteId": "",
+  "paletteId": "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,

@@ -11,7 +11,7 @@
   "frame": 0,
   "animate": false,
   "spriteSheetId": "b98fb589-03b9-4c8b-949b-2d017c941752",
-  "paletteId": "",
+  "paletteId": "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
@@ -42,7 +42,7 @@
           {
             "command": "EVENT_MUSIC_PLAY",
             "args": {
-              "musicId": "9e63fcea-bb03-4921-81df-6f223d2044ad",
+              "musicId": "817f48bd-fdad-52c9-8b42-15efda054488",
               "loop": true
             },
             "id": "c56f5ddc-f645-41c3-a271-4e01d1e26183"

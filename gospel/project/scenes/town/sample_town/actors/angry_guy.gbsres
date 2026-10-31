@@ -1,17 +1,17 @@
 {
   "_resourceType": "actor",
   "id": "a85c4ba5-9bc0-4daa-94bc-4ef68a690659",
-  "_index": 4,
+  "_index": 0,
   "symbol": "actor_angry_guy",
   "prefabId": "",
   "name": "Angry Guy",
   "coordinateType": "tiles",
-  "x": 18,
-  "y": 24,
+  "x": 36,
+  "y": 29,
   "frame": 0,
   "animate": false,
   "spriteSheetId": "dfa75239-299d-41fe-a6cd-9e9438da1938",
-  "paletteId": "",
+  "paletteId": "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
   "direction": "up",
   "moveSpeed": 1,
   "animSpeed": 15,
@@ -22,55 +22,19 @@
   "prefabScriptOverrides": {},
   "script": [
     {
-      "id": "81f7693e-8544-4bb2-bf47-b8963fe90982",
-      "command": "EVENT_IF",
+      "id": "99123422-d2ec-56cd-9825-d059be9a89f5",
+      "command": "EVENT_TEXT",
       "args": {
-        "variable": "15",
-        "condition": {
-          "type": "variable",
-          "value": "15"
-        }
-      },
-      "children": {
-        "true": [
-          {
-            "id": "a991435c-89ad-4303-b6f0-a18054cc0ea7",
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": "Achei que você\nfosse ladrão.\nDesculpe!"
-            }
-          },
-          {
-            "id": "be420a1a-743e-4afc-a997-daf721708b34",
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "L1",
-              "value": {
-                "type": "true"
-              }
-            }
-          }
-        ],
-        "false": [
-          {
-            "id": "1063f8a8-90b7-4126-b6e4-1daf7c359c87",
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": "Aquele homem\nolha para onde?"
-            }
-          },
-          {
-            "id": "7a86534c-dd9f-4005-b2e7-c880ea3f9014",
-            "command": "EVENT_ACTOR_SET_DIRECTION",
-            "args": {
-              "actorId": "a85c4ba5-9bc0-4daa-94bc-4ef68a690659",
-              "direction": {
-                "type": "direction",
-                "value": "up"
-              }
-            }
-          }
-        ]
+        "text": "O templo de Davi\nfica no nordeste.\nHá um duelo no",
+        "avatarId": ""
+      }
+    },
+    {
+      "id": "025adae1-8b48-53e2-bd3a-06b2a4110127",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "vale.",
+        "avatarId": ""
       }
     }
   ],

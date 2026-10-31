@@ -1,0 +1,84 @@
+{
+  "_resourceType": "actor",
+  "id": "54091f0e-bc3b-57b4-b6a9-3a694d0eaa87",
+  "_index": 5,
+  "symbol": "actor_hf_save_praca",
+  "prefabId": "",
+  "name": "Pedra da Memória",
+  "coordinateType": "tiles",
+  "x": 30,
+  "y": 37,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "000a6dde-cb60-436e-b357-30a529daa139",
+  "paletteId": "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "id": "2e195b37-86b8-5922-af0f-bad324178245",
+      "command": "EVENT_CHOICE",
+      "args": {
+        "variable": "L0",
+        "trueText": "Salvar jogo",
+        "falseText": "Cancelar"
+      },
+      "children": {}
+    },
+    {
+      "id": "dbb49ca2-22d5-5906-a31b-d24a4690ea4e",
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "L0",
+        "__collapseElse": true,
+        "condition": {
+          "type": "variable",
+          "value": "L0"
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "id": "07190a1a-5c7d-5657-abbe-22e5fd644220",
+            "command": "EVENT_SAVE_DATA",
+            "args": {
+              "saveSlot": 0
+            },
+            "children": {
+              "true": [
+                {
+                  "id": "4926c208-cc35-5455-8809-0fbd855c9b70",
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": "Seu progresso\nfoi salvo."
+                  },
+                  "children": {}
+                },
+                {
+                  "id": "b42e77aa-ab8b-54ab-9289-ee9aa79bff98",
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": "Agora você pode\ndesligar o jogo."
+                  },
+                  "children": {}
+                }
+              ]
+            }
+          }
+        ],
+        "false": []
+      }
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

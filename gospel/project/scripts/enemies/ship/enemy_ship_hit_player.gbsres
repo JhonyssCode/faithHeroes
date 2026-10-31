@@ -8,17 +8,6 @@
   "actors": {},
   "script": [
     {
-      "id": "c044c230-a1bc-45d0-9cfa-b0619ae6a896",
-      "command": "EVENT_CAMERA_SHAKE",
-      "args": {
-        "time": 0.5,
-        "magnitude": {
-          "type": "number",
-          "value": 5
-        }
-      }
-    },
-    {
       "id": "a9613d9d-0501-4361-9d11-79a5b14575d0",
       "command": "EVENT_SOUND_PLAY_EFFECT",
       "args": {

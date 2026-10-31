@@ -1,13 +1,17 @@
-# HERÓIS DA FÉ
+# HERÓIS DA FÉ — As quatro relíquias
 
-Demo de aventura bíblica para Game Boy, em português, baseada no modelo do GB Studio 4.2.0.
+Versão 2 da aventura bíblica em português para Game Boy, em GB Studio 4.2.0.
 
-Abra **gospel/gospel.gbsproj** e escolha **Novo jogo**. Instruções em [LEIA-ME.md](LEIA-ME.md).
+Abra **gospel/gospel.gbsproj** em uma pasta nova e escolha **Novo jogo**. Instruções em [LEIA-ME.md](LEIA-ME.md).
 
-![Prévia dos arquivos de arte preparados](artes/previa-cenarios.png)
+- Praça própria, com caminhos, seis entradas e quatro marcos de relíquias.
+- Missão de Noé com resgate de três pares de animais.
+- Golias em arena própria, com cinco pontos de resistência, ataques anunciados, três vidas, pausa e retry local.
+- Diário com a próxima pista; progresso do bloco preservado.
+- Cinco trilhas originais em UGE6 e arte preparada para os limites do Game Boy.
 
-Inclui quatro fragmentos, diário, chefe com cinco impactos, final condicionado às quatro missões e arte temática integrada.
+![Prancha de assets da versão 2, não uma captura de emulador](artes/v2/previa.png)
 
-A arte passou na auditoria de dimensões, paleta, tiles e recortes. Os diálogos e a progressão passaram na verificação estrutural e simulação estática. **ROM e jogabilidade ainda precisam de teste no GB Studio.** Áudio do modelo preservado.
+[Alterações e rota das relíquias](docs/versao2.md) · [Validação](docs/validacao_v2.txt)
 
-Veja o [pacote de arte](artes/LEIA-ME.md) e os [resultados de validação](docs/validacao_arte.txt).
+Os testes são de arquivos e simulação de eventos. **A ROM e o áudio ainda precisam de conferência no GB Studio/emulador.** A base do projeto é o exemplo do GB Studio, preservado como referência; a versão atual altera mapa, missões, combate, animações e trilhas.

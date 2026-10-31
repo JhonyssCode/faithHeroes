@@ -85,3 +85,8 @@ report.push({file:'sprites/golias.png',width:64,height:32,inkColors:3,transparen
 const finalReport=[...new Map(report.map(row=>[row.file,row])).values()];
 fs.writeFileSync(path.join(root,'artes/resultado_compilacao.json'),JSON.stringify(finalReport,null,2)+'\n');
 console.log(`${finalReport.length} PNGs preparados; dimensões originais e paletas fixas.`);
+
+if(fs.existsSync(path.join(root,'artes/v2/config.json'))) {
+ await import('./preparar_arte_v2.mjs');
+ exec('python',['tools/gerar_praca.py'],{cwd:root});
+}

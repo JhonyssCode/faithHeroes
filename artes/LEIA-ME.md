@@ -1,5 +1,7 @@
 # Arte integrada — HERÓIS DA FÉ
 
+**Versão atual:** consulte `../docs/versao2.md`. O mapa da praça, a arena, o diário, Samuel e Golias foram revisados na versão 2. A praça agora é uma montagem nativa de tiles, sem aproximação destrutiva. O conteúdo abaixo registra a primeira entrega visual e suas fontes.
+
 ## Arquivos do jogo
 
 Os PNGs prontos estão em `gospel/assets/`. Foram redesenhados 19 fundos e 42 folhas de sprites do modelo, mais uma folha exclusiva nova para Golias: **62 PNGs de jogo** ao todo.

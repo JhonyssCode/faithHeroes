@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
   "id": "566c8812-a204-45b5-b93a-c113c10c20de",
-  "_index": 0,
+  "_index": 1,
   "symbol": "actor_radio_guy",
   "prefabId": "",
   "name": "Radio Guy",
@@ -11,7 +11,7 @@
   "frame": 0,
   "animate": false,
   "spriteSheetId": "40dcd163-9f72-4861-8131-b01eb9baa000",
-  "paletteId": "",
+  "paletteId": "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,

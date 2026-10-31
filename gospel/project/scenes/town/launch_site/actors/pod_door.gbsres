@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
   "id": "0950d56c-866c-4d02-bd63-cd3fff4fe2bf",
-  "_index": 0,
+  "_index": 4,
   "symbol": "actor_pod_door",
   "prefabId": "",
   "name": "Pod Door",
@@ -11,7 +11,7 @@
   "frame": 0,
   "animate": false,
   "spriteSheetId": "058c0142-0c1e-4762-b5ac-e085d84fc734",
-  "paletteId": "",
+  "paletteId": "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 255,

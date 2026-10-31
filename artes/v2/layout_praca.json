@@ -1,0 +1,130 @@
+{
+  "width": 56,
+  "height": 56,
+  "spawn": [
+    28,
+    37
+  ],
+  "buildings": [
+    {
+      "name": "ARCA",
+      "rect": [
+        4,
+        4,
+        12,
+        10
+      ],
+      "door": [
+        10,
+        12
+      ],
+      "target": "path/path_to_sample_town"
+    },
+    {
+      "name": "DAVI",
+      "rect": [
+        40,
+        4,
+        12,
+        10
+      ],
+      "door": [
+        46,
+        12
+      ],
+      "target": "town/launch_site"
+    },
+    {
+      "name": "COVA",
+      "rect": [
+        4,
+        40,
+        12,
+        10
+      ],
+      "door": [
+        10,
+        48
+      ],
+      "target": "caves/underground"
+    },
+    {
+      "name": "SALMOS",
+      "rect": [
+        40,
+        40,
+        12,
+        10
+      ],
+      "door": [
+        46,
+        48
+      ],
+      "target": "town/music_house"
+    },
+    {
+      "name": "ROLO",
+      "rect": [
+        24,
+        2,
+        10,
+        8
+      ],
+      "door": [
+        28,
+        9
+      ],
+      "target": "town/top_house"
+    },
+    {
+      "name": "SABIO",
+      "rect": [
+        24,
+        44,
+        10,
+        8
+      ],
+      "door": [
+        28,
+        50
+      ],
+      "target": "caves/cave"
+    }
+  ],
+  "relics": [
+    [
+      23,
+      23
+    ],
+    [
+      32,
+      23
+    ],
+    [
+      23,
+      32
+    ],
+    [
+      32,
+      32
+    ]
+  ],
+  "pen": [
+    4,
+    22,
+    12,
+    12
+  ],
+  "pen_gate": [
+    15,
+    28
+  ],
+  "sheep": [
+    9,
+    28
+  ],
+  "pastor": [
+    17,
+    30
+  ]
+}

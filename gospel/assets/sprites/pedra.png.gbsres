@@ -1,0 +1,115 @@
+{
+  "_resourceType": "sprite",
+  "id": "f73ee43d-bd45-52d4-8145-a88aa656d2b2",
+  "name": "Pedra",
+  "symbol": "sprite_hf_pedra",
+  "states": [
+    {
+      "id": "49b3193d-92c9-5fdb-8a0d-a725b2b260f3",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "0a511646-fd22-5501-8675-d5972898da43",
+          "frames": [
+            {
+              "id": "8309556f-6a4a-58d3-8de4-9fedaa1ce4a7",
+              "tiles": [
+                {
+                  "id": "bdcdf735-21c2-5943-84cb-b6b27705c9eb",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "29c1a7e8-0fb5-572e-84a4-eae657a0e506",
+          "frames": [
+            {
+              "id": "f48e6f5e-1173-523a-8966-c2d6a709e309",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e05d7c70-85fe-5783-8bf1-743e116c03ed",
+          "frames": [
+            {
+              "id": "d12b1701-5902-5c9c-8ab0-edee2f3d9b10",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "01af483c-5384-5488-8062-f7fcad0c6799",
+          "frames": [
+            {
+              "id": "ea6c44ef-1125-5387-865b-1bdefc82dad6",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c314bb51-753d-5d96-8153-500cb0e9592e",
+          "frames": [
+            {
+              "id": "3cf5a195-8726-5b40-88b5-7f5130e274c3",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "30e97262-71ea-56f0-8d9c-38d4a76fdd51",
+          "frames": [
+            {
+              "id": "ce2a197f-3789-5ec8-84b4-2ee42d93e591",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "64f3dabb-b4f8-5fb3-8f02-dee6df82c913",
+          "frames": [
+            {
+              "id": "348c390e-97ab-5b3d-8a59-9d0b3df159e0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f2689dfb-f8bd-5ae0-896d-cc01409e60fa",
+          "frames": [
+            {
+              "id": "b7f2ea8a-ed95-5b59-84ce-75e44b2b9343",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 1,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 8,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -4,
+  "boundsWidth": 8,
+  "boundsHeight": 8,
+  "animSpeed": 15,
+  "filename": "pedra.png",
+  "width": 8,
+  "height": 16
+}

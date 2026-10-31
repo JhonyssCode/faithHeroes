@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
   "id": "02504caf-8b1c-42b1-986f-bf5014097aa6",
-  "_index": 0,
+  "_index": 2,
   "symbol": "actor_18",
   "prefabId": "",
   "name": "Keyboard",
@@ -11,7 +11,7 @@
   "frame": 0,
   "animate": false,
   "spriteSheetId": "a933db32-62f4-40a9-bf7c-bf44df85b1a4",
-  "paletteId": "",
+  "paletteId": "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
@@ -42,7 +42,7 @@
           {
             "command": "EVENT_MUSIC_PLAY",
             "args": {
-              "musicId": "a3129a0f-f3ee-482c-a60b-3066698541e6",
+              "musicId": "817f48bd-fdad-52c9-8b42-15efda054488",
               "loop": true
             },
             "id": "2b34a437-e3c5-4f19-8923-3b9ee5e928fb"

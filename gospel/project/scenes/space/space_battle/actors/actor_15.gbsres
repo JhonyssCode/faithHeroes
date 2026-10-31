@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
   "id": "947eecf7-cd70-41ee-9453-045ffcd44c12",
-  "_index": 14,
+  "_index": 6,
   "symbol": "actor_16",
   "prefabId": "a11074c9-2deb-40c7-ab78-7e56c58efac5",
   "name": "",
@@ -11,7 +11,7 @@
   "frame": 0,
   "animate": false,
   "spriteSheetId": "b4845aec-11e3-475b-8a9a-0a01b920c710",
-  "paletteId": "",
+  "paletteId": "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,

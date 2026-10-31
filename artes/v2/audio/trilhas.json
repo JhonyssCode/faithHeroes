@@ -1,0 +1,47 @@
+[
+  {
+    "key": "Praca",
+    "id": "817f48bd-fdad-52c9-8b42-15efda054488",
+    "name": "Praça das Relíquias",
+    "file": "HF_Praca.uge",
+    "notes": 192,
+    "sequence": 4,
+    "seconds": 25.6
+  },
+  {
+    "key": "Arca",
+    "id": "99cd1c80-9db8-5fff-8c13-af95b5d7fc0a",
+    "name": "Dois a Dois",
+    "file": "HF_Arca.uge",
+    "notes": 192,
+    "sequence": 4,
+    "seconds": 21.333333333333332
+  },
+  {
+    "key": "Cova",
+    "id": "05680206-7e9e-57c4-8c54-277c07760886",
+    "name": "No Silêncio",
+    "file": "HF_Cova.uge",
+    "notes": 128,
+    "sequence": 4,
+    "seconds": 34.13333333333333
+  },
+  {
+    "key": "Coragem",
+    "id": "7370326f-24ea-5665-8337-bd68649cb57c",
+    "name": "Cinco Pedras",
+    "file": "HF_Coragem.uge",
+    "notes": 192,
+    "sequence": 4,
+    "seconds": 17.066666666666666
+  },
+  {
+    "key": "Rolo",
+    "id": "31326df2-dac9-55d6-8f98-3905f1d4b5a9",
+    "name": "Memória da Fé",
+    "file": "HF_Rolo.uge",
+    "notes": 160,
+    "sequence": 4,
+    "seconds": 34.13333333333333
+  }
+]

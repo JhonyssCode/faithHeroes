@@ -13,11 +13,39 @@
   "tilesetId": "",
   "colorModeOverride": "none",
   "paletteIds": [
-    "444c886c-6214-48d7-8e3c-4dca4f65dec7"
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815"
   ],
-  "spritePaletteIds": [],
+  "spritePaletteIds": [
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815"
+  ],
   "autoFadeSpeed": 1,
   "script": [
+    {
+      "id": "9acb85e1-4784-4019-b5ba-5714dd4ba58e",
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a",
+          "b",
+          "start",
+          "select"
+        ]
+      }
+    },
     {
       "id": "23de90eb-bd01-4caf-954a-17b4fef4ec62",
       "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -70,7 +98,7 @@
       "id": "c2e89ec2-ccd9-40e0-ae35-498fdd72c086",
       "command": "EVENT_MUSIC_PLAY",
       "args": {
-        "musicId": "b64b574c-2ba2-428f-925f-8aff5a299af2",
+        "musicId": "05680206-7e9e-57c4-8c54-277c07760886",
         "loop": true
       }
     }

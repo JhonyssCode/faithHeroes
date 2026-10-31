@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
   "id": "f36d8030-2596-419e-aabb-9e8b7476c991",
-  "_index": 1,
+  "_index": 3,
   "symbol": "actor_quest8",
   "prefabId": "",
   "name": "Quest8",
@@ -11,7 +11,7 @@
   "frame": 0,
   "animate": false,
   "spriteSheetId": "f0c3033d-e82a-407d-9fe2-3d5da4f59c09",
-  "paletteId": "",
+  "paletteId": "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 255,

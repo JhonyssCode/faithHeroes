@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
   "id": "417dfd42-2e13-4850-92e8-c52efe866116",
-  "_index": 4,
+  "_index": 2,
   "symbol": "actor_rock_1",
   "prefabId": "",
   "name": "Rock 1",
@@ -11,7 +11,7 @@
   "frame": 0,
   "animate": false,
   "spriteSheetId": "3939e8d2-3987-4a22-953e-f1d82134eccf",
-  "paletteId": "",
+  "paletteId": "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
   "direction": "down",
   "moveSpeed": 0.5,
   "animSpeed": 15,

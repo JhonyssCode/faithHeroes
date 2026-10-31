@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "17dbc2bf-16aa-518d-b2f8-ea6712638532",
+  "name": "Vale do Desafio",
+  "symbol": "bg_hf_vale_desafio",
+  "tileColors": "",
+  "filename": "vale_desafio.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "autoColor": false
+}

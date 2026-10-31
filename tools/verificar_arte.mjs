@@ -5,6 +5,8 @@ import assert from 'node:assert/strict';
 import {createHash} from 'node:crypto';
 import {execFileSync as exec} from 'node:child_process';
 const root=path.resolve(import.meta.dirname,'..');
+if(fs.existsSync(path.join(root,'artes/v2/config.json'))) { exec(process.execPath,[path.join(root,'tools/verificar_arte_v2.mjs')],{stdio:'inherit'});process.exit(0); }
+
 const inventory=JSON.parse(fs.readFileSync(path.join(root,'artes/inventario_assets.json')));
 const report=JSON.parse(fs.readFileSync(path.join(root,'artes/resultado_compilacao.json')));
 const changed=new Set(report.map(e=>`gospel/assets/${e.file}`));changed.add('gospel/assets/sprites/golias.png');

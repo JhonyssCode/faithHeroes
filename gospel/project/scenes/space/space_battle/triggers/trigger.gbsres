@@ -5,14 +5,14 @@
   "symbol": "trigger_18",
   "prefabId": "",
   "name": "",
-  "x": 231,
+  "x": 194,
   "y": 0,
   "width": 1,
   "height": 18,
   "prefabScriptOverrides": {},
   "script": [
     {
-      "id": "3f0680e0-748c-54f0-9a64-52384d3ed963",
+      "id": "8c8886db-37d3-4a22-9971-7c9dea8d3c15",
       "command": "EVENT_IF",
       "args": {
         "variable": "2",
@@ -24,7 +24,7 @@
       "children": {
         "true": [
           {
-            "id": "ea30eedc-a26d-44f1-aa67-daa6d2990962",
+            "id": "d3a981eb-ebf7-416c-ad1c-371fa58426ba",
             "command": "EVENT_SWITCH_SCENE",
             "args": {
               "sceneId": "51d42da5-b7ce-48b4-a435-1902368d6d5c",
@@ -36,34 +36,26 @@
                 "type": "number",
                 "value": 18
               },
-              "direction": "up",
-              "fadeSpeed": "4"
+              "direction": "down",
+              "fadeSpeed": "2"
             }
           }
         ],
         "false": [
           {
-            "id": "f7b3676e-4d6f-5f58-8a25-865a2f208099",
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": "Golias resiste!\nTente outra vez.",
-              "avatarId": ""
-            }
-          },
-          {
-            "id": "9d28ac4b-ab91-536c-aaae-00ccb130e4e1",
+            "id": "b50e8c82-199a-4fb4-a322-f0178811c6c5",
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "6bcc8670-b44d-4892-a37a-77a35f5a7668",
+              "sceneId": "b07cb3ee-d017-5960-b0bd-74437463e619",
               "x": {
                 "type": "number",
-                "value": 0
+                "value": 3
               },
               "y": {
                 "type": "number",
-                "value": 9
+                "value": 10
               },
-              "direction": "right",
+              "direction": "down",
               "fadeSpeed": "2"
             }
           }

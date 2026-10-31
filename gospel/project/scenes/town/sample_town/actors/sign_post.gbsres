@@ -1,17 +1,17 @@
 {
   "_resourceType": "actor",
   "id": "ea191344-25b4-4ffe-9ae8-229c8e784e3a",
-  "_index": 6,
+  "_index": 14,
   "symbol": "actor_sign_post",
   "prefabId": "",
   "name": "Sign Post",
   "coordinateType": "tiles",
   "x": 28,
-  "y": 23,
+  "y": 35,
   "frame": 0,
   "animate": false,
   "spriteSheetId": "30b8266a-0533-4f90-bd33-e97dc1d498ea",
-  "paletteId": "",
+  "paletteId": "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
@@ -22,28 +22,111 @@
   "prefabScriptOverrides": {},
   "script": [
     {
-      "id": "f09e997b-cca1-4cb4-b496-c3bd0387bfc4",
-      "command": "EVENT_TEXT",
+      "id": "176a8936-8e50-58cc-aad2-45cf939b406d",
+      "command": "EVENT_IF",
       "args": {
-        "text": [
-          "Vila de Belém.\nPortais: Arca,\nVale e Cova."
+        "variable": "0",
+        "condition": {
+          "type": "variable",
+          "value": "0"
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "id": "e4dbbb5f-18be-565b-a773-17b7296c8c33",
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "1",
+              "condition": {
+                "type": "variable",
+                "value": "1"
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "id": "e7394b5f-014d-5d1a-a73a-44ff73315433",
+                  "command": "EVENT_IF",
+                  "args": {
+                    "variable": "2",
+                    "condition": {
+                      "type": "variable",
+                      "value": "2"
+                    }
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "id": "54f15d18-1b9d-5678-b267-f1d96434eab7",
+                        "command": "EVENT_IF",
+                        "args": {
+                          "variable": "3",
+                          "condition": {
+                            "type": "variable",
+                            "value": "3"
+                          }
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "id": "d6bacf63-7de6-419b-a49a-973146d1e155",
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "text": "Quatro relíquias!\nVá ao santuário\nao norte.",
+                                "avatarId": ""
+                              }
+                            }
+                          ],
+                          "false": [
+                            {
+                              "id": "c0d62091-ed7f-4f63-b063-df0c51320c85",
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "text": "Cova: sudoeste.\nLeve o bloco à\nmarca. Abra o baú.",
+                                "avatarId": ""
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "false": [
+                      {
+                        "id": "bfd42722-ed14-4d65-bbd5-8dd78ef08bec",
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": "Vale: nordeste.\nDesvie das lanças.\nA lança pedras.",
+                          "avatarId": ""
+                        }
+                      }
+                    ]
+                  }
+                }
+              ],
+              "false": [
+                {
+                  "id": "2f80bebc-6888-40b6-90b8-9250cdb4c58f",
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": "Arca: noroeste.\nResgate três pares\ne fale com Noé.",
+                    "avatarId": ""
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "false": [
+          {
+            "id": "5c74ce3b-6328-49ca-9341-a42bfc98c5ce",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "Ovelha: cercado\na oeste. Depois,\nfale com o pastor.",
+              "avatarId": ""
+            }
+          }
         ]
-      }
-    },
-    {
-      "id": "95ffb447-f0a3-5124-8ffc-bcd5c835c7d6",
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": "Arca: oeste.\nCova: centro.\nDavi: nordeste.",
-        "avatarId": ""
-      }
-    },
-    {
-      "id": "417c248d-f1d0-5e6f-bd04-52400eeb00bb",
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": "Encontre a ovelha\ne volte ao pastor.\nStart: diário.",
-        "avatarId": ""
       }
     }
   ],

@@ -1,0 +1,58 @@
+{
+  "_resourceType": "actor",
+  "id": "8d6999c5-3456-5d33-b403-3e74ca9a9bd1",
+  "_index": 16,
+  "symbol": "actor_hf_sinal_1",
+  "prefabId": "",
+  "name": "Sinal da jornada 2",
+  "coordinateType": "tiles",
+  "x": 48,
+  "y": 15,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "3838a317-d500-5d40-9737-8b54992e45e5",
+  "paletteId": "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "id": "56ca5abd-2ab6-5525-b75d-887953f68628",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "Vale: vença\nGolias. Cada\nacerto tira um",
+        "avatarId": ""
+      }
+    },
+    {
+      "id": "993eedc0-6716-575c-bfac-235902b12c1e",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "escudo.",
+        "avatarId": ""
+      }
+    }
+  ],
+  "startScript": [
+    {
+      "id": "a0c14427-4f7c-500a-936c-998dfbdca8d8",
+      "command": "EVENT_ACTOR_SET_FRAME",
+      "args": {
+        "actorId": "$self$",
+        "frame": {
+          "type": "number",
+          "value": 6
+        }
+      }
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

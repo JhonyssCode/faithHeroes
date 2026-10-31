@@ -13,41 +13,52 @@
   "tilesetId": "",
   "colorModeOverride": "none",
   "paletteIds": [
-    "d73adccf-4071-4012-b0a6-9c3973a2dc0e",
-    "325f5712-ff6c-40e7-b105-c6d795846783"
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815"
   ],
   "spritePaletteIds": [
-    "",
-    "",
-    "",
-    "9fb1f41b-54d4-43c6-8731-16de50176aa0",
-    "",
-    "",
-    "0cae84a7-ed50-4b05-b39a-66be5af7ffd2"
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815"
   ],
   "autoFadeSpeed": 1,
   "script": [
     {
-      "id": "29d35ce3-f05d-52a2-bb26-7788927fa3e2",
+      "id": "fe26d455-0fa7-40e9-b69a-1e62102cabd1",
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a",
+          "b",
+          "start",
+          "select"
+        ]
+      }
+    },
+    {
+      "id": "07e77a7b-ac3c-5426-8a6b-a0f96ff7ca8d",
       "command": "EVENT_TEXT",
       "args": {
-        "text": "Davi enfrenta\nGolias no vale.",
+        "text": "Atravesse o vale.\nO duelo tem seu\npróprio ponto de",
         "avatarId": ""
       }
     },
     {
-      "id": "842ab9d9-fe8a-57ce-85cd-4dbb3421179e",
+      "id": "8ba6bbf2-0319-5fce-9fb6-f443a04f8678",
       "command": "EVENT_TEXT",
       "args": {
-        "text": "Samuel: Vou com\na funda e\ncinco pedras.",
-        "avatarId": ""
-      }
-    },
-    {
-      "id": "5864187a-b17f-57be-904e-bb271a0dde6f",
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": "A: lançar pedras.\nAcerte Golias\ncinco vezes.",
+        "text": "retorno.",
         "avatarId": ""
       }
     },
@@ -150,7 +161,7 @@
       "id": "66dcc558-b987-49ec-a177-d5f5e10e0b90",
       "command": "EVENT_MUSIC_PLAY",
       "args": {
-        "musicId": "a7c68b7f-00bc-4872-9ce8-fe5e62f9b565",
+        "musicId": "7370326f-24ea-5665-8337-bd68649cb57c",
         "loop": true
       }
     },
@@ -166,40 +177,40 @@
   ],
   "playerHit1Script": [
     {
-      "id": "57a67cd7-2542-4883-b687-12bf4e76ca59",
-      "command": "EVENT_CAMERA_SHAKE",
+      "id": "839b1461-ead0-5f73-b132-26fa04c76954",
+      "command": "EVENT_SOUND_PLAY_EFFECT",
       "args": {
-        "time": 0.5,
-        "magnitude": {
-          "type": "number",
-          "value": 5
-        }
+        "type": "beep",
+        "pitch": 3,
+        "duration": 0.08,
+        "priority": "high",
+        "wait": false
       }
     }
   ],
   "playerHit2Script": [
     {
-      "id": "1567a446-59af-4aa5-b812-1902ceed6711",
-      "command": "EVENT_CAMERA_SHAKE",
+      "id": "7e942a48-539c-597c-972b-3481103eec13",
+      "command": "EVENT_SOUND_PLAY_EFFECT",
       "args": {
-        "time": 0.5,
-        "magnitude": {
-          "type": "number",
-          "value": 5
-        }
+        "type": "beep",
+        "pitch": 3,
+        "duration": 0.08,
+        "priority": "high",
+        "wait": false
       }
     }
   ],
   "playerHit3Script": [
     {
-      "id": "9785818e-bf26-405d-9ac5-f908acacccbf",
-      "command": "EVENT_CAMERA_SHAKE",
+      "id": "c9642293-a07d-5280-b154-e73ecb351a44",
+      "command": "EVENT_SOUND_PLAY_EFFECT",
       "args": {
-        "time": 0.5,
-        "magnitude": {
-          "type": "number",
-          "value": 5
-        }
+        "type": "beep",
+        "pitch": 3,
+        "duration": 0.08,
+        "priority": "high",
+        "wait": false
       }
     }
   ],

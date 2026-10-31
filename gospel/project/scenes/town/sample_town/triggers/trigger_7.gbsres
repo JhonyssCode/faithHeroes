@@ -5,13 +5,14 @@
   "symbol": "trigger_6",
   "prefabId": "",
   "name": "",
-  "x": 31,
-  "y": 40,
+  "x": 46,
+  "y": 48,
   "width": 2,
   "height": 1,
   "prefabScriptOverrides": {},
   "script": [
     {
+      "id": "328f01fb-81b0-5ac4-b362-f62685af4ce5",
       "command": "EVENT_SWITCH_SCENE",
       "args": {
         "sceneId": "4ebc5249-2878-434c-aab7-091dec325fc6",
@@ -25,8 +26,7 @@
         },
         "direction": "up",
         "fadeSpeed": "2"
-      },
-      "id": "cd6339f7-7794-4a21-8dea-a780cde9a756"
+      }
     }
   ],
   "leaveScript": []

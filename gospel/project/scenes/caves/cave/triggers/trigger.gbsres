@@ -17,11 +17,11 @@
       "args": {
         "x": {
           "type": "number",
-          "value": 24
+          "value": 28
         },
         "y": {
           "type": "number",
-          "value": 9
+          "value": 53
         },
         "direction": "down",
         "sceneId": "94c18861-b352-4f49-a64d-52f2e3415077",

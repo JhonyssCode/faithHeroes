@@ -5,14 +5,14 @@
   "symbol": "trigger_0",
   "prefabId": "",
   "name": "",
-  "x": 25,
-  "y": 13,
+  "x": 10,
+  "y": 48,
   "width": 2,
-  "height": 2,
+  "height": 1,
   "prefabScriptOverrides": {},
   "script": [
     {
-      "id": "0e4b8403-de8a-403f-9958-aeee47633678",
+      "id": "5dc95a94-6d2c-5229-befa-6dd99c2374c0",
       "command": "EVENT_SWITCH_SCENE",
       "args": {
         "sceneId": "3509d273-bf7e-4946-89ce-a489df5a449d",

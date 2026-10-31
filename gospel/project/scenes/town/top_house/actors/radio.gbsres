@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
   "id": "9603b702-aa07-4ad7-8906-16112f308854",
-  "_index": 1,
+  "_index": 0,
   "symbol": "actor_radio",
   "prefabId": "",
   "name": "Radio",
@@ -11,7 +11,7 @@
   "frame": 0,
   "animate": false,
   "spriteSheetId": "a0442b6a-634f-44da-9962-77938e3ed839",
-  "paletteId": "78b1f1eb-13ad-4822-b109-8a693bae141c",
+  "paletteId": "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
@@ -43,7 +43,7 @@
             "id": "3b20653c-96ed-4913-9f32-5fbe6d0ac9fc",
             "command": "EVENT_MUSIC_PLAY",
             "args": {
-              "musicId": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
+              "musicId": "31326df2-dac9-55d6-8f98-3905f1d4b5a9",
               "loop": true
             }
           },

@@ -13,40 +13,39 @@
   "tilesetId": "",
   "colorModeOverride": "none",
   "paletteIds": [
-    "2801a5c2-3b0b-41b9-90c9-ec2af73d825d",
-    "",
-    "",
-    "",
-    "aa5d38da-49d6-4160-a033-a54ec7964f47",
-    "5dafcf6e-b1d8-4c6b-b105-32d877f561e4",
-    "5dafcf6e-b1d8-4c6b-b105-32d877f561e4"
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815"
   ],
   "spritePaletteIds": [
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    ""
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815"
   ],
   "autoFadeSpeed": 1,
-  "parallax": [
-    {
-      "height": 10,
-      "speed": 4
-    },
-    {
-      "height": 3,
-      "speed": 1
-    },
-    {
-      "height": 1,
-      "speed": 0
-    }
-  ],
   "script": [
+    {
+      "id": "fd50b279-d5cf-494b-9e36-b01744cabc7f",
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a",
+          "b",
+          "start",
+          "select"
+        ]
+      }
+    },
     {
       "id": "a0f6f228-cf76-4e25-8f8a-f880cdc0d8b8",
       "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -100,7 +99,7 @@
       "id": "684c3eae-94a9-479b-92fa-f9b3b0a5004e",
       "command": "EVENT_MUSIC_PLAY",
       "args": {
-        "musicId": "9aac47ff-51d7-48bf-9f15-1ce01b3872a4",
+        "musicId": "99cd1c80-9db8-5fff-8c13-af95b5d7fc0a",
         "loop": true
       }
     }

@@ -1,0 +1,38 @@
+{
+  "_resourceType": "actor",
+  "id": "73901859-682f-566d-85f3-d34bfce03d9c",
+  "_index": 18,
+  "symbol": "actor_hf_sinal_3",
+  "prefabId": "",
+  "name": "Sinal da jornada 4",
+  "coordinateType": "tiles",
+  "x": 30,
+  "y": 12,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "30b8266a-0533-4f90-bd33-e97dc1d498ea",
+  "paletteId": "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "id": "a447275b-d10a-578c-a526-e13ab0373f97",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "Santuário: entre\ncom as quatro\nrelíquias.",
+        "avatarId": ""
+      }
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

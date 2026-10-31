@@ -1,0 +1,115 @@
+{
+  "_resourceType": "sprite",
+  "id": "86e61580-94cb-560b-b356-5a118fae1cb4",
+  "name": "Lanca",
+  "symbol": "sprite_hf_lanca",
+  "states": [
+    {
+      "id": "6b98e7d1-6368-58b1-8e2d-ae0d130e931f",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "67bf1abc-e153-57ac-8e1f-356d68fdbbaf",
+          "frames": [
+            {
+              "id": "6b1e89be-d78b-5c7f-804d-ca37b249b57b",
+              "tiles": [
+                {
+                  "id": "e0beab8f-5f72-5f0a-83df-6d4a56e77902",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "0bc4f25a-b79d-5371-87e4-067b4b46d00d",
+          "frames": [
+            {
+              "id": "d85f265e-e4eb-53db-8ff9-904f9af4268d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "80977932-2914-569c-85dd-c096877ee024",
+          "frames": [
+            {
+              "id": "e649a4d6-b620-54db-8d71-b5e5efaf4b59",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ab550deb-b693-5dbf-82db-7da693c9d1b3",
+          "frames": [
+            {
+              "id": "0dfd7075-42c3-5586-836a-4501b1d68100",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ac349868-d75a-5ffa-8766-adfa827609b0",
+          "frames": [
+            {
+              "id": "04701f2e-8876-5d9a-828f-e09d25b18f36",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "743d242d-f0f7-56fe-8502-b0483a0e4eac",
+          "frames": [
+            {
+              "id": "d997a072-b7db-5e85-874a-6150c928102d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "24b01a80-9f80-5ce9-826a-aa75481c70cc",
+          "frames": [
+            {
+              "id": "30b8d900-9006-598a-80ec-665d682b8ec9",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "13c368ef-5190-5d7a-8f3f-bf5389747f03",
+          "frames": [
+            {
+              "id": "d6c02f19-0e43-5129-83c8-a82ce2fdb3a2",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 1,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 8,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -4,
+  "boundsWidth": 8,
+  "boundsHeight": 8,
+  "animSpeed": 15,
+  "filename": "lanca.png",
+  "width": 8,
+  "height": 16
+}

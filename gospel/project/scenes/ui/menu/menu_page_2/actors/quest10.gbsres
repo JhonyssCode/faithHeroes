@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
   "id": "a32b4864-cec9-4351-9afa-caf02345a043",
-  "_index": 3,
+  "_index": 0,
   "symbol": "actor_quest10",
   "prefabId": "",
   "name": "Quest10",
@@ -11,7 +11,7 @@
   "frame": 0,
   "animate": false,
   "spriteSheetId": "f0c3033d-e82a-407d-9fe2-3d5da4f59c09",
-  "paletteId": "",
+  "paletteId": "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 255,

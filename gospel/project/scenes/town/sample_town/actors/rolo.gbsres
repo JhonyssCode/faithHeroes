@@ -1,0 +1,138 @@
+{
+  "_resourceType": "actor",
+  "id": "60611cd4-19d6-5377-97e7-49d19fe739e8",
+  "_index": 13,
+  "symbol": "actor_hf_rolo",
+  "prefabId": "",
+  "name": "Rolo das Pistas",
+  "coordinateType": "tiles",
+  "x": 28,
+  "y": 28,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "30b8266a-0533-4f90-bd33-e97dc1d498ea",
+  "paletteId": "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "id": "18015bed-9450-5189-a168-5f5080f7f7d5",
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "0",
+        "condition": {
+          "type": "variable",
+          "value": "0"
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "id": "0c306a31-a1aa-5856-a72b-a3b82d2955e9",
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "1",
+              "condition": {
+                "type": "variable",
+                "value": "1"
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "id": "7a3a84f4-22d2-5589-b129-3338d8d8ed11",
+                  "command": "EVENT_IF",
+                  "args": {
+                    "variable": "2",
+                    "condition": {
+                      "type": "variable",
+                      "value": "2"
+                    }
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "id": "a2ec3204-4707-5f7b-a2f5-8def9057ad63",
+                        "command": "EVENT_IF",
+                        "args": {
+                          "variable": "3",
+                          "condition": {
+                            "type": "variable",
+                            "value": "3"
+                          }
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "id": "0ce9fe5f-c966-4026-8e9c-f66d3b781c67",
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "text": "Quatro relíquias!\nVá ao santuário\nao norte.",
+                                "avatarId": ""
+                              }
+                            }
+                          ],
+                          "false": [
+                            {
+                              "id": "5966f291-44bf-4bb5-b568-8ce700f2a15c",
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "text": "Cova: sudoeste.\nLeve o bloco à\nmarca. Abra o baú.",
+                                "avatarId": ""
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "false": [
+                      {
+                        "id": "a552449a-121c-4984-8dcc-e26ea4f15d32",
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": "Vale: nordeste.\nDesvie das lanças.\nA lança pedras.",
+                          "avatarId": ""
+                        }
+                      }
+                    ]
+                  }
+                }
+              ],
+              "false": [
+                {
+                  "id": "8a2e7502-49e8-4e8b-b1a3-5a39f6244d35",
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": "Arca: noroeste.\nResgate três pares\ne fale com Noé.",
+                    "avatarId": ""
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "false": [
+          {
+            "id": "b2f353f9-dab4-4198-99a5-6e50f142c1c0",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "Ovelha: cercado\na oeste. Depois,\nfale com o pastor.",
+              "avatarId": ""
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

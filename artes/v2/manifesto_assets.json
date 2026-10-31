@@ -1,0 +1,60 @@
+[
+  {
+    "file": "backgrounds/sample_town.png",
+    "width": 448,
+    "height": 448,
+    "maxTiles": 128,
+    "type": "background",
+    "nativeTileMap": true
+  },
+  {
+    "file": "backgrounds/menu_page1.png",
+    "width": 160,
+    "height": 144,
+    "maxTiles": 112,
+    "type": "background"
+  },
+  {
+    "file": "backgrounds/vale_desafio.png",
+    "width": 160,
+    "height": 144,
+    "maxTiles": 96,
+    "type": "background"
+  },
+  {
+    "file": "sprites/golias.png",
+    "width": 72,
+    "height": 32,
+    "type": "sprite"
+  },
+  {
+    "file": "sprites/player_platform.png",
+    "width": 96,
+    "height": 32,
+    "type": "sprite"
+  },
+  {
+    "file": "sprites/reliquias.png",
+    "width": 128,
+    "height": 16,
+    "type": "sprite"
+  },
+  {
+    "file": "sprites/coracao_hud.png",
+    "width": 16,
+    "height": 16,
+    "type": "sprite"
+  },
+  {
+    "file": "sprites/pedra.png",
+    "width": 8,
+    "height": 16,
+    "type": "sprite"
+  },
+  {
+    "file": "sprites/lanca.png",
+    "width": 8,
+    "height": 16,
+    "type": "sprite"
+  }
+]

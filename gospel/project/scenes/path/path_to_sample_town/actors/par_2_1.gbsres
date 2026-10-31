@@ -1,0 +1,120 @@
+{
+  "_resourceType": "actor",
+  "id": "6f89e7f4-a487-5c0e-875e-653ae2fd7832",
+  "_index": 7,
+  "symbol": "actor_hf_par_2_1",
+  "prefabId": "",
+  "name": "Par cordeiros 2",
+  "coordinateType": "tiles",
+  "x": 128,
+  "y": 13,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "1e27bb8e-c805-435a-8b87-05b4f50da4f0",
+  "paletteId": "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "id": "23976410-ece9-5b21-a6c9-14096d9a09d5",
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "22",
+        "condition": {
+          "type": "variable",
+          "value": "22"
+        }
+      },
+      "children": {
+        "true": [],
+        "false": [
+          {
+            "id": "707fce0b-04b1-5049-9b73-4dce9bd15318",
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "22",
+              "value": {
+                "type": "true"
+              }
+            }
+          },
+          {
+            "id": "e33362d6-7f26-42be-b800-b15203f731d4",
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "38"
+            }
+          },
+          {
+            "id": "5c09a629-0f8b-52c2-9000-8e7513307cf4",
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "beep",
+              "pitch": 6,
+              "duration": 0.08,
+              "priority": "high",
+              "wait": false
+            }
+          },
+          {
+            "id": "969437ae-96fd-59e0-bc71-2e63d67738a5",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "Par resgatado!\n$38$ de 3 pares.\nFale com Noé.",
+              "avatarId": ""
+            }
+          },
+          {
+            "id": "61a001ac-0f45-56d6-86b1-f9797389d24e",
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "4f240b39-2414-5bed-ab7f-b6f38dcb0121"
+            }
+          },
+          {
+            "id": "e1dc0194-d711-5ac3-a660-9dedeeb3a930",
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "startScript": [
+    {
+      "id": "b93721a3-0840-5351-b58d-5fca89a8416d",
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "22",
+        "condition": {
+          "type": "variable",
+          "value": "22"
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "id": "4e20e36f-2389-5500-9877-258ae5b28d62",
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            }
+          }
+        ],
+        "false": []
+      }
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

@@ -11,7 +11,7 @@
   "frame": 0,
   "animate": false,
   "spriteSheetId": "f0c3033d-e82a-407d-9fe2-3d5da4f59c09",
-  "paletteId": "",
+  "paletteId": "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 255,
@@ -23,33 +23,10 @@
   "script": [],
   "startScript": [
     {
-      "id": "e5e8c4c3-dc57-4166-afd4-edffbc0dde1a",
-      "command": "EVENT_IF",
+      "id": "e97167d1-19ad-5fe0-8691-80a34c3da1b5",
+      "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
-        "variable": "4",
-        "__collapseElse": true,
-        "__label": "Quest Check",
-        "__collapse": false,
-        "condition": {
-          "type": "variable",
-          "value": "4"
-        }
-      },
-      "children": {
-        "true": [
-          {
-            "id": "d52fb07d-8a11-4287-8ef0-83b08261a153",
-            "command": "EVENT_ACTOR_SET_FRAME",
-            "args": {
-              "actorId": "$self$",
-              "frame": {
-                "type": "number",
-                "value": 1
-              }
-            }
-          }
-        ],
-        "false": []
+        "actorId": "$self$"
       }
     }
   ],

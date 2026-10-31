@@ -13,16 +13,39 @@
   "tilesetId": "",
   "colorModeOverride": "none",
   "paletteIds": [
-    "2801a5c2-3b0b-41b9-90c9-ec2af73d825d",
-    "474a8d83-8645-4899-b86a-4681b8498709",
-    "5dafcf6e-b1d8-4c6b-b105-32d877f561e4",
-    "",
-    "",
-    "2ebac764-bebb-4707-920b-2a975675b2cb"
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815"
   ],
-  "spritePaletteIds": [],
+  "spritePaletteIds": [
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815"
+  ],
   "autoFadeSpeed": 1,
   "script": [
+    {
+      "id": "592760e2-5710-497b-8556-99fc936493f7",
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a",
+          "b",
+          "start",
+          "select"
+        ]
+      }
+    },
     {
       "id": "192c2a18-2d20-48b7-9d6f-83e8eb407b82",
       "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -76,7 +99,7 @@
       "id": "ba92680f-9b9b-4b91-acbb-576e259ca0b7",
       "command": "EVENT_MUSIC_PLAY",
       "args": {
-        "musicId": "9aac47ff-51d7-48bf-9f15-1ce01b3872a4",
+        "musicId": "99cd1c80-9db8-5fff-8c13-af95b5d7fc0a",
         "loop": true
       }
     },
@@ -246,6 +269,48 @@
         ]
       },
       "id": "3802d008-7046-4942-ad62-2e193179413b"
+    },
+    {
+      "id": "59da02c1-c7a9-5f39-aafe-6e07f74773cc",
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "28",
+        "condition": {
+          "type": "variable",
+          "value": "28"
+        }
+      },
+      "children": {
+        "true": [],
+        "false": [
+          {
+            "id": "ae9df2a5-7ecc-5ad9-8067-adc426186c74",
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "28",
+              "value": {
+                "type": "true"
+              }
+            }
+          },
+          {
+            "id": "594e1147-9f16-47aa-82c4-4a199b7439bf",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "Resgate 3 pares.\nA perto do animal.\nSiga à esquerda.",
+              "avatarId": ""
+            }
+          },
+          {
+            "id": "41bef0c8-1efa-4f1f-aa23-17f1ff90cb6c",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "Ratos atrapalham,\nmas não dão a\nrelíquia da Arca.",
+              "avatarId": ""
+            }
+          }
+        ]
+      }
     }
   ],
   "playerHit1Script": [],

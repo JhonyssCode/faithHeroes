@@ -1,0 +1,186 @@
+{
+  "_resourceType": "actor",
+  "id": "3f52eb64-7d38-5142-813c-3cf2920c0554",
+  "_index": 10,
+  "symbol": "actor_hf_relic_2",
+  "prefabId": "",
+  "name": "Marco 3",
+  "coordinateType": "tiles",
+  "x": 23,
+  "y": 32,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "3838a317-d500-5d40-9737-8b54992e45e5",
+  "paletteId": "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "id": "508d9a70-e911-52ca-be8f-4fbe03d00e9b",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "Coragem",
+        "avatarId": ""
+      }
+    },
+    {
+      "id": "ac201d00-c978-5517-b64d-6af37a39899c",
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "0",
+        "condition": {
+          "type": "variable",
+          "value": "0"
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "id": "bc037733-44f3-52c7-be4d-6ace706152eb",
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "1",
+              "condition": {
+                "type": "variable",
+                "value": "1"
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "id": "a60b82c1-7e3a-592d-b23d-ff9cc1f924a9",
+                  "command": "EVENT_IF",
+                  "args": {
+                    "variable": "2",
+                    "condition": {
+                      "type": "variable",
+                      "value": "2"
+                    }
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "id": "41a58b69-e7c8-5e44-9ba2-5752a1359dc8",
+                        "command": "EVENT_IF",
+                        "args": {
+                          "variable": "3",
+                          "condition": {
+                            "type": "variable",
+                            "value": "3"
+                          }
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "id": "19d80403-0252-412a-9a0d-7ae4fed28341",
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "text": "Quatro relíquias!\nVá ao santuário\nao norte.",
+                                "avatarId": ""
+                              }
+                            }
+                          ],
+                          "false": [
+                            {
+                              "id": "e8a773e2-dafc-4fc2-83a6-025c5db2df3c",
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "text": "Cova: sudoeste.\nLeve o bloco à\nmarca. Abra o baú.",
+                                "avatarId": ""
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "false": [
+                      {
+                        "id": "1ee10fa8-ca8a-4546-b5f9-e0575a542120",
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": "Vale: nordeste.\nDesvie das lanças.\nA lança pedras.",
+                          "avatarId": ""
+                        }
+                      }
+                    ]
+                  }
+                }
+              ],
+              "false": [
+                {
+                  "id": "1678d692-0ea2-45ec-b6f3-a11fc2c43745",
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": "Arca: noroeste.\nResgate três pares\ne fale com Noé.",
+                    "avatarId": ""
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "false": [
+          {
+            "id": "53ed7989-de7b-4d58-8a95-3ccec80d52f8",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "Ovelha: cercado\na oeste. Depois,\nfale com o pastor.",
+              "avatarId": ""
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "startScript": [
+    {
+      "id": "25a36e30-5a68-5671-98e8-cb4a7419c43d",
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "2",
+        "condition": {
+          "type": "variable",
+          "value": "2"
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "id": "41f719ce-8d13-5a6d-a7a4-f7b4c542a70f",
+            "command": "EVENT_ACTOR_SET_FRAME",
+            "args": {
+              "actorId": "$self$",
+              "frame": {
+                "type": "number",
+                "value": 6
+              }
+            }
+          }
+        ],
+        "false": [
+          {
+            "id": "bca06871-45ca-5382-b224-510c494f2407",
+            "command": "EVENT_ACTOR_SET_FRAME",
+            "args": {
+              "actorId": "$self$",
+              "frame": {
+                "type": "number",
+                "value": 2
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

@@ -1,17 +1,17 @@
 {
   "_resourceType": "actor",
   "id": "076a0612-024a-426a-85fc-3e1054b9f74e",
-  "_index": 3,
+  "_index": 1,
   "symbol": "actor_cat",
   "prefabId": "",
   "name": "Cat",
   "coordinateType": "tiles",
-  "x": 4,
-  "y": 6,
+  "x": 9,
+  "y": 28,
   "frame": 0,
   "animate": false,
   "spriteSheetId": "1e27bb8e-c805-435a-8b87-05b4f50da4f0",
-  "paletteId": "",
+  "paletteId": "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
@@ -22,20 +22,32 @@
   "prefabScriptOverrides": {},
   "script": [
     {
-      "id": "9769786a-b499-4657-917e-05c7e96cf2f4",
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": "Mééé!"
-      }
-    },
-    {
-      "id": "c585ca68-8cb8-4a26-bcff-072845e80702",
+      "id": "c5ddae51-0b49-507f-95ee-1270ae99b6c9",
       "command": "EVENT_SET_VALUE",
       "args": {
         "variable": "13",
         "value": {
           "type": "true"
         }
+      }
+    },
+    {
+      "id": "cd52e5d6-58c2-5445-b8b2-686956981fe3",
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "beep",
+        "pitch": 6,
+        "duration": 0.08,
+        "priority": "high",
+        "wait": false
+      }
+    },
+    {
+      "id": "746adee3-d03e-42b9-a6f1-5deec9fbed7b",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "Mééé! Você achou!\nVolte ao pastor\nperto do cercado.",
+        "avatarId": ""
       }
     }
   ],

@@ -1,0 +1,133 @@
+{
+  "_resourceType": "sprite",
+  "id": "c53f2d28-7aef-55f0-84c7-73a027e37306",
+  "name": "Coracao HUD",
+  "symbol": "sprite_hf_coracao_hud",
+  "states": [
+    {
+      "id": "80f2faa0-649e-55ab-8a78-35794c0d34a6",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "a2afc312-83d5-57f7-8ce3-abc99a628cd9",
+          "frames": [
+            {
+              "id": "e048d3fc-706e-5e47-8cdd-73105083d4e2",
+              "tiles": [
+                {
+                  "id": "9db84cac-6f43-5690-817a-5f6b4658c02b",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "cc4e2d8f-5ead-5787-8671-00cecbe6e595",
+              "tiles": [
+                {
+                  "id": "84d6850a-8c1f-5510-8518-55148c59330a",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "b9331071-acb2-5239-8d78-f038a6522e60",
+          "frames": [
+            {
+              "id": "352bbcc0-506b-5997-8fbe-d90444aa9209",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ccd10556-4f0f-58b7-8744-e0d6a9213269",
+          "frames": [
+            {
+              "id": "ba9b407e-22be-5cee-8e9d-25ff098d6a5d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3dcba42b-cb00-52ba-8f48-64ce46734af7",
+          "frames": [
+            {
+              "id": "4f2e4024-00e5-55fa-8ab0-c601b6d8fe28",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f2e3dd20-1b95-5d2f-8c54-d2d1b0564253",
+          "frames": [
+            {
+              "id": "0605fbfc-9270-53e2-887f-c1c10b3793b1",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a46f35d9-a955-53f9-8729-f05037fbc408",
+          "frames": [
+            {
+              "id": "7ffe8b1c-4da1-52db-89d6-d2679808fbba",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2c442b78-00c7-5a31-8a0c-768f176fe59d",
+          "frames": [
+            {
+              "id": "618434c5-3ab2-552e-8b7e-d3f5a134f495",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9317a8db-9601-5e91-8056-6df9eae1c637",
+          "frames": [
+            {
+              "id": "5437d2e1-0842-57c1-89ff-e92e5f557c1c",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 8,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 8,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "coracao_hud.png",
+  "width": 16,
+  "height": 16
+}

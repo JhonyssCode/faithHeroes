@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
   "id": "dc9e5886-f39c-4480-a543-c0436b79bb67",
-  "_index": 4,
+  "_index": 2,
   "symbol": "actor_sign_post_1",
   "prefabId": "",
   "name": "Sign Post 1",
@@ -11,7 +11,7 @@
   "frame": 0,
   "animate": false,
   "spriteSheetId": "30b8266a-0533-4f90-bd33-e97dc1d498ea",
-  "paletteId": "",
+  "paletteId": "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,

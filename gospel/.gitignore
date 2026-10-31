@@ -6,3 +6,6 @@ cache/
 *.icloud
 
 user_settings.gbsres
+
+# Banco FX Hammer do modelo: é um asset de som, não um save de jogador.
+!assets/sounds/Tronimal_Sound_Effects.sav

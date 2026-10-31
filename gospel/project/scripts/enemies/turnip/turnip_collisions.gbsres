@@ -117,17 +117,6 @@
                 "value": 13
               }
             }
-          },
-          {
-            "id": "bb032da2-cd1f-4d06-922b-6d7c90f29fbf",
-            "command": "EVENT_CAMERA_SHAKE",
-            "args": {
-              "time": 0.5,
-              "magnitude": {
-                "type": "number",
-                "value": 5
-              }
-            }
           }
         ]
       }

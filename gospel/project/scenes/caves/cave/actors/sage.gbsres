@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
   "id": "15d7cf30-df3a-427b-883a-996b605edb40",
-  "_index": 2,
+  "_index": 4,
   "symbol": "actor_sage",
   "prefabId": "",
   "name": "Sage",
@@ -11,7 +11,7 @@
   "frame": 0,
   "animate": false,
   "spriteSheetId": "e20ce140-53a5-4b1b-9964-138ba0c86925",
-  "paletteId": "",
+  "paletteId": "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,

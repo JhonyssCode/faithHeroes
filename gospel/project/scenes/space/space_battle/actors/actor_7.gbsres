@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
   "id": "941c7f0f-1352-40cc-8701-7d7c8a41bd25",
-  "_index": 6,
+  "_index": 13,
   "symbol": "actor_8",
   "prefabId": "8d9d0f7c-2757-441c-9111-403634dcb6c9",
   "name": "",
@@ -11,7 +11,7 @@
   "frame": 0,
   "animate": false,
   "spriteSheetId": "954ffda3-81b7-40ea-a338-3b11ad4b75fb",
-  "paletteId": "",
+  "paletteId": "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
@@ -31,17 +31,6 @@
       },
       "children": {
         "script": [
-          {
-            "id": "cdade4ea-20ff-41f4-8d44-c1acff0dce0e",
-            "command": "EVENT_CAMERA_SHAKE",
-            "args": {
-              "time": 0.5,
-              "magnitude": {
-                "type": "number",
-                "value": 5
-              }
-            }
-          },
           {
             "id": "3628f5c0-3906-42bf-97a3-46d89bd57a57",
             "command": "EVENT_SOUND_PLAY_EFFECT",

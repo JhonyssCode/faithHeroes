@@ -1,17 +1,17 @@
 {
   "_resourceType": "actor",
   "id": "c73c195d-5cc8-4417-bdb0-b0c55c4b6188",
-  "_index": 2,
+  "_index": 7,
   "symbol": "actor_pet_owner",
   "prefabId": "",
   "name": "Pet Owner",
   "coordinateType": "tiles",
-  "x": 24,
-  "y": 44,
+  "x": 17,
+  "y": 30,
   "frame": 0,
   "animate": false,
   "spriteSheetId": "52ad34df-f245-4b2a-b94c-a82af1002871",
-  "paletteId": "",
+  "paletteId": "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
@@ -22,57 +22,41 @@
   "prefabScriptOverrides": {},
   "script": [
     {
-      "id": "137799a4-c0db-46dd-91c9-36c0e5386e3d",
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": "Perdi uma das\nminhas cem\novelhas!"
-      }
-    },
-    {
-      "id": "ef31c786-4d05-4ec4-9828-0b20bea82a50",
+      "id": "46e709af-fa79-560c-a630-5141e9ae55d7",
       "command": "EVENT_IF",
       "args": {
-        "variable": "13",
-        "__collapseElse": true,
+        "variable": "0",
         "condition": {
           "type": "variable",
-          "value": "13"
+          "value": "0"
         }
       },
       "children": {
         "true": [
           {
-            "id": "a36892fc-7718-4107-b5b5-07b6c5eea254",
+            "id": "9bb8752b-c184-4bf1-8abe-b221e839d2c4",
             "command": "EVENT_TEXT",
             "args": {
-              "text": [
-                "Ela está perto da\ncasa do norte?\nObrigado!"
-              ]
+              "text": "Obrigado! A\nrelíquia brilha\nna praça.",
+              "avatarId": ""
             }
-          },
+          }
+        ],
+        "false": [
           {
-            "id": "736bd2ab-cbb5-5017-a84d-20e813251415",
+            "id": "ec669c56-dc4c-5736-ad28-98b7ab1273ab",
             "command": "EVENT_IF",
             "args": {
-              "variable": "0",
+              "variable": "13",
               "condition": {
                 "type": "variable",
-                "value": "0"
+                "value": "13"
               }
             },
             "children": {
-              "true": [],
-              "false": [
+              "true": [
                 {
-                  "id": "943c47fa-fb97-5467-968e-c0c6ea89d3b1",
-                  "command": "EVENT_TEXT",
-                  "args": {
-                    "text": "Fragmento 1/4\nOvelha perdida!",
-                    "avatarId": ""
-                  }
-                },
-                {
-                  "id": "d63037fd-1207-4d62-a104-170f4c817eeb",
+                  "id": "4ba7c2f5-5b02-5626-8fe3-a8c347c89aca",
                   "command": "EVENT_SET_VALUE",
                   "args": {
                     "variable": "0",
@@ -80,260 +64,102 @@
                       "type": "true"
                     }
                   }
+                },
+                {
+                  "id": "3c087595-042a-4d40-9033-77fce6483b61",
+                  "command": "EVENT_INC_VALUE",
+                  "args": {
+                    "variable": "39"
+                  }
+                },
+                {
+                  "id": "e499065e-f9f0-52b4-8f33-5a1da747a300",
+                  "command": "EVENT_SOUND_PLAY_EFFECT",
+                  "args": {
+                    "type": "beep",
+                    "pitch": 4,
+                    "duration": 0.08,
+                    "priority": "high",
+                    "wait": false
+                  }
+                },
+                {
+                  "id": "c4c2e5ef-0b01-59a0-b962-ae5c9751b93c",
+                  "command": "EVENT_WAIT",
+                  "args": {
+                    "time": {
+                      "type": "number",
+                      "value": 0.07
+                    },
+                    "frames": {
+                      "type": "number",
+                      "value": 4
+                    }
+                  }
+                },
+                {
+                  "id": "18f7684e-7482-57ca-a77f-54200650e9a5",
+                  "command": "EVENT_SOUND_PLAY_EFFECT",
+                  "args": {
+                    "type": "beep",
+                    "pitch": 6,
+                    "duration": 0.08,
+                    "priority": "high",
+                    "wait": false
+                  }
+                },
+                {
+                  "id": "c155ca08-8e17-59cc-8331-8e27e507b4a3",
+                  "command": "EVENT_WAIT",
+                  "args": {
+                    "time": {
+                      "type": "number",
+                      "value": 0.07
+                    },
+                    "frames": {
+                      "type": "number",
+                      "value": 4
+                    }
+                  }
+                },
+                {
+                  "id": "4bf685ca-2328-54a4-a3c7-e1878755203a",
+                  "command": "EVENT_SOUND_PLAY_EFFECT",
+                  "args": {
+                    "type": "beep",
+                    "pitch": 8,
+                    "duration": 0.12,
+                    "priority": "high",
+                    "wait": false
+                  }
+                },
+                {
+                  "id": "6847d27e-91a3-5f1b-a729-ba74ce68c339",
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": "Cuidado obtido!\nRelíquias: $39$/4\nLc 15:4-7",
+                    "avatarId": ""
+                  }
+                }
+              ],
+              "false": [
+                {
+                  "id": "e72b8e67-e23c-4848-b560-bfc61ffaf59d",
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": "Falta uma ovelha.\nCercado a oeste.\nVolte ao achar.",
+                    "avatarId": ""
+                  }
                 }
               ]
-            }
-          }
-        ],
-        "false": []
-      }
-    }
-  ],
-  "startScript": [],
-  "updateScript": [
-    {
-      "id": "df3086d6-d8de-4585-90ec-86e30e1f6bc0",
-      "command": "EVENT_WAIT",
-      "args": {
-        "time": {
-          "type": "number",
-          "value": 1
-        },
-        "frames": {
-          "type": "number",
-          "value": 30
-        }
-      }
-    },
-    {
-      "id": "1cdbafd2-f869-4b98-9bfa-c0605295792b",
-      "command": "EVENT_VARIABLE_MATH",
-      "args": {
-        "vectorX": "T0",
-        "operation": "set",
-        "other": "rnd",
-        "vectorY": "T0",
-        "value": "1",
-        "minValue": "0",
-        "maxValue": 5
-      }
-    },
-    {
-      "id": "fb2cbbea-950c-49da-8b5f-aaf298f8e543",
-      "command": "EVENT_SWITCH",
-      "args": {
-        "variable": "T0",
-        "choices": 4,
-        "__collapseCase0": false,
-        "value0": {
-          "type": "number",
-          "value": 1
-        },
-        "__collapseCase1": false,
-        "value1": {
-          "type": "number",
-          "value": 2
-        },
-        "__collapseCase2": false,
-        "value2": {
-          "type": "number",
-          "value": 3
-        },
-        "__collapseCase3": false,
-        "value3": {
-          "type": "number",
-          "value": 4
-        },
-        "__collapseCase4": false,
-        "value4": {
-          "type": "number",
-          "value": 5
-        },
-        "__collapseCase5": false,
-        "value5": {
-          "type": "number",
-          "value": 6
-        },
-        "__collapseCase6": false,
-        "value6": {
-          "type": "number",
-          "value": 7
-        },
-        "__collapseCase7": false,
-        "value7": {
-          "type": "number",
-          "value": 8
-        },
-        "__collapseCase8": false,
-        "value8": {
-          "type": "number",
-          "value": 9
-        },
-        "__collapseCase9": false,
-        "value9": {
-          "type": "number",
-          "value": 10
-        },
-        "__collapseCase10": false,
-        "value10": {
-          "type": "number",
-          "value": 11
-        },
-        "__collapseCase11": false,
-        "value11": {
-          "type": "number",
-          "value": 12
-        },
-        "__collapseCase12": false,
-        "value12": {
-          "type": "number",
-          "value": 13
-        },
-        "__collapseCase13": false,
-        "value13": {
-          "type": "number",
-          "value": 14
-        },
-        "__collapseCase14": false,
-        "value14": {
-          "type": "number",
-          "value": 15
-        },
-        "__collapseCase15": false,
-        "value15": {
-          "type": "number",
-          "value": 16
-        },
-        "__collapseElse": false
-      },
-      "children": {
-        "true0": [
-          {
-            "id": "6be1f7d7-c9b8-4b05-a4d7-9e1188c49d1e",
-            "command": "EVENT_ACTOR_MOVE_RELATIVE",
-            "args": {
-              "actorId": "$self$",
-              "x": {
-                "type": "number",
-                "value": 0
-              },
-              "y": {
-                "type": "number",
-                "value": 2
-              },
-              "useCollisions": true,
-              "verticalFirst": false,
-              "__collapse": false,
-              "collideWith": [
-                "walls",
-                "actors"
-              ]
-            }
-          }
-        ],
-        "true1": [
-          {
-            "id": "710bbb50-b788-40e3-b475-a8fcd3fa9c26",
-            "command": "EVENT_ACTOR_MOVE_RELATIVE",
-            "args": {
-              "actorId": "$self$",
-              "x": {
-                "type": "number",
-                "value": 0
-              },
-              "y": {
-                "type": "number",
-                "value": -2
-              },
-              "useCollisions": true,
-              "verticalFirst": false,
-              "__collapse": false,
-              "collideWith": [
-                "walls",
-                "actors"
-              ]
-            }
-          }
-        ],
-        "true2": [
-          {
-            "id": "00169b2f-5915-44fb-b3cc-5713e0dea645",
-            "command": "EVENT_ACTOR_MOVE_RELATIVE",
-            "args": {
-              "actorId": "$self$",
-              "x": {
-                "type": "number",
-                "value": -2
-              },
-              "y": {
-                "type": "number",
-                "value": 0
-              },
-              "useCollisions": true,
-              "verticalFirst": false,
-              "__collapse": false,
-              "collideWith": [
-                "walls",
-                "actors"
-              ]
-            }
-          }
-        ],
-        "true3": [
-          {
-            "id": "6065f155-545f-4ea6-a7f9-c3d16eb2d2b6",
-            "command": "EVENT_ACTOR_MOVE_RELATIVE",
-            "args": {
-              "actorId": "$self$",
-              "x": {
-                "type": "number",
-                "value": 2
-              },
-              "y": {
-                "type": "number",
-                "value": 0
-              },
-              "useCollisions": true,
-              "verticalFirst": false,
-              "__collapse": false,
-              "collideWith": [
-                "walls",
-                "actors"
-              ]
-            }
-          }
-        ],
-        "true4": [],
-        "true5": [],
-        "true6": [],
-        "true7": [],
-        "true8": [],
-        "true9": [],
-        "true10": [],
-        "true11": [],
-        "true12": [],
-        "true13": [],
-        "true14": [],
-        "true15": [],
-        "false": [
-          {
-            "id": "482fc26f-67cd-4e58-a848-a3e50d8122e4",
-            "command": "EVENT_WAIT",
-            "args": {
-              "time": {
-                "type": "number",
-                "value": 0.5
-              },
-              "frames": {
-                "type": "number",
-                "value": 30
-              }
             }
           }
         ]
       }
     }
   ],
+  "startScript": [],
+  "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": []

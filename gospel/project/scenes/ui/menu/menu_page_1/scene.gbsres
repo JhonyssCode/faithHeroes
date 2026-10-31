@@ -13,37 +13,56 @@
   "tilesetId": "",
   "colorModeOverride": "none",
   "paletteIds": [
-    "default-ui"
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815"
   ],
-  "spritePaletteIds": [],
+  "spritePaletteIds": [
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+    "ba62ada4-6c4b-5665-a3ed-fa203f5f3815"
+  ],
   "autoFadeSpeed": 1,
   "script": [
     {
-      "id": "4238f3cb-81b4-4f62-882f-f9f03f16eb3e",
+      "id": "e0eb13e6-6734-4cc7-a6e8-ae51a7242444",
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a",
+          "b",
+          "start",
+          "select"
+        ]
+      }
+    },
+    {
+      "id": "c581e654-b2bb-5d53-b7e1-8d3e738d4f2c",
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
-        "actorId": "player",
-        "__collapse": false
+        "actorId": "player"
       }
     },
     {
       "id": "19f14f5d-7925-459a-992c-ab6cb69b59f8",
       "command": "EVENT_MUSIC_PLAY",
       "args": {
-        "musicId": "a48b4a96-9a5a-4511-b38a-98d56dd996ba",
+        "musicId": "31326df2-dac9-55d6-8f98-3905f1d4b5a9",
         "loop": true
       }
     },
     {
-      "id": "013135be-6ec5-563f-bb5e-6a55102fa007",
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": "Diário de\nFragmentos",
-        "avatarId": ""
-      }
-    },
-    {
-      "id": "af4c9942-34de-538a-a4dc-1c2f2c29e229",
+      "id": "6718fadb-a4d3-5e48-b6a9-8885f7cbba76",
       "command": "EVENT_IF",
       "args": {
         "variable": "0",
@@ -55,20 +74,95 @@
       "children": {
         "true": [
           {
-            "id": "e0416d42-ac2d-5e97-97f4-ed344f70731f",
-            "command": "EVENT_TEXT",
+            "id": "3ae9ed5d-c1e6-53b7-8bea-64b96fb9f9bf",
+            "command": "EVENT_IF",
             "args": {
-              "text": "1/4 Ovelha\nObtido",
-              "avatarId": ""
+              "variable": "1",
+              "condition": {
+                "type": "variable",
+                "value": "1"
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "id": "b7afa817-b9c9-58cc-94ec-add937491432",
+                  "command": "EVENT_IF",
+                  "args": {
+                    "variable": "2",
+                    "condition": {
+                      "type": "variable",
+                      "value": "2"
+                    }
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "id": "c2900a77-3a50-5c89-8f63-171d1064c139",
+                        "command": "EVENT_IF",
+                        "args": {
+                          "variable": "3",
+                          "condition": {
+                            "type": "variable",
+                            "value": "3"
+                          }
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "id": "937b0506-2227-4eec-adf1-a6502e221b3f",
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "text": "Quatro relíquias!\nVá ao santuário\nao norte.",
+                                "avatarId": ""
+                              }
+                            }
+                          ],
+                          "false": [
+                            {
+                              "id": "af5cfc5e-ef73-4d4e-a88c-c698bf9c2150",
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "text": "Cova: sudoeste.\nLeve o bloco à\nmarca. Abra o baú.",
+                                "avatarId": ""
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "false": [
+                      {
+                        "id": "a035fc05-07dc-4470-a1c3-e9862d971e51",
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": "Vale: nordeste.\nDesvie das lanças.\nA lança pedras.",
+                          "avatarId": ""
+                        }
+                      }
+                    ]
+                  }
+                }
+              ],
+              "false": [
+                {
+                  "id": "71e94cd7-35f4-4922-abfa-7251a7f90507",
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": "Arca: noroeste.\nResgate três pares\ne fale com Noé.",
+                    "avatarId": ""
+                  }
+                }
+              ]
             }
           }
         ],
         "false": [
           {
-            "id": "d0efeb0f-2fde-5f73-9029-5df7bc6ab35b",
+            "id": "4b9c43a3-f3ff-4eac-9ceb-5be01eed1060",
             "command": "EVENT_TEXT",
             "args": {
-              "text": "1/4 Ovelha\nAinda não obtido",
+              "text": "Ovelha: cercado\na oeste. Depois,\nfale com o pastor.",
               "avatarId": ""
             }
           }
@@ -76,106 +170,7 @@
       }
     },
     {
-      "id": "1dce5248-9fc6-521c-93a0-679f5efda055",
-      "command": "EVENT_IF",
-      "args": {
-        "variable": "1",
-        "condition": {
-          "type": "variable",
-          "value": "1"
-        }
-      },
-      "children": {
-        "true": [
-          {
-            "id": "8b04f1b8-b291-505e-ad99-d78e223e2a7c",
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": "2/4 Arca\nObtido",
-              "avatarId": ""
-            }
-          }
-        ],
-        "false": [
-          {
-            "id": "02da30a3-142e-581e-9aa6-48bd68476551",
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": "2/4 Arca\nAinda não obtido",
-              "avatarId": ""
-            }
-          }
-        ]
-      }
-    },
-    {
-      "id": "9983d003-c8bc-5378-8065-3175ff7dea29",
-      "command": "EVENT_IF",
-      "args": {
-        "variable": "2",
-        "condition": {
-          "type": "variable",
-          "value": "2"
-        }
-      },
-      "children": {
-        "true": [
-          {
-            "id": "9d60911e-3dab-5497-9fcf-02676c5760fe",
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": "3/4 Golias\nObtido",
-              "avatarId": ""
-            }
-          }
-        ],
-        "false": [
-          {
-            "id": "9cae2fa4-850c-5b66-bc5d-fdf337990261",
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": "3/4 Golias\nAinda não obtido",
-              "avatarId": ""
-            }
-          }
-        ]
-      }
-    },
-    {
-      "id": "575a432c-1f6c-5713-9e82-693df353a1fb",
-      "command": "EVENT_IF",
-      "args": {
-        "variable": "3",
-        "condition": {
-          "type": "variable",
-          "value": "3"
-        }
-      },
-      "children": {
-        "true": [
-          {
-            "id": "a04bc7c0-6517-5059-b2e9-587a8625e9a0",
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": "4/4 Daniel\nObtido",
-              "avatarId": ""
-            }
-          }
-        ],
-        "false": [
-          {
-            "id": "82fa18f8-f30e-59e4-9399-87c225646348",
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": "4/4 Daniel\nAinda não obtido",
-              "avatarId": ""
-            }
-          }
-        ]
-      }
-    },
-    {
-      "id": "caf988fd-46ba-4df4-87e3-afe81256c4cd",
+      "id": "e24fbaf4-1ec0-52b4-874f-8c32ffdc084e",
       "command": "EVENT_AWAIT_INPUT",
       "args": {
         "input": [
@@ -183,24 +178,13 @@
           "b",
           "start",
           "select"
-        ],
-        "__collapse": false
+        ]
       }
     },
     {
-      "id": "868089ea-cc3b-415b-8035-76dfd7578842",
-      "command": "EVENT_SWITCH_SCENE",
+      "id": "9a2f9c5c-c9e5-5866-b96a-c3ad2d893a49",
+      "command": "EVENT_SCENE_POP_STATE",
       "args": {
-        "sceneId": "7ff8891e-d21c-4938-ba71-028a1964edf6",
-        "x": {
-          "type": "number",
-          "value": 0
-        },
-        "y": {
-          "type": "number",
-          "value": 0
-        },
-        "direction": "",
         "fadeSpeed": "2"
       }
     }

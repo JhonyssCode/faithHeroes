@@ -1,0 +1,120 @@
+{
+  "_resourceType": "actor",
+  "id": "f249b9e3-be5e-500f-9707-a3c99943fce2",
+  "_index": 5,
+  "symbol": "actor_hf_par_1_1",
+  "prefabId": "",
+  "name": "Par aves 2",
+  "coordinateType": "tiles",
+  "x": 92,
+  "y": 13,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "ede130e6-013a-42d1-a786-1aed3fd3cf32",
+  "paletteId": "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "id": "26c6ffe8-8c5c-5236-b47b-794d1261a5bb",
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "21",
+        "condition": {
+          "type": "variable",
+          "value": "21"
+        }
+      },
+      "children": {
+        "true": [],
+        "false": [
+          {
+            "id": "1ff985d2-c1af-5561-a53d-7c74728628dc",
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "21",
+              "value": {
+                "type": "true"
+              }
+            }
+          },
+          {
+            "id": "5950a75c-f9bf-4813-b62d-3d07e3926f98",
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "38"
+            }
+          },
+          {
+            "id": "9dcd50d3-136e-59f6-ac00-ba01af055734",
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "beep",
+              "pitch": 6,
+              "duration": 0.08,
+              "priority": "high",
+              "wait": false
+            }
+          },
+          {
+            "id": "8af7604d-f2d5-5041-9753-fc8236828d81",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "Par resgatado!\n$38$ de 3 pares.\nFale com Noé.",
+              "avatarId": ""
+            }
+          },
+          {
+            "id": "87e4252d-151d-5067-bf37-4a2a3bb4b950",
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "62cac0c0-79bb-5772-a9f3-dde20ba9f9d8"
+            }
+          },
+          {
+            "id": "52f6e84d-e0c0-5f88-905d-4e23c837b69b",
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "startScript": [
+    {
+      "id": "99596ad6-af0c-5269-b0ba-520e599dd0cb",
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "21",
+        "condition": {
+          "type": "variable",
+          "value": "21"
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "id": "c5e9fd56-0c39-5c99-b979-65b18dbb0cb0",
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            }
+          }
+        ],
+        "false": []
+      }
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

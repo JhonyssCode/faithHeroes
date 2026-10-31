@@ -1,0 +1,18 @@
+321 arquivos verificados; 0 erros.
+0 caixas com avisos; nenhuma alteração aplicada.
+Estrutura: 321 recursos, 18 cenas; textos, destinos, colisões e limites de atores válidos.
+Reinício/save: variáveis locais zeradas; assinatura nova aceita, saves antigos rejeitados sem apagar dados.
+Praça: seis portas, ovelha, pastor e quatro marcos alcançáveis; retornos fora dos portais.
+Relíquias/diário/final: portão, quatro indicadores e mensagem final corretos nas 16 combinações; final não repete.
+Resgate: ovelha/pastor e oito combinações dos pares; ratos não concedem a relíquia; coleta não duplica.
+Cova: solução persistente, reset por confirmação, posição preservada ao abrir diário e baú sem duplicação.
+Golias: cinco disparos registrados pelo grupo real causam cinco danos e vitória; vida não reinicia. Contagem 1–4 funciona fora da ordem.
+Duelo: invulnerabilidade bloqueia impactos repetidos; derrota reinicia a arena; pausa permite voltar à praça.
+PASSOU — regressões de arquivos e simulação de eventos; não é teste de ROM/emulador.
+Arte: 83 PNGs lidos, 21 fundos e 47 folhas de sprites auditados; 173 quadros referenciados válidos.
+Praça montada com tiles nativos (até 128), sem substituição destrutiva de blocos; arena até 96 tiles.
+Cores: atributos antigos removidos, paleta coerente e recortes de Samuel corrigidos, sem sobreposição de peças.
+Duelo: orçamento conservador 8/10 sprites por linha; HUD separado com 8/10; pedras e lanças de uma peça.
+PASSOU — estrutura e orçamento de projeto; percepção de flicker e colisões reais ainda requerem execução no emulador.
+Música: 5 trilhas UGE6, 864 notas; carregamento e regravação pelo leitor oficial preservam padrões e sequência.
+PASSOU — formato e estrutura; mixagem e reprodução pelo driver devem ser conferidas no GB Studio.

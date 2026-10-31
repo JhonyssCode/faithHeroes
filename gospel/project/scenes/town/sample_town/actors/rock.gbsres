@@ -1,17 +1,17 @@
 {
   "_resourceType": "actor",
   "id": "abf9e863-28c0-4c03-bd4f-201ed2a055c2",
-  "_index": 0,
+  "_index": 12,
   "symbol": "actor_rock",
   "prefabId": "",
   "name": "Rock",
   "coordinateType": "tiles",
-  "x": 25,
-  "y": 14,
+  "x": 6,
+  "y": 37,
   "frame": 0,
   "animate": false,
   "spriteSheetId": "3939e8d2-3987-4a22-953e-f1d82134eccf",
-  "paletteId": "",
+  "paletteId": "ba62ada4-6c4b-5665-a3ed-fa203f5f3815",
   "direction": "down",
   "moveSpeed": 0.5,
   "animSpeed": 15,
@@ -22,10 +22,19 @@
   "prefabScriptOverrides": {},
   "script": [
     {
-      "id": "5277ceed-f26c-4644-9dee-b7d090a4ebb9",
-      "command": "EVENT_ACTOR_PUSH",
+      "id": "081ce249-18b9-5788-a42e-81496278d202",
+      "command": "EVENT_TEXT",
       "args": {
-        "continue": false
+        "text": "Um velho marco de\npedra. O rolo\nguarda sua",
+        "avatarId": ""
+      }
+    },
+    {
+      "id": "f7c9a625-8fe6-5ea9-bd6e-9466e3cc9ddd",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "história.",
+        "avatarId": ""
       }
     }
   ],

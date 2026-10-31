@@ -175,6 +175,101 @@
       "id": "a47f7637-d042-55cb-b424-17390d6d8828",
       "name": "Mensagem Final Lida",
       "symbol": "var_hf_final_lido"
+    },
+    {
+      "id": "20",
+      "name": "Par Ovelhas",
+      "symbol": "var_hf_par_ovelhas"
+    },
+    {
+      "id": "21",
+      "name": "Par Aves",
+      "symbol": "var_hf_par_aves"
+    },
+    {
+      "id": "22",
+      "name": "Par Cordeiros",
+      "symbol": "var_hf_par_cordeiros"
+    },
+    {
+      "id": "23",
+      "name": "Resistencia Golias",
+      "symbol": "var_hf_hp_golias"
+    },
+    {
+      "id": "24",
+      "name": "Protecao Dano",
+      "symbol": "var_hf_protecao_dano"
+    },
+    {
+      "id": "25",
+      "name": "Duelo Explicado",
+      "symbol": "var_hf_duelo_explicado"
+    },
+    {
+      "id": "26",
+      "name": "Vale Alcancado",
+      "symbol": "var_hf_vale_alcancado"
+    },
+    {
+      "id": "27",
+      "name": "Praca Apresentada",
+      "symbol": "var_hf_praca_apresentada"
+    },
+    {
+      "id": "28",
+      "name": "Arca Explicada",
+      "symbol": "var_hf_arca_explicada"
+    },
+    {
+      "id": "31",
+      "name": "Duelo Ativo",
+      "symbol": "var_hf_duelo_ativo"
+    },
+    {
+      "id": "32",
+      "name": "Escolha Pausa Duelo",
+      "symbol": "var_hf_pausa_duelo"
+    },
+    {
+      "id": "34",
+      "name": "Formato Save HF2",
+      "symbol": "var_hf_formato_save"
+    },
+    {
+      "id": "35",
+      "name": "Bloco Cova X",
+      "symbol": "var_hf_bloco_x"
+    },
+    {
+      "id": "36",
+      "name": "Bloco Cova Y",
+      "symbol": "var_hf_bloco_y"
+    },
+    {
+      "id": "37",
+      "name": "Bloco Memorizado",
+      "symbol": "var_hf_bloco_memorizado"
+    },
+    {
+      "id": "4912bee2-387a-472f-ae4f-6679b6149517__L1",
+      "name": "Formato do Save Lido",
+      "symbol": "var_hf_formato_lido"
+    },
+    {
+      "id": "822a9491-3999-4d38-baa2-11cd379dcbb7__L0",
+      "name": "Reiniciar Enigma",
+      "symbol": "var_hf_reiniciar_enigma"
+    },
+    {
+      "id": "38",
+      "name": "Pares Resgatados",
+      "symbol": "var_hf_pares_resgatados"
+    },
+    {
+      "id": "39",
+      "name": "Reliquias Reunidas",
+      "symbol": "var_hf_reliquias_reunidas"
     }
   ],
   "constants": []
