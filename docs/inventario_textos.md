@@ -1,0 +1,78 @@
+# Inventário de textos — estado original
+
+Arquivo, cena, objeto e texto original. Quebras de linha aparecem como `\n`.
+
+- Arquivo: `gospel/project/prefabs/actors/save_point.gbsres` | Cena: 'Script global' | Objeto: 'Save Point' | Texto: 'Game progress has\nbeen saved.'
+- Arquivo: `gospel/project/prefabs/actors/save_point.gbsres` | Cena: 'Script global' | Objeto: 'Save Point' | Texto: 'It is now safe to\nturn off your\nsystem.'
+- Arquivo: `gospel/project/scenes/caves/cave/actors/sage.gbsres` | Cena: 'caves/Cave' | Objeto: 'Sage' | Texto: "It's dangerous to\ngo without docs."
+- Arquivo: `gospel/project/scenes/caves/cave/actors/sage.gbsres` | Cena: 'caves/Cave' | Objeto: 'Sage' | Texto: 'Check out\ngbstudio.dev/docs'
+- Arquivo: `gospel/project/scenes/caves/cave/actors/sage.gbsres` | Cena: 'caves/Cave' | Objeto: 'Sage' | Texto: 'Also, try moving\nthe rock outside.'
+- Arquivo: `gospel/project/scenes/caves/cave/actors/save_point.gbsres` | Cena: 'caves/Cave' | Objeto: 'Save Point' | Texto: 'Game progress has\nbeen saved.'
+- Arquivo: `gospel/project/scenes/caves/cave/actors/save_point.gbsres` | Cena: 'caves/Cave' | Objeto: 'Save Point' | Texto: 'It is now safe to\nturn off your\nsystem.'
+- Arquivo: `gospel/project/scenes/caves/deeper_underground/actors/chest.gbsres` | Cena: 'caves/Deeper Underground' | Objeto: 'Chest' | Texto: 'Empty...'
+- Arquivo: `gospel/project/scenes/caves/deeper_underground/actors/chest.gbsres` | Cena: 'caves/Deeper Underground' | Objeto: 'Chest' | Texto: 'Wow! Found\nGOLD COIN.'
+- Arquivo: `gospel/project/scenes/caves/underground/actors/ice_block.gbsres` | Cena: 'caves/Underground' | Objeto: 'Ice Block' | Texto: 'Success!'
+- Arquivo: `gospel/project/scenes/caves/underground/actors/sign_post.gbsres` | Cena: 'caves/Underground' | Objeto: 'Sign Post' | Texto: 'Try to get the ice\nblock to the mark.'
+- Arquivo: `gospel/project/scenes/caves/underground/actors/sign_post.gbsres` | Cena: 'caves/Underground' | Objeto: 'Sign Post' | Texto: "If you get stuck,\nI'll reset it!"
+- Arquivo: `gospel/project/scenes/dream/scene.gbsres` | Cena: 'Dream' | Objeto: 'Dream' | Texto: 'Huh?'
+- Arquivo: `gospel/project/scenes/dream/scene.gbsres` | Cena: 'Dream' | Objeto: 'Dream' | Texto: 'I guess it was\na dream...'
+- Arquivo: `gospel/project/scenes/path/parallax_example/actors/sign_post.gbsres` | Cena: 'path/Parallax Example' | Objeto: 'Sign Post' | Texto: 'Welcome to\nGBStudio!'
+- Arquivo: `gospel/project/scenes/path/parallax_example/actors/sign_post.gbsres` | Cena: 'path/Parallax Example' | Objeto: 'Sign Post' | Texto: 'DO NOT FEED\nTHE ELEPHANT'
+- Arquivo: `gospel/project/scenes/path/path_to_sample_town/actors/gardener.gbsres` | Cena: 'path/Path to Sample Town' | Objeto: 'Gardener' | Texto: 'My garden has been\noverrun by...'
+- Arquivo: `gospel/project/scenes/path/path_to_sample_town/actors/gardener.gbsres` | Cena: 'path/Path to Sample Town' | Objeto: 'Gardener' | Texto: '!S4!TURNIPS!'
+- Arquivo: `gospel/project/scenes/path/path_to_sample_town/actors/gardener.gbsres` | Cena: 'path/Path to Sample Town' | Objeto: 'Gardener' | Texto: 'Thank you\nso much!!'
+- Arquivo: `gospel/project/scenes/path/path_to_sample_town/actors/gardener.gbsres` | Cena: 'path/Path to Sample Town' | Objeto: 'Gardener' | Texto: "I'm not planting\nthose next year!"
+- Arquivo: `gospel/project/scenes/path/path_to_sample_town/actors/gardener.gbsres` | Cena: 'path/Path to Sample Town' | Objeto: 'Gardener' | Texto: 'Please help me,\nthere is $12$ left'
+- Arquivo: `gospel/project/scenes/path/path_to_sample_town/actors/save_point.gbsres` | Cena: 'path/Path to Sample Town' | Objeto: 'Save Point' | Texto: 'Game progress has\nbeen saved.'
+- Arquivo: `gospel/project/scenes/path/path_to_sample_town/actors/save_point.gbsres` | Cena: 'path/Path to Sample Town' | Objeto: 'Save Point' | Texto: 'It is now safe to\nturn off your\nsystem.'
+- Arquivo: `gospel/project/scenes/path/path_to_sample_town/actors/sign_post.gbsres` | Cena: 'path/Path to Sample Town' | Objeto: 'Sign Post' | Texto: 'This way to\nSample Town!'
+- Arquivo: `gospel/project/scenes/path/path_to_sample_town/triggers/trigger_2.gbsres` | Cena: 'path/Path to Sample Town' | Objeto: '' | Texto: '!S0!PLEASE!S3! !S0!HELP!!!S2!\nMy garden...'
+- Arquivo: `gospel/project/scenes/players_house/triggers/trigger.gbsres` | Cena: "Player's House" | Objeto: '' | Texto: 'Still the best\ncontroller.'
+- Arquivo: `gospel/project/scenes/players_house/triggers/trigger_10.gbsres` | Cena: "Player's House" | Objeto: '' | Texto: 'Check out\ngbstudio.dev/docs'
+- Arquivo: `gospel/project/scenes/players_house/triggers/trigger_2.gbsres` | Cena: "Player's House" | Objeto: '' | Texto: 'My trusty\nGame Box 128.'
+- Arquivo: `gospel/project/scenes/players_house/triggers/trigger_3.gbsres` | Cena: "Player's House" | Objeto: '' | Texto: 'Nice poster!'
+- Arquivo: `gospel/project/scenes/players_house/triggers/trigger_4.gbsres` | Cena: "Player's House" | Objeto: '' | Texto: 'My TV.'
+- Arquivo: `gospel/project/scenes/players_house/triggers/trigger_4.gbsres` | Cena: "Player's House" | Objeto: '' | Texto: 'It has a VHS\nplayer built in!'
+- Arquivo: `gospel/project/scenes/players_house/triggers/trigger_5.gbsres` | Cena: "Player's House" | Objeto: '' | Texto: 'Such a nice day to\ngo into town!'
+- Arquivo: `gospel/project/scenes/players_house/triggers/trigger_6.gbsres` | Cena: "Player's House" | Objeto: '' | Texto: 'Clothes...'
+- Arquivo: `gospel/project/scenes/players_house/triggers/trigger_7.gbsres` | Cena: "Player's House" | Objeto: '' | Texto: 'My collection\nof games...'
+- Arquivo: `gospel/project/scenes/players_house/triggers/trigger_8.gbsres` | Cena: "Player's House" | Objeto: '' | Texto: 'More clothes...'
+- Arquivo: `gospel/project/scenes/players_house/triggers/trigger_9.gbsres` | Cena: "Player's House" | Objeto: '' | Texto: 'Even more\nclothes...'
+- Arquivo: `gospel/project/scenes/space/deep_space/actors/save_point.gbsres` | Cena: 'space/Deep Space' | Objeto: 'Save Point' | Texto: 'Game progress has\nbeen saved.'
+- Arquivo: `gospel/project/scenes/space/deep_space/actors/save_point.gbsres` | Cena: 'space/Deep Space' | Objeto: 'Save Point' | Texto: 'It is now safe to\nturn off your\nsystem.'
+- Arquivo: `gospel/project/scenes/space/deep_space/actors/space_dog.gbsres` | Cena: 'space/Deep Space' | Objeto: 'Space Dog' | Texto: 'You can use the\nportal behind me\nto get home.'
+- Arquivo: `gospel/project/scenes/space/deep_space/actors/space_dog.gbsres` | Cena: 'space/Deep Space' | Objeto: 'Space Dog' | Texto: 'How did you get\nhere!?'
+- Arquivo: `gospel/project/scenes/town/launch_site/actors/machine.gbsres` | Cena: 'town/Launch Site' | Objeto: 'Machine' | Texto: 'BEEP... BOOP...'
+- Arquivo: `gospel/project/scenes/town/launch_site/actors/machine_2.gbsres` | Cena: 'town/Launch Site' | Objeto: 'Machine' | Texto: 'BEEP... BOOP...'
+- Arquivo: `gospel/project/scenes/town/launch_site/actors/machine_3.gbsres` | Cena: 'town/Launch Site' | Objeto: 'Machine' | Texto: 'BEEP... BOOP...'
+- Arquivo: `gospel/project/scenes/town/launch_site/actors/machine_4.gbsres` | Cena: 'town/Launch Site' | Objeto: 'Machine' | Texto: 'BEEP... BOOP...'
+- Arquivo: `gospel/project/scenes/town/launch_site/actors/scientist.gbsres` | Cena: 'town/Launch Site' | Objeto: 'Scientist' | Texto: "Can't you see\nthat I'm busy?"
+- Arquivo: `gospel/project/scenes/town/launch_site/actors/scientist.gbsres` | Cena: 'town/Launch Site' | Objeto: 'Scientist' | Texto: "Oh, that? That's\nmy spaceship."
+- Arquivo: `gospel/project/scenes/town/launch_site/actors/scientist.gbsres` | Cena: 'town/Launch Site' | Objeto: 'Scientist' | Texto: 'HANDS OFF!'
+- Arquivo: `gospel/project/scenes/town/launch_site/triggers/trigger_2.gbsres` | Cena: 'town/Launch Site' | Objeto: '' | Texto: 'Hey! Do you want\nto end up in\nspace??'
+- Arquivo: `gospel/project/scenes/town/launch_site/triggers/trigger_2.gbsres` | Cena: 'town/Launch Site' | Objeto: '' | Texto: "Because that's how\nyou end up in\nspace..."
+- Arquivo: `gospel/project/scenes/town/music_house/actors/dj.gbsres` | Cena: 'town/Music House' | Objeto: 'DJ' | Texto: 'Welcome to the\nMusic House!'
+- Arquivo: `gospel/project/scenes/town/music_house/actors/dj.gbsres` | Cena: 'town/Music House' | Objeto: 'DJ' | Texto: 'Try the instruments to\nplay some tunes'
+- Arquivo: `gospel/project/scenes/town/music_house/actors/dj.gbsres` | Cena: 'town/Music House' | Objeto: 'DJ' | Texto: 'And use the machines at\nthe back to play some\nsound effects'
+- Arquivo: `gospel/project/scenes/town/music_house/actors/dj.gbsres` | Cena: 'town/Music House' | Objeto: 'DJ' | Texto: 'YEAH!'
+- Arquivo: `gospel/project/scenes/town/music_house/actors/dj.gbsres` | Cena: 'town/Music House' | Objeto: 'DJ' | Texto: 'You can edit any song\nwith the Music Editor'
+- Arquivo: `gospel/project/scenes/town/music_house/actors/sign_post_2.gbsres` | Cena: 'town/Music House' | Objeto: 'Sign Post 2' | Texto: 'This keyboard plays \na song with echo effect'
+- Arquivo: `gospel/project/scenes/town/music_house/actors/sign_post_3.gbsres` | Cena: 'town/Music House' | Objeto: 'Sign Post 2' | Texto: 'This drumkit plays \na song with a drum base'
+- Arquivo: `gospel/project/scenes/town/sample_town/actors/angry_guy.gbsres` | Cena: 'town/Sample Town' | Objeto: 'Angry Guy' | Texto: 'I guess it was a\nmisunderstanding.'
+- Arquivo: `gospel/project/scenes/town/sample_town/actors/angry_guy.gbsres` | Cena: 'town/Sample Town' | Objeto: 'Angry Guy' | Texto: 'What is that guy\nlooking at?'
+- Arquivo: `gospel/project/scenes/town/sample_town/actors/cat.gbsres` | Cena: 'town/Sample Town' | Objeto: 'Cat' | Texto: 'Meow!'
+- Arquivo: `gospel/project/scenes/town/sample_town/actors/hider.gbsres` | Cena: 'town/Sample Town' | Objeto: 'Hider' | Texto: 'Oh you got me!'
+- Arquivo: `gospel/project/scenes/town/sample_town/actors/oblivious_guy.gbsres` | Cena: 'town/Sample Town' | Objeto: 'Oblivious Guy' | Texto: 'Check out this\nsweet duck!'
+- Arquivo: `gospel/project/scenes/town/sample_town/actors/pet_owner.gbsres` | Cena: 'town/Sample Town' | Objeto: 'Pet Owner' | Texto: 'Have you seen my\ncat anywhere?'
+- Arquivo: `gospel/project/scenes/town/sample_town/actors/pet_owner.gbsres` | Cena: 'town/Sample Town' | Objeto: 'Pet Owner' | Texto: "He's by the\nNorthern house?\nThank you!"
+- Arquivo: `gospel/project/scenes/town/sample_town/actors/sign_post.gbsres` | Cena: 'town/Sample Town' | Objeto: 'Sign Post' | Texto: "Sample Town Lake.\nDON'T FEED\nTHE DUCKS!"
+- Arquivo: `gospel/project/scenes/town/sample_town/triggers/trigger_14.gbsres` | Cena: 'town/Sample Town' | Objeto: '' | Texto: 'HEY!!!\nKEEP OFF MY\nFLOWERS!'
+- Arquivo: `gospel/project/scenes/town/sample_town/triggers/trigger_8.gbsres` | Cena: 'town/Sample Town' | Objeto: '' | Texto: 'Locked...'
+- Arquivo: `gospel/project/scenes/town/top_house/actors/radio_guy.gbsres` | Cena: 'town/Top House' | Objeto: 'Radio Guy' | Texto: 'Have you tried\nusing this radio?'
+- Arquivo: `gospel/project/scenes/town/top_house/actors/radio_guy.gbsres` | Cena: 'town/Top House' | Objeto: 'Radio Guy' | Texto: "Yeah it doesn't\nfit does it?"
+- Arquivo: `gospel/project/scenes/town/top_house/actors/radio_guy.gbsres` | Cena: 'town/Top House' | Objeto: 'Radio Guy' | Texto: "But it's all I\nhave right now..."
+- Arquivo: `gospel/project/scenes/town/top_house/actors/sign_post_1.gbsres` | Cena: 'town/Top House' | Objeto: 'Sign Post 1' | Texto: 'This room is\npretty empty.'
+- Arquivo: `gospel/project/scenes/town/top_house/actors/sign_post_1.gbsres` | Cena: 'town/Top House' | Objeto: 'Sign Post 1' | Texto: 'Try to edit\nhouse.png'
+- Arquivo: `gospel/project/scenes/town/top_house/actors/sign_post_2.gbsres` | Cena: 'town/Top House' | Objeto: 'Sign Post 2' | Texto: 'Add backgrounds to\nassets/backgrounds'
+- Arquivo: `gospel/project/scenes/town/top_house/actors/sign_post_3.gbsres` | Cena: 'town/Top House' | Objeto: 'Sign Post 3' | Texto: 'Add sprites to\nassets/sprites'
+- Arquivo: `gospel/project/scenes/ui/title_screen/scene.gbsres` | Cena: 'ui/Title Screen' | Objeto: 'ui/Title Screen' | Texto: 'No Save Data\nFound...'
