@@ -3,7 +3,7 @@
   "id": "a5f430d1-da9c-4313-934a-79da3c40bbdc",
   "_index": 3,
   "type": "TOPDOWN",
-  "name": "Dream",
+  "name": "Sonho de Jacó",
   "symbol": "scene_dream",
   "x": 1019,
   "y": 931,
@@ -36,7 +36,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Huh?"
+          "Uma escada no céu?"
         ],
         "avatarId": ""
       }
@@ -46,7 +46,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "I guess it was\na dream..."
+          "Deus também fala\nem sonhos.\nLembrei de Jacó."
         ],
         "avatarId": ""
       }

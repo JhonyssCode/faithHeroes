@@ -65,7 +65,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "!S0!PLEASE!S3! !S0!HELP!!!S2!\nMy garden..."
+                "Noé precisa de\najuda no caminho!"
               ],
               "avatarId": ""
             }

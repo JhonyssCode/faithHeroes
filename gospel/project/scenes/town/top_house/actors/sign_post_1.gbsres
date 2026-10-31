@@ -25,14 +25,14 @@
       "id": "0fda232e-04c4-4f82-9874-b73f384f0028",
       "command": "EVENT_TEXT",
       "args": {
-        "text": "This room is\npretty empty."
+        "text": "Aqui guardamos\na memória da fé."
       }
     },
     {
       "id": "2d151fc7-c78f-452d-84ab-9d11caf772c4",
       "command": "EVENT_TEXT",
       "args": {
-        "text": "Try to edit\nhouse.png"
+        "text": "Cada fragmento\nconta uma\nhistória."
       }
     }
   ],

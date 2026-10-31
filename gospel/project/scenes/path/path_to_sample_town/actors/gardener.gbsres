@@ -47,7 +47,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "My garden has been\noverrun by..."
+                "Noé: Precisamos\nlimpar o caminho\npara os animais."
               ],
               "avatarId": ""
             }
@@ -57,7 +57,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "!S4!TURNIPS!"
+                "Há três obstáculos\nno caminho!"
               ],
               "avatarId": ""
             }
@@ -104,7 +104,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Thank you\nso much!!"
+                "A chuva passou!\nOs animais estão\nem segurança."
               ],
               "avatarId": "",
               "__collapse": false
@@ -115,7 +115,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "I'm not planting\nthose next year!"
+                "Um arco no céu!\nDeus fez uma\npromessa de paz."
               ],
               "avatarId": "",
               "__collapse": false
@@ -146,7 +146,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Please help me,\nthere is $12$ left"
+                "Ainda faltam\n$12$ obstáculos.\nAjude os animais!"
               ],
               "avatarId": ""
             }

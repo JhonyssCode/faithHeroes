@@ -26,8 +26,8 @@
       "command": "EVENT_CHOICE",
       "args": {
         "variable": "L0",
-        "trueText": "Save Game",
-        "falseText": "Cancel"
+        "trueText": "Salvar jogo",
+        "falseText": "Cancelar"
       }
     },
     {
@@ -55,14 +55,14 @@
                   "id": "b8e821f8-9bbd-431f-863b-1874078e741d",
                   "command": "EVENT_TEXT",
                   "args": {
-                    "text": "Game progress has\nbeen saved."
+                    "text": "Seu progresso\nfoi salvo."
                   }
                 },
                 {
                   "id": "827a9c6a-94d0-4cc9-a08b-827d727db98a",
                   "command": "EVENT_TEXT",
                   "args": {
-                    "text": "It is now safe to\nturn off your\nsystem."
+                    "text": "Agora você pode\ndesligar o jogo."
                   }
                 }
               ]

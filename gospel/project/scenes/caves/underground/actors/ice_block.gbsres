@@ -68,7 +68,7 @@
                   "id": "bea3f398-cf7f-423c-a9cb-7c0c0bb333c6",
                   "command": "EVENT_TEXT",
                   "args": {
-                    "text": "Success!"
+                    "text": "O caminho abriu!"
                   }
                 },
                 {

@@ -25,14 +25,14 @@
       "id": "7ba26d3c-c1ca-46c8-a4ae-ed0a431b1d03",
       "command": "EVENT_TEXT",
       "args": {
-        "text": "Try to get the ice\nblock to the mark."
+        "text": "Cova dos leões.\nLeve o bloco\naté a marca."
       }
     },
     {
       "id": "1cf687c1-e1fe-4e89-a7ef-9ddc6412ef4f",
       "command": "EVENT_TEXT",
       "args": {
-        "text": "If you get stuck,\nI'll reset it!"
+        "text": "Se ficar preso,\nfale comigo para\nrecomeçar."
       }
     },
     {

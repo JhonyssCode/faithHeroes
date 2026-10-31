@@ -43,9 +43,9 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Welcome to the\nMusic House!",
-                "Try the instruments to\nplay some tunes",
-                "And use the machines at\nthe back to play some\nsound effects"
+                "Bem-vindo à\nCasa dos Salmos!",
+                "Toque a harpa\ne o tamborim.",
+                "Os instrumentos\nao fundo também\ntêm seus sons."
               ],
               "avatarId": ""
             },
@@ -65,8 +65,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "YEAH!",
-                "You can edit any song\nwith the Music Editor"
+                "Louvai ao Senhor!",
+                "Cante ao Senhor\num cântico novo!"
               ],
               "avatarId": ""
             },

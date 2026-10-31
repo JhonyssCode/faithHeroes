@@ -26,7 +26,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Can't you see\nthat I'm busy?"
+          "Escriba: Este\nportal leva ao\nvale de Davi."
         ],
         "avatarId": ""
       }
@@ -46,7 +46,7 @@
       "id": "d36425b5-5422-4f25-802d-31d19c7b5b73",
       "command": "EVENT_TEXT",
       "args": {
-        "text": "Oh, that? That's\nmy spaceship.",
+        "text": "Fale comigo à\nesquerda e entre\nno portão.",
         "avatarId": ""
       }
     },
@@ -54,7 +54,7 @@
       "id": "b894d71d-bd03-479d-a5a5-15d6acbd0a76",
       "command": "EVENT_TEXT",
       "args": {
-        "text": "HANDS OFF!",
+        "text": "Use a funda.\nAperte A para\nlançar pedras.",
         "avatarId": ""
       }
     }

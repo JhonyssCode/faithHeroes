@@ -25,14 +25,14 @@
       "id": "149845e1-e0b4-4a2e-97e3-4a59c8bc2634",
       "command": "EVENT_TEXT",
       "args": {
-        "text": "Welcome to\nGBStudio!"
+        "text": "Arca de Noé.\nAnimais de dois\nem dois."
       }
     },
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "DO NOT FEED\nTHE ELEPHANT"
+          "Cuide dos animais.\nA chuva vem aí."
         ],
         "avatarId": "6845dca5-d9d8-472a-93a7-81889d878516"
       },

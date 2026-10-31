@@ -25,7 +25,7 @@
       "id": "f33a2e4e-dd3b-4cc0-9207-9fac74bf3753",
       "command": "EVENT_TEXT",
       "args": {
-        "text": "BEEP... BOOP...",
+        "text": "Um altar antigo.\nLembra a fé de\nquem veio antes.",
         "avatarId": ""
       }
     }

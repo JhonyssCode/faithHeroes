@@ -3,7 +3,7 @@
   "id": "4912bee2-387a-472f-ae4f-6679b6149517",
   "_index": 16,
   "type": "TOPDOWN",
-  "name": "ui/Title Screen",
+  "name": "ui/HERÓIS DA FÉ",
   "symbol": "scene_title_screen",
   "x": 341,
   "y": 76,
@@ -59,8 +59,8 @@
             "command": "EVENT_CHOICE",
             "args": {
               "variable": "L0",
-              "trueText": "New Game",
-              "falseText": "Continue"
+              "trueText": "Novo jogo",
+              "falseText": "Continuar"
             }
           },
           {

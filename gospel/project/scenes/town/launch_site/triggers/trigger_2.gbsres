@@ -170,7 +170,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Hey! Do you want\nto end up in\nspace??"
+                "Samuel, venha\nfalar comigo\nprimeiro!"
               ],
               "avatarId": ""
             }
@@ -180,7 +180,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Because that's how\nyou end up in\nspace..."
+                "Depois entre\nno portão para\najudar Davi."
               ],
               "avatarId": ""
             }

@@ -39,7 +39,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "You can use the\nportal behind me\nto get home."
+                "O portal atrás\nde mim leva\nde volta à vila."
               ],
               "avatarId": ""
             }
@@ -50,7 +50,7 @@
             "id": "2564e652-8f4f-4012-8b6b-c43335e4d583",
             "command": "EVENT_TEXT",
             "args": {
-              "text": "How did you get\nhere!?",
+              "text": "Bem-vindo ao\nacampamento\nde Israel!",
               "avatarId": ""
             }
           },

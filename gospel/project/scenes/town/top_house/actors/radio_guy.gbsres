@@ -43,7 +43,7 @@
             "id": "94a866d1-d4cd-485b-8519-364104412bdb",
             "command": "EVENT_TEXT",
             "args": {
-              "text": "Have you tried\nusing this radio?"
+              "text": "O shofar anuncia\num novo começo."
             }
           }
         ],
@@ -52,7 +52,7 @@
             "id": "aedfbb0e-a49e-4b10-a334-cc217f44e9d8",
             "command": "EVENT_TEXT",
             "args": {
-              "text": "Yeah it doesn't\nfit does it?"
+              "text": "Você ouviu o\nsom do shofar?"
             }
           },
           {
@@ -67,7 +67,7 @@
             "id": "5728dc6b-4c2c-4255-aa1b-b1f6211a2219",
             "command": "EVENT_TEXT",
             "args": {
-              "text": "But it's all I\nhave right now..."
+              "text": "Que ele lembre\na fidelidade\ndo Senhor."
             }
           },
           {

@@ -40,7 +40,7 @@
             "id": "4dc1d020-c2a6-402d-b092-10f0e5025af3",
             "command": "EVENT_TEXT",
             "args": {
-              "text": "Empty...",
+              "text": "O fragmento já\nestá com você.",
               "avatarId": ""
             }
           }
@@ -59,7 +59,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Wow! Found\nGOLD COIN."
+                "Deus guardou\nDaniel dos leões."
               ],
               "avatarId": ""
             }
