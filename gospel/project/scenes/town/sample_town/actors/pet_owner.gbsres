@@ -25,7 +25,7 @@
       "id": "137799a4-c0db-46dd-91c9-36c0e5386e3d",
       "command": "EVENT_TEXT",
       "args": {
-        "text": "Have you seen my\ncat anywhere?"
+        "text": "Perdi uma das\nminhas cem\novelhas!"
       }
     },
     {
@@ -46,7 +46,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "He's by the\nNorthern house?\nThank you!"
+                "Ela está perto da\ncasa do norte?\nObrigado!"
               ]
             }
           },

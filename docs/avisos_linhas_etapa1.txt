@@ -1,0 +1,9 @@
+gospel/project/scenes/path/path_to_sample_town/triggers/trigger_2.gbsres | path/Path to Sample Town | : linha 1: 29 caracteres | '!S0!PLEASE!S3! !S0!HELP!!!S2!\nMy garden...'
+gospel/project/scenes/players_house/triggers/trigger_10.gbsres | Player's House | : linha 3: 19 caracteres | 'Tua palavra é luz\npara o meu\ncaminho. Sl 119:105'
+gospel/project/scenes/town/music_house/actors/dj.gbsres | town/Music House | DJ: linha 1: 22 caracteres | 'Try the instruments to\nplay some tunes'
+gospel/project/scenes/town/music_house/actors/dj.gbsres | town/Music House | DJ: linha 1: 23 caracteres, linha 2: 21 caracteres | 'And use the machines at\nthe back to play some\nsound effects'
+gospel/project/scenes/town/music_house/actors/dj.gbsres | town/Music House | DJ: linha 1: 21 caracteres, linha 2: 21 caracteres | 'You can edit any song\nwith the Music Editor'
+gospel/project/scenes/town/music_house/actors/sign_post_2.gbsres | town/Music House | Sign Post 2: linha 1: 20 caracteres, linha 2: 23 caracteres | 'This keyboard plays \na song with echo effect'
+gospel/project/scenes/town/music_house/actors/sign_post_3.gbsres | town/Music House | Sign Post 2: linha 1: 19 caracteres, linha 2: 23 caracteres | 'This drumkit plays \na song with a drum base'
+gospel/project/scenes/town/sample_town/actors/angry_guy.gbsres | town/Sample Town | Angry Guy: linha 2: 19 caracteres | 'Aquele homem\nestá olhando o quê?'
+8 caixas com avisos; nenhuma alteração aplicada.

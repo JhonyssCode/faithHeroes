@@ -1,0 +1,383 @@
+diff --git a/gospel/project/scenes/players_house/triggers/trigger.gbsres b/gospel/project/scenes/players_house/triggers/trigger.gbsres
+index 7de5d98..c27dd18 100644
+--- a/gospel/project/scenes/players_house/triggers/trigger.gbsres
++++ b/gospel/project/scenes/players_house/triggers/trigger.gbsres
+@@ -16,7 +16,7 @@
+       "command": "EVENT_TEXT",
+       "args": {
+         "text": [
+-          "Still the best\ncontroller."
++          "Meu cajado de\npastor. Me guiou\npor muito chão."
+         ],
+         "avatarId": ""
+       },
+diff --git a/gospel/project/scenes/players_house/triggers/trigger_10.gbsres b/gospel/project/scenes/players_house/triggers/trigger_10.gbsres
+index 664c80e..474ab2c 100644
+--- a/gospel/project/scenes/players_house/triggers/trigger_10.gbsres
++++ b/gospel/project/scenes/players_house/triggers/trigger_10.gbsres
+@@ -16,7 +16,7 @@
+       "command": "EVENT_TEXT",
+       "args": {
+         "text": [
+-          "Check out\ngbstudio.dev/docs"
++          "Tua palavra é luz\npara o meu\ncaminho. Sl 119:105"
+         ],
+         "avatarId": ""
+       },
+diff --git a/gospel/project/scenes/players_house/triggers/trigger_2.gbsres b/gospel/project/scenes/players_house/triggers/trigger_2.gbsres
+index eea0003..0b413fe 100644
+--- a/gospel/project/scenes/players_house/triggers/trigger_2.gbsres
++++ b/gospel/project/scenes/players_house/triggers/trigger_2.gbsres
+@@ -16,7 +16,7 @@
+       "command": "EVENT_TEXT",
+       "args": {
+         "text": [
+-          "My trusty\nGame Box 128."
++          "Minha harpa\nvelha..."
+         ],
+         "avatarId": ""
+       }
+diff --git a/gospel/project/scenes/players_house/triggers/trigger_3.gbsres b/gospel/project/scenes/players_house/triggers/trigger_3.gbsres
+index f10a4a4..d6736b7 100644
+--- a/gospel/project/scenes/players_house/triggers/trigger_3.gbsres
++++ b/gospel/project/scenes/players_house/triggers/trigger_3.gbsres
+@@ -15,7 +15,7 @@
+       "id": "ddde47bf-464a-4d44-9246-aeec5c1fe5b7",
+       "command": "EVENT_TEXT",
+       "args": {
+-        "text": "Nice poster!",
++        "text": "Um mapa antigo da\nTerra Prometida.",
+         "avatarId": ""
+       }
+     }
+diff --git a/gospel/project/scenes/players_house/triggers/trigger_4.gbsres b/gospel/project/scenes/players_house/triggers/trigger_4.gbsres
+index b8a915a..64c5483 100644
+--- a/gospel/project/scenes/players_house/triggers/trigger_4.gbsres
++++ b/gospel/project/scenes/players_house/triggers/trigger_4.gbsres
+@@ -16,7 +16,7 @@
+       "command": "EVENT_TEXT",
+       "args": {
+         "text": [
+-          "My TV."
++          "Minha janela."
+         ],
+         "avatarId": ""
+       }
+@@ -25,7 +25,7 @@
+       "id": "63e9130c-73a6-45d9-9b11-356dc94688e4",
+       "command": "EVENT_TEXT",
+       "args": {
+-        "text": "It has a VHS\nplayer built in!",
++        "text": "Dá para ver o\ntemplo ao longe.",
+         "avatarId": ""
+       }
+     }
+diff --git a/gospel/project/scenes/players_house/triggers/trigger_5.gbsres b/gospel/project/scenes/players_house/triggers/trigger_5.gbsres
+index 5c6c444..ae83361 100644
+--- a/gospel/project/scenes/players_house/triggers/trigger_5.gbsres
++++ b/gospel/project/scenes/players_house/triggers/trigger_5.gbsres
+@@ -15,7 +15,7 @@
+       "id": "e8f54e0e-320c-48b4-9436-be7d7c5257ec",
+       "command": "EVENT_TEXT",
+       "args": {
+-        "text": "Such a nice day to\ngo into town!",
++        "text": "Que dia lindo\npara ir à vila!",
+         "avatarId": ""
+       }
+     }
+diff --git a/gospel/project/scenes/players_house/triggers/trigger_6.gbsres b/gospel/project/scenes/players_house/triggers/trigger_6.gbsres
+index 87b13e8..fa5bbe4 100644
+--- a/gospel/project/scenes/players_house/triggers/trigger_6.gbsres
++++ b/gospel/project/scenes/players_house/triggers/trigger_6.gbsres
+@@ -16,7 +16,7 @@
+       "command": "EVENT_TEXT",
+       "args": {
+         "text": [
+-          "Clothes..."
++          "Túnicas..."
+         ],
+         "avatarId": ""
+       },
+diff --git a/gospel/project/scenes/players_house/triggers/trigger_7.gbsres b/gospel/project/scenes/players_house/triggers/trigger_7.gbsres
+index c5615ff..62db4c6 100644
+--- a/gospel/project/scenes/players_house/triggers/trigger_7.gbsres
++++ b/gospel/project/scenes/players_house/triggers/trigger_7.gbsres
+@@ -16,7 +16,7 @@
+       "command": "EVENT_TEXT",
+       "args": {
+         "text": [
+-          "My collection\nof games..."
++          "Meus rolos de\nescrituras..."
+         ],
+         "avatarId": ""
+       }
+diff --git a/gospel/project/scenes/players_house/triggers/trigger_8.gbsres b/gospel/project/scenes/players_house/triggers/trigger_8.gbsres
+index 92c2cc5..098719e 100644
+--- a/gospel/project/scenes/players_house/triggers/trigger_8.gbsres
++++ b/gospel/project/scenes/players_house/triggers/trigger_8.gbsres
+@@ -16,7 +16,7 @@
+       "command": "EVENT_TEXT",
+       "args": {
+         "text": [
+-          "More clothes..."
++          "Mais túnicas..."
+         ],
+         "avatarId": ""
+       },
+diff --git a/gospel/project/scenes/players_house/triggers/trigger_9.gbsres b/gospel/project/scenes/players_house/triggers/trigger_9.gbsres
+index 8ac73d8..896d750 100644
+--- a/gospel/project/scenes/players_house/triggers/trigger_9.gbsres
++++ b/gospel/project/scenes/players_house/triggers/trigger_9.gbsres
+@@ -16,7 +16,7 @@
+       "command": "EVENT_TEXT",
+       "args": {
+         "text": [
+-          "Even more\nclothes..."
++          "Ainda mais\ntúnicas..."
+         ],
+         "avatarId": ""
+       },
+diff --git a/gospel/project/scenes/town/sample_town/actors/angry_guy.gbsres b/gospel/project/scenes/town/sample_town/actors/angry_guy.gbsres
+index 18564d6..03fc4d5 100644
+--- a/gospel/project/scenes/town/sample_town/actors/angry_guy.gbsres
++++ b/gospel/project/scenes/town/sample_town/actors/angry_guy.gbsres
+@@ -37,7 +37,7 @@
+             "id": "a991435c-89ad-4303-b6f0-a18054cc0ea7",
+             "command": "EVENT_TEXT",
+             "args": {
+-              "text": "I guess it was a\nmisunderstanding."
++              "text": "Achei que você\nfosse ladrão.\nDesculpe!"
+             }
+           },
+           {
+@@ -56,7 +56,7 @@
+             "id": "1063f8a8-90b7-4126-b6e4-1daf7c359c87",
+             "command": "EVENT_TEXT",
+             "args": {
+-              "text": "What is that guy\nlooking at?"
++              "text": "Aquele homem\nestá olhando o quê?"
+             }
+           },
+           {
+diff --git a/gospel/project/scenes/town/sample_town/actors/cat.gbsres b/gospel/project/scenes/town/sample_town/actors/cat.gbsres
+index 4dfaa01..dfa8234 100644
+--- a/gospel/project/scenes/town/sample_town/actors/cat.gbsres
++++ b/gospel/project/scenes/town/sample_town/actors/cat.gbsres
+@@ -25,7 +25,7 @@
+       "id": "9769786a-b499-4657-917e-05c7e96cf2f4",
+       "command": "EVENT_TEXT",
+       "args": {
+-        "text": "Meow!"
++        "text": "Mééé!"
+       }
+     },
+     {
+diff --git a/gospel/project/scenes/town/sample_town/actors/hider.gbsres b/gospel/project/scenes/town/sample_town/actors/hider.gbsres
+index 5498ecf..5243d70 100644
+--- a/gospel/project/scenes/town/sample_town/actors/hider.gbsres
++++ b/gospel/project/scenes/town/sample_town/actors/hider.gbsres
+@@ -34,7 +34,7 @@
+       "command": "EVENT_TEXT",
+       "args": {
+         "text": [
+-          "Oh you got me!"
++          "Você me achou!\nSó queria ver\nde longe."
+         ]
+       }
+     },
+diff --git a/gospel/project/scenes/town/sample_town/actors/oblivious_guy.gbsres b/gospel/project/scenes/town/sample_town/actors/oblivious_guy.gbsres
+index 2330bd4..d337bc7 100644
+--- a/gospel/project/scenes/town/sample_town/actors/oblivious_guy.gbsres
++++ b/gospel/project/scenes/town/sample_town/actors/oblivious_guy.gbsres
+@@ -25,7 +25,7 @@
+       "id": "b1c3d75d-d579-47af-8f3e-4cd96178fbb0",
+       "command": "EVENT_TEXT",
+       "args": {
+-        "text": "Check out this\nsweet duck!"
++        "text": "Olha aquela ave!\nDeus cuida delas."
+       }
+     },
+     {
+diff --git a/gospel/project/scenes/town/sample_town/actors/pet_owner.gbsres b/gospel/project/scenes/town/sample_town/actors/pet_owner.gbsres
+index 3e5fb9b..77f88ce 100644
+--- a/gospel/project/scenes/town/sample_town/actors/pet_owner.gbsres
++++ b/gospel/project/scenes/town/sample_town/actors/pet_owner.gbsres
+@@ -25,7 +25,7 @@
+       "id": "137799a4-c0db-46dd-91c9-36c0e5386e3d",
+       "command": "EVENT_TEXT",
+       "args": {
+-        "text": "Have you seen my\ncat anywhere?"
++        "text": "Perdi uma das\nminhas cem\novelhas!"
+       }
+     },
+     {
+@@ -46,7 +46,7 @@
+             "command": "EVENT_TEXT",
+             "args": {
+               "text": [
+-                "He's by the\nNorthern house?\nThank you!"
++                "Ela está perto da\ncasa do norte?\nObrigado!"
+               ]
+             }
+           },
+diff --git a/gospel/project/scenes/town/sample_town/actors/sign_post.gbsres b/gospel/project/scenes/town/sample_town/actors/sign_post.gbsres
+index 6c81b73..f801968 100644
+--- a/gospel/project/scenes/town/sample_town/actors/sign_post.gbsres
++++ b/gospel/project/scenes/town/sample_town/actors/sign_post.gbsres
+@@ -26,7 +26,7 @@
+       "command": "EVENT_TEXT",
+       "args": {
+         "text": [
+-          "Sample Town Lake.\nDON'T FEED\nTHE DUCKS!"
++          "Vila de Belém.\nPortais: Arca,\nVale e Cova."
+         ]
+       }
+     }
+diff --git a/gospel/project/scenes/town/sample_town/triggers/trigger_14.gbsres b/gospel/project/scenes/town/sample_town/triggers/trigger_14.gbsres
+index 54e7bbf..62ab354 100644
+--- a/gospel/project/scenes/town/sample_town/triggers/trigger_14.gbsres
++++ b/gospel/project/scenes/town/sample_town/triggers/trigger_14.gbsres
+@@ -68,7 +68,7 @@
+             "command": "EVENT_TEXT",
+             "args": {
+               "text": [
+-                "HEY!!!\nKEEP OFF MY\nFLOWERS!"
++                "EI!!!\nSAIA DA\nMINHA HORTA!"
+               ],
+               "avatarId": ""
+             }
+diff --git a/gospel/project/scenes/town/sample_town/triggers/trigger_8.gbsres b/gospel/project/scenes/town/sample_town/triggers/trigger_8.gbsres
+index 209a80b..fa774c6 100644
+--- a/gospel/project/scenes/town/sample_town/triggers/trigger_8.gbsres
++++ b/gospel/project/scenes/town/sample_town/triggers/trigger_8.gbsres
+@@ -15,7 +15,7 @@
+       "id": "c3d7fe25-7111-461e-88c1-ede54ab30c2c",
+       "command": "EVENT_TEXT",
+       "args": {
+-        "text": "Locked...",
++        "text": "Selado. Reúna 4\nfragmentos.",
+         "avatarId": ""
+       }
+     },
+diff --git a/gospel/project/scenes/ui/title_screen/scene.gbsres b/gospel/project/scenes/ui/title_screen/scene.gbsres
+index 8a6bbbb..88ff34d 100644
+--- a/gospel/project/scenes/ui/title_screen/scene.gbsres
++++ b/gospel/project/scenes/ui/title_screen/scene.gbsres
+@@ -81,7 +81,7 @@
+                   "id": "a5dddc76-e5fe-424a-9b2b-1ad1834acefb",
+                   "command": "EVENT_SWITCH_SCENE",
+                   "args": {
+-                    "sceneId": "896aee79-9b53-4ac1-b41f-b1ddf96da7ff",
++                    "sceneId": "c22cad6f-1191-4623-911d-1ec9a7b52fe6",
+                     "x": {
+                       "type": "number",
+                       "value": 4
+@@ -117,7 +117,7 @@
+                         "id": "06b8f464-996e-4c51-8918-50d62bb0c02d",
+                         "command": "EVENT_TEXT",
+                         "args": {
+-                          "text": "No Save Data\nFound..."
++                          "text": "Nenhum jogo\nsalvo..."
+                         }
+                       }
+                     ]
+diff --git a/gospel/project/variables.gbsres b/gospel/project/variables.gbsres
+index d8ab5a6..1bef191 100644
+--- a/gospel/project/variables.gbsres
++++ b/gospel/project/variables.gbsres
+@@ -3,72 +3,72 @@
+   "variables": [
+     {
+       "id": "0",
+-      "name": "Quest1",
++      "name": "Frag Ovelha",
+       "symbol": "var_quest1"
+     },
+     {
+       "id": "1",
+-      "name": "Quest2",
++      "name": "Frag Arca",
+       "symbol": "var_quest2"
+     },
+     {
+       "id": "2",
+-      "name": "Quest3",
++      "name": "Frag Golias",
+       "symbol": "var_quest3"
+     },
+     {
+       "id": "3",
+-      "name": "Quest4",
++      "name": "Frag Daniel",
+       "symbol": "var_quest4"
+     },
+     {
+       "id": "4",
+-      "name": "Quest5",
++      "name": "Reservada (tribo 5)",
+       "symbol": "var_quest5"
+     },
+     {
+       "id": "5",
+-      "name": "Quest6",
++      "name": "Reservada (tribo 6)",
+       "symbol": "var_quest6"
+     },
+     {
+       "id": "6",
+-      "name": "Quest7",
++      "name": "Reservada (tribo 7)",
+       "symbol": "var_quest7"
+     },
+     {
+       "id": "7",
+-      "name": "Quest8",
++      "name": "Reservada (tribo 8)",
+       "symbol": "var_quest8"
+     },
+     {
+       "id": "8",
+-      "name": "Quest9",
++      "name": "Reservada (tribo 9)",
+       "symbol": "var_quest9"
+     },
+     {
+       "id": "9",
+-      "name": "Quest10",
++      "name": "Reservada (tribo 10)",
+       "symbol": "var_quest10"
+     },
+     {
+       "id": "10",
+-      "name": "Quest11",
++      "name": "Reservada (tribo 11)",
+       "symbol": "var_quest11"
+     },
+     {
+       "id": "11",
+-      "name": "Quest12",
++      "name": "Reservada (tribo 12)",
+       "symbol": "var_quest12"
+     },
+     {
+       "id": "12",
+-      "name": "Turnip Counter",
++      "name": "Contador Obstaculos",
+       "symbol": "var_turnip_counter"
+     },
+     {
+       "id": "13",
+-      "name": "Seen Cat",
++      "name": "Achou Ovelha",
+       "symbol": "var_seen_cat"
+     },
+     {
+@@ -78,7 +78,7 @@
+     },
+     {
+       "id": "15",
+-      "name": "Seen Duck",
++      "name": "Falou Observador",
+       "symbol": "var_seen_duck"
+     },
+     {

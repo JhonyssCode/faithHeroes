@@ -3,72 +3,72 @@
   "variables": [
     {
       "id": "0",
-      "name": "Quest1",
+      "name": "Frag Ovelha",
       "symbol": "var_quest1"
     },
     {
       "id": "1",
-      "name": "Quest2",
+      "name": "Frag Arca",
       "symbol": "var_quest2"
     },
     {
       "id": "2",
-      "name": "Quest3",
+      "name": "Frag Golias",
       "symbol": "var_quest3"
     },
     {
       "id": "3",
-      "name": "Quest4",
+      "name": "Frag Daniel",
       "symbol": "var_quest4"
     },
     {
       "id": "4",
-      "name": "Quest5",
+      "name": "Reservada (tribo 5)",
       "symbol": "var_quest5"
     },
     {
       "id": "5",
-      "name": "Quest6",
+      "name": "Reservada (tribo 6)",
       "symbol": "var_quest6"
     },
     {
       "id": "6",
-      "name": "Quest7",
+      "name": "Reservada (tribo 7)",
       "symbol": "var_quest7"
     },
     {
       "id": "7",
-      "name": "Quest8",
+      "name": "Reservada (tribo 8)",
       "symbol": "var_quest8"
     },
     {
       "id": "8",
-      "name": "Quest9",
+      "name": "Reservada (tribo 9)",
       "symbol": "var_quest9"
     },
     {
       "id": "9",
-      "name": "Quest10",
+      "name": "Reservada (tribo 10)",
       "symbol": "var_quest10"
     },
     {
       "id": "10",
-      "name": "Quest11",
+      "name": "Reservada (tribo 11)",
       "symbol": "var_quest11"
     },
     {
       "id": "11",
-      "name": "Quest12",
+      "name": "Reservada (tribo 12)",
       "symbol": "var_quest12"
     },
     {
       "id": "12",
-      "name": "Turnip Counter",
+      "name": "Contador Obstaculos",
       "symbol": "var_turnip_counter"
     },
     {
       "id": "13",
-      "name": "Seen Cat",
+      "name": "Achou Ovelha",
       "symbol": "var_seen_cat"
     },
     {
@@ -78,7 +78,7 @@
     },
     {
       "id": "15",
-      "name": "Seen Duck",
+      "name": "Falou Observador",
       "symbol": "var_seen_duck"
     },
     {

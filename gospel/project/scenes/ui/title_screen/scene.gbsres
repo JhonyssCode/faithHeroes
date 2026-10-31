@@ -81,7 +81,7 @@
                   "id": "a5dddc76-e5fe-424a-9b2b-1ad1834acefb",
                   "command": "EVENT_SWITCH_SCENE",
                   "args": {
-                    "sceneId": "896aee79-9b53-4ac1-b41f-b1ddf96da7ff",
+                    "sceneId": "c22cad6f-1191-4623-911d-1ec9a7b52fe6",
                     "x": {
                       "type": "number",
                       "value": 4
@@ -117,7 +117,7 @@
                         "id": "06b8f464-996e-4c51-8918-50d62bb0c02d",
                         "command": "EVENT_TEXT",
                         "args": {
-                          "text": "No Save Data\nFound..."
+                          "text": "Nenhum jogo\nsalvo..."
                         }
                       }
                     ]
