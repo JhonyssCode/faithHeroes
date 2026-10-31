@@ -1,0 +1,541 @@
+[
+  {
+    "arquivo": "gospel/assets/avatars/danger.png",
+    "largura": 16,
+    "altura": 16,
+    "id": "6845dca5-d9d8-472a-93a7-81889d878516",
+    "categoria": "avatars"
+  },
+  {
+    "arquivo": "gospel/assets/backgrounds/black.png",
+    "largura": 160,
+    "altura": 144,
+    "id": "1da35172-aea4-40b4-8215-7992d9245b34",
+    "categoria": "backgrounds"
+  },
+  {
+    "arquivo": "gospel/assets/backgrounds/cave.png",
+    "largura": 160,
+    "altura": 144,
+    "id": "6fad1892-bcb2-4924-bd1c-1e4d03dfeabb",
+    "categoria": "backgrounds"
+  },
+  {
+    "arquivo": "gospel/assets/backgrounds/hidden_cave.png",
+    "largura": 256,
+    "altura": 144,
+    "id": "4135b165-6706-4d52-b77b-6314650b175e",
+    "categoria": "backgrounds"
+  },
+  {
+    "arquivo": "gospel/assets/backgrounds/house-wide.png",
+    "largura": 256,
+    "altura": 144,
+    "id": "5b192b93-3957-4b76-8c92-423eabbcd285",
+    "categoria": "backgrounds"
+  },
+  {
+    "arquivo": "gospel/assets/backgrounds/house.png",
+    "largura": 160,
+    "altura": 144,
+    "id": "b340b9a2-2865-4e05-91c0-148846a693c8",
+    "categoria": "backgrounds"
+  },
+  {
+    "arquivo": "gospel/assets/backgrounds/launch_site.png",
+    "largura": 160,
+    "altura": 144,
+    "id": "00e9b250-b602-4e5d-998c-fe0c8f23c91d",
+    "categoria": "backgrounds"
+  },
+  {
+    "arquivo": "gospel/assets/backgrounds/leaving_earth.png",
+    "largura": 2040,
+    "altura": 144,
+    "id": "28a8b376-b6c5-4e6d-8d7d-2a409d73cd1b",
+    "categoria": "backgrounds"
+  },
+  {
+    "arquivo": "gospel/assets/backgrounds/logo.png",
+    "largura": 160,
+    "altura": 144,
+    "id": "f8b1c7ad-7bb2-44b2-8189-175ae8698f11",
+    "categoria": "backgrounds"
+  },
+  {
+    "arquivo": "gospel/assets/backgrounds/menu.png",
+    "largura": 160,
+    "altura": 144,
+    "id": "b49ea566-b022-478c-979d-ec3ee255fdc5",
+    "categoria": "backgrounds"
+  },
+  {
+    "arquivo": "gospel/assets/backgrounds/menu_page1.png",
+    "largura": 160,
+    "altura": 144,
+    "id": "93d8839f-c19c-4eb2-a386-b0bb77068521",
+    "categoria": "backgrounds"
+  },
+  {
+    "arquivo": "gospel/assets/backgrounds/menu_page2.png",
+    "largura": 160,
+    "altura": 144,
+    "id": "816231e1-2147-462c-99c6-3f73e8535d25",
+    "categoria": "backgrounds"
+  },
+  {
+    "arquivo": "gospel/assets/backgrounds/outside.png",
+    "largura": 256,
+    "altura": 256,
+    "id": "07016701-d5df-4983-8a5a-3930c7f45822",
+    "categoria": "backgrounds"
+  },
+  {
+    "arquivo": "gospel/assets/backgrounds/parallax.png",
+    "largura": 640,
+    "altura": 144,
+    "id": "b48f4eda-5654-4760-b8a9-4fd3f7e7ed5e",
+    "categoria": "backgrounds"
+  },
+  {
+    "arquivo": "gospel/assets/backgrounds/platform_path.png",
+    "largura": 1288,
+    "altura": 144,
+    "id": "b50cefc6-72dc-44c0-947d-f5d4d533a97a",
+    "categoria": "backgrounds"
+  },
+  {
+    "arquivo": "gospel/assets/backgrounds/room.png",
+    "largura": 160,
+    "altura": 144,
+    "id": "0af9ba31-7864-4664-9603-b211dc0f3793",
+    "categoria": "backgrounds"
+  },
+  {
+    "arquivo": "gospel/assets/backgrounds/sample_town.png",
+    "largura": 448,
+    "altura": 448,
+    "id": "053f83aa-a4e3-413b-98af-1bb0d0818ddc",
+    "categoria": "backgrounds"
+  },
+  {
+    "arquivo": "gospel/assets/backgrounds/stars.png",
+    "largura": 256,
+    "altura": 256,
+    "id": "40fda058-df90-4205-a239-fe77bce4fa79",
+    "categoria": "backgrounds"
+  },
+  {
+    "arquivo": "gospel/assets/backgrounds/stars_wide.png",
+    "largura": 2040,
+    "altura": 144,
+    "id": "33ae580b-d809-4804-a558-71c08a3ac495",
+    "categoria": "backgrounds"
+  },
+  {
+    "arquivo": "gospel/assets/backgrounds/titlescreen.png",
+    "largura": 160,
+    "altura": 144,
+    "id": "f047ff0e-58ad-49fc-bd2b-ec84fc1f7ab3",
+    "categoria": "backgrounds"
+  },
+  {
+    "arquivo": "gospel/assets/backgrounds/underground.png",
+    "largura": 256,
+    "altura": 256,
+    "id": "f3102db4-2273-411d-b33f-4d6f65959c60",
+    "categoria": "backgrounds"
+  },
+  {
+    "arquivo": "gospel/assets/emotes/anger.png",
+    "largura": 16,
+    "altura": 16,
+    "id": "62ecc274-3e8e-4f49-9da0-32ccab871f1f",
+    "categoria": "emotes"
+  },
+  {
+    "arquivo": "gospel/assets/emotes/love.png",
+    "largura": 16,
+    "altura": 16,
+    "id": "4bc2c3bd-f20f-4497-af7c-38d1653b6e72",
+    "categoria": "emotes"
+  },
+  {
+    "arquivo": "gospel/assets/emotes/music.png",
+    "largura": 16,
+    "altura": 16,
+    "id": "e9e38933-9942-44ca-943c-a85fa46d8139",
+    "categoria": "emotes"
+  },
+  {
+    "arquivo": "gospel/assets/emotes/pause.png",
+    "largura": 16,
+    "altura": 16,
+    "id": "a410a4c7-a37d-48ea-917b-f531ba557841",
+    "categoria": "emotes"
+  },
+  {
+    "arquivo": "gospel/assets/emotes/question.png",
+    "largura": 16,
+    "altura": 16,
+    "id": "4c77e4b9-c407-4053-a26a-422adbad179e",
+    "categoria": "emotes"
+  },
+  {
+    "arquivo": "gospel/assets/emotes/shock.png",
+    "largura": 16,
+    "altura": 16,
+    "id": "c8d5eadd-dced-43df-8367-1e4d9bfc7923",
+    "categoria": "emotes"
+  },
+  {
+    "arquivo": "gospel/assets/emotes/sleep.png",
+    "largura": 16,
+    "altura": 16,
+    "id": "e20504d8-3d88-4b71-b6d3-0e291bab970b",
+    "categoria": "emotes"
+  },
+  {
+    "arquivo": "gospel/assets/emotes/sweat.png",
+    "largura": 16,
+    "altura": 16,
+    "id": "362efd0f-67c7-491a-8b49-482b17b23e32",
+    "categoria": "emotes"
+  },
+  {
+    "arquivo": "gospel/assets/fonts/gbs-mono.png",
+    "largura": 128,
+    "altura": 112,
+    "id": "0c7c1705-dab6-476e-a5ce-17de23b3d591",
+    "categoria": "fonts"
+  },
+  {
+    "arquivo": "gospel/assets/fonts/gbs-var.png",
+    "largura": 128,
+    "altura": 112,
+    "id": "948c169c-8e4b-491c-a5f0-66898bbf45d9",
+    "categoria": "fonts"
+  },
+  {
+    "arquivo": "gospel/assets/sprites/bullet.png",
+    "largura": 16,
+    "altura": 16,
+    "id": "ec0f660e-c420-43ee-9d1e-6d8e9f320213",
+    "categoria": "sprites"
+  },
+  {
+    "arquivo": "gospel/assets/sprites/bullet_left.png",
+    "largura": 32,
+    "altura": 16,
+    "id": "32c48a4d-6ce6-4aca-a23a-a6300b5c9e3b",
+    "categoria": "sprites"
+  },
+  {
+    "arquivo": "gospel/assets/sprites/bullet_right.png",
+    "largura": 32,
+    "altura": 16,
+    "id": "450a3571-cc76-41be-8c95-818d60b83c59",
+    "categoria": "sprites"
+  },
+  {
+    "arquivo": "gospel/assets/sprites/cat.png",
+    "largura": 16,
+    "altura": 16,
+    "id": "1e27bb8e-c805-435a-8b87-05b4f50da4f0",
+    "categoria": "sprites"
+  },
+  {
+    "arquivo": "gospel/assets/sprites/checkbox.png",
+    "largura": 32,
+    "altura": 16,
+    "id": "f0c3033d-e82a-407d-9fe2-3d5da4f59c09",
+    "categoria": "sprites"
+  },
+  {
+    "arquivo": "gospel/assets/sprites/chest.png",
+    "largura": 32,
+    "altura": 16,
+    "id": "d4206af4-4d12-4cfd-a4a8-faa11d4aff34",
+    "categoria": "sprites"
+  },
+  {
+    "arquivo": "gospel/assets/sprites/cursor.png",
+    "largura": 32,
+    "altura": 16,
+    "id": "a827b612-578f-4cb9-a2bf-fd54b197b83f",
+    "categoria": "sprites"
+  },
+  {
+    "arquivo": "gospel/assets/sprites/dog.png",
+    "largura": 16,
+    "altura": 16,
+    "id": "17219846-cda9-4e84-bdfa-c3ff105d42cc",
+    "categoria": "sprites"
+  },
+  {
+    "arquivo": "gospel/assets/sprites/drumkit.png",
+    "largura": 32,
+    "altura": 16,
+    "id": "b98fb589-03b9-4c8b-949b-2d017c941752",
+    "categoria": "sprites"
+  },
+  {
+    "arquivo": "gospel/assets/sprites/duck.png",
+    "largura": 32,
+    "altura": 16,
+    "id": "ede130e6-013a-42d1-a786-1aed3fd3cf32",
+    "categoria": "sprites"
+  },
+  {
+    "arquivo": "gospel/assets/sprites/elephant.png",
+    "largura": 504,
+    "altura": 48,
+    "id": "55561033-cbbb-4d7b-9961-4db33c1d596c",
+    "categoria": "sprites"
+  },
+  {
+    "arquivo": "gospel/assets/sprites/enemy_ship.png",
+    "largura": 64,
+    "altura": 32,
+    "id": "954ffda3-81b7-40ea-a338-3b11ad4b75fb",
+    "categoria": "sprites"
+  },
+  {
+    "arquivo": "gospel/assets/sprites/explode.png",
+    "largura": 64,
+    "altura": 16,
+    "id": "493bdd1e-7e97-4911-b89a-c0677dfdcaaa",
+    "categoria": "sprites"
+  },
+  {
+    "arquivo": "gospel/assets/sprites/fire.png",
+    "largura": 64,
+    "altura": 16,
+    "id": "f2610e3c-8ff9-42fa-a9bb-d1591031fa17",
+    "categoria": "sprites"
+  },
+  {
+    "arquivo": "gospel/assets/sprites/hearts.png",
+    "largura": 16,
+    "altura": 16,
+    "id": "51f59acc-a997-436c-81e9-fb1a6a2501da",
+    "categoria": "sprites"
+  },
+  {
+    "arquivo": "gospel/assets/sprites/hidden_stairs.png",
+    "largura": 16,
+    "altura": 16,
+    "id": "81b14fe6-2235-480e-bc3b-a5899aa66afe",
+    "categoria": "sprites"
+  },
+  {
+    "arquivo": "gospel/assets/sprites/ice.png",
+    "largura": 16,
+    "altura": 16,
+    "id": "09ad70c6-3ce5-4b97-9e96-466221418a45",
+    "categoria": "sprites"
+  },
+  {
+    "arquivo": "gospel/assets/sprites/keyboard.png",
+    "largura": 32,
+    "altura": 16,
+    "id": "a933db32-62f4-40a9-bf7c-bf44df85b1a4",
+    "categoria": "sprites"
+  },
+  {
+    "arquivo": "gospel/assets/sprites/machine.png",
+    "largura": 32,
+    "altura": 16,
+    "id": "8cb9c002-1abc-458c-9588-9b55af8efb08",
+    "categoria": "sprites"
+  },
+  {
+    "arquivo": "gospel/assets/sprites/npc001.png",
+    "largura": 48,
+    "altura": 16,
+    "id": "dfa75239-299d-41fe-a6cd-9e9438da1938",
+    "categoria": "sprites"
+  },
+  {
+    "arquivo": "gospel/assets/sprites/npc002.png",
+    "largura": 48,
+    "altura": 16,
+    "id": "40dcd163-9f72-4861-8131-b01eb9baa000",
+    "categoria": "sprites"
+  },
+  {
+    "arquivo": "gospel/assets/sprites/npc003.png",
+    "largura": 96,
+    "altura": 16,
+    "id": "52ad34df-f245-4b2a-b94c-a82af1002871",
+    "categoria": "sprites"
+  },
+  {
+    "arquivo": "gospel/assets/sprites/npc004.png",
+    "largura": 96,
+    "altura": 16,
+    "id": "46a3db76-878e-4896-892b-d1afa7d5e2f0",
+    "categoria": "sprites"
+  },
+  {
+    "arquivo": "gospel/assets/sprites/npc005.png",
+    "largura": 96,
+    "altura": 16,
+    "id": "7a27b229-5f3d-4eaa-b20c-07997673324d",
+    "categoria": "sprites"
+  },
+  {
+    "arquivo": "gospel/assets/sprites/npc006.png",
+    "largura": 96,
+    "altura": 16,
+    "id": "c475c713-9fd8-455a-b9bc-8c62b2b8fd5e",
+    "categoria": "sprites"
+  },
+  {
+    "arquivo": "gospel/assets/sprites/npc007.png",
+    "largura": 48,
+    "altura": 16,
+    "id": "2b18f935-85a3-4f38-9f52-e5c4ea20776a",
+    "categoria": "sprites"
+  },
+  {
+    "arquivo": "gospel/assets/sprites/npc008.png",
+    "largura": 96,
+    "altura": 16,
+    "id": "a9ee1856-b62b-49d8-8eb3-cdf681fa2e76",
+    "categoria": "sprites"
+  },
+  {
+    "arquivo": "gospel/assets/sprites/npc_gardener.png",
+    "largura": 16,
+    "altura": 32,
+    "id": "b073d693-12e6-43bf-bb2b-d7e78641fed3",
+    "categoria": "sprites"
+  },
+  {
+    "arquivo": "gospel/assets/sprites/player.png",
+    "largura": 96,
+    "altura": 16,
+    "id": "ac1e8ef4-ffe6-47cd-b16f-9af5da77ec26",
+    "categoria": "sprites"
+  },
+  {
+    "arquivo": "gospel/assets/sprites/player_platform.png",
+    "largura": 88,
+    "altura": 160,
+    "id": "c0310735-3e7c-4ff1-bcff-b07d818d433b",
+    "categoria": "sprites"
+  },
+  {
+    "arquivo": "gospel/assets/sprites/player_ship.png",
+    "largura": 96,
+    "altura": 16,
+    "id": "2f2d492c-dba2-434c-93c9-d1301e88d5e9",
+    "categoria": "sprites"
+  },
+  {
+    "arquivo": "gospel/assets/sprites/pod_door.png",
+    "largura": 48,
+    "altura": 16,
+    "id": "058c0142-0c1e-4762-b5ac-e085d84fc734",
+    "categoria": "sprites"
+  },
+  {
+    "arquivo": "gospel/assets/sprites/portal.png",
+    "largura": 48,
+    "altura": 16,
+    "id": "94eb6557-0cfc-453e-8e1f-ddb191ac8536",
+    "categoria": "sprites"
+  },
+  {
+    "arquivo": "gospel/assets/sprites/radio.png",
+    "largura": 16,
+    "altura": 16,
+    "id": "a0442b6a-634f-44da-9962-77938e3ed839",
+    "categoria": "sprites"
+  },
+  {
+    "arquivo": "gospel/assets/sprites/rock.png",
+    "largura": 16,
+    "altura": 16,
+    "id": "3939e8d2-3987-4a22-953e-f1d82134eccf",
+    "categoria": "sprites"
+  },
+  {
+    "arquivo": "gospel/assets/sprites/sage.png",
+    "largura": 16,
+    "altura": 16,
+    "id": "e20ce140-53a5-4b1b-9964-138ba0c86925",
+    "categoria": "sprites"
+  },
+  {
+    "arquivo": "gospel/assets/sprites/savepoint.png",
+    "largura": 32,
+    "altura": 16,
+    "id": "000a6dde-cb60-436e-b357-30a529daa139",
+    "categoria": "sprites"
+  },
+  {
+    "arquivo": "gospel/assets/sprites/signpost.png",
+    "largura": 16,
+    "altura": 16,
+    "id": "30b8266a-0533-4f90-bd33-e97dc1d498ea",
+    "categoria": "sprites"
+  },
+  {
+    "arquivo": "gospel/assets/sprites/space_mine.png",
+    "largura": 64,
+    "altura": 32,
+    "id": "b4845aec-11e3-475b-8a9a-0a01b920c710",
+    "categoria": "sprites"
+  },
+  {
+    "arquivo": "gospel/assets/sprites/torch.png",
+    "largura": 16,
+    "altura": 16,
+    "id": "e9e61bf7-88fd-491d-ae01-4b7f76909108",
+    "categoria": "sprites"
+  },
+  {
+    "arquivo": "gospel/assets/sprites/turnip.png",
+    "largura": 48,
+    "altura": 16,
+    "id": "f88eea80-c5b4-4e10-b49f-7a8aa8bd477e",
+    "categoria": "sprites"
+  },
+  {
+    "arquivo": "gospel/assets/sprites/ui_weapon.png",
+    "largura": 16,
+    "altura": 16,
+    "id": "735c26e5-eee4-43ad-a668-a2ab93f84bd8",
+    "categoria": "sprites"
+  },
+  {
+    "arquivo": "gospel/assets/tilesets/flowers.png",
+    "largura": 32,
+    "altura": 8,
+    "id": "d7042527-d20e-486d-93e6-66b9397df510",
+    "categoria": "tilesets"
+  },
+  {
+    "arquivo": "gospel/assets/tilesets/waterfall.png",
+    "largura": 32,
+    "altura": 16,
+    "id": "4991cc19-85b6-45f9-bef6-39496dc2c62a",
+    "categoria": "tilesets"
+  },
+  {
+    "arquivo": "gospel/assets/ui/cursor.png",
+    "largura": 8,
+    "altura": 8,
+    "id": null,
+    "categoria": "ui"
+  },
+  {
+    "arquivo": "gospel/assets/ui/frame.png",
+    "largura": 24,
+    "altura": 24,
+    "id": null,
+    "categoria": "ui"
+  }
+]

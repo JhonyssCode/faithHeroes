@@ -29,11 +29,13 @@ python tools/verificar_demo.py
 
 A verificação de progressão é uma simulação restrita dos eventos, não uma execução da engine. **A ROM não foi compilada e a jogabilidade não foi testada no emulador.** Confira posições de entrada, colisões, tempo disponível para os cinco impactos, música e save no editor antes de distribuir como jogo pronto.
 
-## Arte e áudio provisórios
+## Arte integrada e áudio
 
-Conforme o guia, nenhum PNG, sprite, arquivo de música ou paleta foi alterado. Assim, gato representa ovelha; jardineiro representa Noé; naves e projéteis representam Golias, obstáculos e pedras; pedras da caverna representam leões; aparelhos representam shofar, harpa e altares. A casa usa os objetos visuais do modelo.
+Esta versão inclui 62 PNGs de jogo com arte bíblica integrada: 19 fundos, 42 folhas de sprites substituídas e uma folha exclusiva de Golias. As fontes, emotes e elementos técnicos de leitura foram preservados. Veja `artes/LEIA-ME.md`, `artes/previa-cenarios.png` e `artes/previa-sprites.png`.
 
-Logo, título e diário conservam os fundos originais, que podem conter palavras desenhadas em inglês. Os diálogos e opções de menu em texto foram traduzidos; a identidade visual final exige substituição da arte pelo humano. O título HERÓIS DA FÉ consta no projeto e nas mensagens, mas não foi desenhado no fundo original.
+Os fundos do título e diário agora usam português. Personagens, objetos modernos e elementos espaciais receberam substituições temáticas, com as dimensões e recortes originais. A conferência visual no editor continua necessária; a validação dos arquivos não é um teste de jogabilidade.
+
+As músicas e sons continuam sendo as faixas do modelo. Nenhuma música foi composta.
 
 Os versículos em diálogo são adaptações/paráfrases, sem escolha de uma tradução bíblica específica. Samuel e o título são os padrões provisórios do guia. O Sonho de Jacó permanece como cena opcional fora do percurso obrigatório. Fases futuras com Jesus não foram implementadas.
 

@@ -1,0 +1,447 @@
+[
+  {
+    "file": "backgrounds/sample_town.png",
+    "width": 448,
+    "height": 448,
+    "tiles": 78,
+    "originalTiles": 80,
+    "mode": "reuso da grade de tiles original"
+  },
+  {
+    "file": "backgrounds/outside.png",
+    "width": 256,
+    "height": 256,
+    "tiles": 76,
+    "originalTiles": 76,
+    "mode": "reuso da grade de tiles original"
+  },
+  {
+    "file": "backgrounds/room.png",
+    "width": 160,
+    "height": 144,
+    "tiles": 142,
+    "originalTiles": 148,
+    "mode": "reuso da grade de tiles original"
+  },
+  {
+    "file": "backgrounds/house.png",
+    "width": 160,
+    "height": 144,
+    "tiles": 15,
+    "originalTiles": 15,
+    "mode": "reuso da grade de tiles original"
+  },
+  {
+    "file": "backgrounds/house-wide.png",
+    "width": 256,
+    "height": 144,
+    "tiles": 15,
+    "originalTiles": 15,
+    "mode": "reuso da grade de tiles original"
+  },
+  {
+    "file": "backgrounds/launch_site.png",
+    "width": 160,
+    "height": 144,
+    "tiles": 88,
+    "originalTiles": 90,
+    "mode": "reuso da grade de tiles original"
+  },
+  {
+    "file": "backgrounds/cave.png",
+    "width": 160,
+    "height": 144,
+    "tiles": 22,
+    "originalTiles": 24,
+    "mode": "reuso da grade de tiles original"
+  },
+  {
+    "file": "backgrounds/underground.png",
+    "width": 256,
+    "height": 256,
+    "tiles": 37,
+    "originalTiles": 37,
+    "mode": "reuso da grade de tiles original"
+  },
+  {
+    "file": "backgrounds/hidden_cave.png",
+    "width": 256,
+    "height": 144,
+    "tiles": 22,
+    "originalTiles": 22,
+    "mode": "reuso da grade de tiles original"
+  },
+  {
+    "file": "backgrounds/parallax.png",
+    "width": 640,
+    "height": 144,
+    "tiles": 192,
+    "mode": "limite de 192 tiles"
+  },
+  {
+    "file": "backgrounds/platform_path.png",
+    "width": 1288,
+    "height": 144,
+    "tiles": 62,
+    "originalTiles": 62,
+    "mode": "reuso da grade de tiles original"
+  },
+  {
+    "file": "backgrounds/stars.png",
+    "width": 256,
+    "height": 256,
+    "tiles": 106,
+    "mode": "limite de 192 tiles"
+  },
+  {
+    "file": "backgrounds/stars_wide.png",
+    "width": 2040,
+    "height": 144,
+    "tiles": 192,
+    "mode": "limite de 192 tiles"
+  },
+  {
+    "file": "backgrounds/leaving_earth.png",
+    "width": 2040,
+    "height": 144,
+    "tiles": 192,
+    "mode": "limite de 192 tiles"
+  },
+  {
+    "file": "backgrounds/menu_page1.png",
+    "width": 160,
+    "height": 144,
+    "tiles": 69,
+    "mode": "limite de 192 tiles"
+  },
+  {
+    "file": "backgrounds/menu_page2.png",
+    "width": 160,
+    "height": 144,
+    "tiles": 82,
+    "mode": "limite de 192 tiles"
+  },
+  {
+    "file": "backgrounds/logo.png",
+    "width": 160,
+    "height": 144,
+    "tiles": 140,
+    "mode": "limite de 192 tiles"
+  },
+  {
+    "file": "backgrounds/titlescreen.png",
+    "width": 160,
+    "height": 144,
+    "tiles": 192,
+    "mode": "limite de 192 tiles"
+  },
+  {
+    "file": "backgrounds/menu.png",
+    "width": 160,
+    "height": 144,
+    "tiles": 136,
+    "mode": "limite de 192 tiles"
+  },
+  {
+    "file": "sprites/player.png",
+    "width": 96,
+    "height": 16,
+    "inkColors": 3,
+    "transparentKey": "#65ff00"
+  },
+  {
+    "file": "sprites/player_platform.png",
+    "width": 88,
+    "height": 160,
+    "inkColors": 3,
+    "transparentKey": "#65ff00"
+  },
+  {
+    "file": "sprites/player_ship.png",
+    "width": 96,
+    "height": 16,
+    "inkColors": 3,
+    "transparentKey": "#65ff00"
+  },
+  {
+    "file": "sprites/npc_gardener.png",
+    "width": 16,
+    "height": 32,
+    "inkColors": 3,
+    "transparentKey": "#65ff00"
+  },
+  {
+    "file": "sprites/sage.png",
+    "width": 16,
+    "height": 16,
+    "inkColors": 3,
+    "transparentKey": "#65ff00"
+  },
+  {
+    "file": "sprites/cat.png",
+    "width": 16,
+    "height": 16,
+    "inkColors": 3,
+    "transparentKey": "#65ff00"
+  },
+  {
+    "file": "sprites/dog.png",
+    "width": 16,
+    "height": 16,
+    "inkColors": 3,
+    "transparentKey": "#65ff00"
+  },
+  {
+    "file": "sprites/rock.png",
+    "width": 16,
+    "height": 16,
+    "inkColors": 3,
+    "transparentKey": "#65ff00"
+  },
+  {
+    "file": "sprites/npc001.png",
+    "width": 48,
+    "height": 16,
+    "inkColors": 3,
+    "transparentKey": "#65ff00"
+  },
+  {
+    "file": "sprites/npc002.png",
+    "width": 48,
+    "height": 16,
+    "inkColors": 3,
+    "transparentKey": "#65ff00"
+  },
+  {
+    "file": "sprites/npc003.png",
+    "width": 96,
+    "height": 16,
+    "inkColors": 3,
+    "transparentKey": "#65ff00"
+  },
+  {
+    "file": "sprites/npc004.png",
+    "width": 96,
+    "height": 16,
+    "inkColors": 3,
+    "transparentKey": "#65ff00"
+  },
+  {
+    "file": "sprites/npc005.png",
+    "width": 96,
+    "height": 16,
+    "inkColors": 3,
+    "transparentKey": "#65ff00"
+  },
+  {
+    "file": "sprites/npc006.png",
+    "width": 96,
+    "height": 16,
+    "inkColors": 3,
+    "transparentKey": "#65ff00"
+  },
+  {
+    "file": "sprites/npc007.png",
+    "width": 48,
+    "height": 16,
+    "inkColors": 3,
+    "transparentKey": "#65ff00"
+  },
+  {
+    "file": "sprites/npc008.png",
+    "width": 96,
+    "height": 16,
+    "inkColors": 3,
+    "transparentKey": "#65ff00"
+  },
+  {
+    "file": "sprites/bullet.png",
+    "width": 16,
+    "height": 16,
+    "inkColors": 3,
+    "transparentKey": "#65ff00"
+  },
+  {
+    "file": "sprites/bullet_left.png",
+    "width": 32,
+    "height": 16,
+    "inkColors": 3,
+    "transparentKey": "#65ff00"
+  },
+  {
+    "file": "sprites/bullet_right.png",
+    "width": 32,
+    "height": 16,
+    "inkColors": 3,
+    "transparentKey": "#65ff00"
+  },
+  {
+    "file": "sprites/enemy_ship.png",
+    "width": 64,
+    "height": 32,
+    "inkColors": 3,
+    "transparentKey": "#65ff00"
+  },
+  {
+    "file": "sprites/space_mine.png",
+    "width": 64,
+    "height": 32,
+    "inkColors": 3,
+    "transparentKey": "#65ff00"
+  },
+  {
+    "file": "sprites/explode.png",
+    "width": 64,
+    "height": 16,
+    "inkColors": 3,
+    "transparentKey": "#65ff00"
+  },
+  {
+    "file": "sprites/turnip.png",
+    "width": 48,
+    "height": 16,
+    "inkColors": 3,
+    "transparentKey": "#65ff00"
+  },
+  {
+    "file": "sprites/elephant.png",
+    "width": 504,
+    "height": 48,
+    "inkColors": 3,
+    "transparentKey": "#65ff00"
+  },
+  {
+    "file": "sprites/keyboard.png",
+    "width": 32,
+    "height": 16,
+    "inkColors": 3,
+    "transparentKey": "#65ff00"
+  },
+  {
+    "file": "sprites/drumkit.png",
+    "width": 32,
+    "height": 16,
+    "inkColors": 3,
+    "transparentKey": "#65ff00"
+  },
+  {
+    "file": "sprites/machine.png",
+    "width": 32,
+    "height": 16,
+    "inkColors": 3,
+    "transparentKey": "#65ff00"
+  },
+  {
+    "file": "sprites/radio.png",
+    "width": 16,
+    "height": 16,
+    "inkColors": 3,
+    "transparentKey": "#65ff00"
+  },
+  {
+    "file": "sprites/pod_door.png",
+    "width": 48,
+    "height": 16,
+    "inkColors": 3,
+    "transparentKey": "#65ff00"
+  },
+  {
+    "file": "sprites/portal.png",
+    "width": 48,
+    "height": 16,
+    "inkColors": 3,
+    "transparentKey": "#65ff00"
+  },
+  {
+    "file": "sprites/savepoint.png",
+    "width": 32,
+    "height": 16,
+    "inkColors": 3,
+    "transparentKey": "#65ff00"
+  },
+  {
+    "file": "sprites/chest.png",
+    "width": 32,
+    "height": 16,
+    "inkColors": 3,
+    "transparentKey": "#65ff00"
+  },
+  {
+    "file": "sprites/checkbox.png",
+    "width": 32,
+    "height": 16,
+    "inkColors": 3,
+    "transparentKey": "#65ff00"
+  },
+  {
+    "file": "sprites/cursor.png",
+    "width": 32,
+    "height": 16,
+    "inkColors": 3,
+    "transparentKey": "#65ff00"
+  },
+  {
+    "file": "sprites/duck.png",
+    "width": 32,
+    "height": 16,
+    "inkColors": 3,
+    "transparentKey": "#65ff00"
+  },
+  {
+    "file": "sprites/fire.png",
+    "width": 64,
+    "height": 16,
+    "inkColors": 3,
+    "transparentKey": "#65ff00"
+  },
+  {
+    "file": "sprites/hearts.png",
+    "width": 16,
+    "height": 16,
+    "inkColors": 3,
+    "transparentKey": "#65ff00"
+  },
+  {
+    "file": "sprites/hidden_stairs.png",
+    "width": 16,
+    "height": 16,
+    "inkColors": 3,
+    "transparentKey": "#65ff00"
+  },
+  {
+    "file": "sprites/ice.png",
+    "width": 16,
+    "height": 16,
+    "inkColors": 3,
+    "transparentKey": "#65ff00"
+  },
+  {
+    "file": "sprites/signpost.png",
+    "width": 16,
+    "height": 16,
+    "inkColors": 3,
+    "transparentKey": "#65ff00"
+  },
+  {
+    "file": "sprites/torch.png",
+    "width": 16,
+    "height": 16,
+    "inkColors": 3,
+    "transparentKey": "#65ff00"
+  },
+  {
+    "file": "sprites/ui_weapon.png",
+    "width": 16,
+    "height": 16,
+    "inkColors": 3,
+    "transparentKey": "#65ff00"
+  },
+  {
+    "file": "sprites/golias.png",
+    "width": 64,
+    "height": 32,
+    "inkColors": 3,
+    "transparentKey": "#65ff00",
+    "exclusiveBoss": true
+  }
+]

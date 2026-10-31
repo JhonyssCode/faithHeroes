@@ -15,7 +15,7 @@ Três variáveis auxiliares novas: Cova Resolvida, Rolo Encontrado e Mensagem Fi
 
 Logo → Título → Casa do Samuel. Na casa, o ponto de interação do antigo guia de documentação representa o pergaminho. A interação apresenta o prólogo e leva à Vila. A saída original da casa continua disponível para exploração do caminho.
 
-A placa na Vila indica destinos. O Templo dos Portais mantém a interação original com o escriba: fale com ele, acompanhe seu deslocamento para a esquerda e entre no portão. A batalha conserva o percurso shmup e os obstáculos originais. Golias é um ator adicional sem prefab, com sprite original reutilizado, contador local de impactos e movimento vertical. Seu visual ainda é o de um inimigo espacial.
+A placa na Vila indica destinos. O Templo dos Portais mantém a interação original com o escriba: fale com ele, acompanhe seu deslocamento para a esquerda e entre no portão. A batalha conserva o percurso shmup e os obstáculos originais. Golias é um ator adicional sem prefab, com folha de sprite exclusiva na versão de arte, contador local de impactos e movimento vertical.
 
 Após a batalha, o portal do acampamento volta diretamente à Vila. O Sonho de Jacó permanece no projeto como cena opcional, sem ligação obrigatória na demo.
 

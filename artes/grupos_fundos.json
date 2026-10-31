@@ -1,0 +1,26 @@
+[
+  [
+    "sample_town.png",
+    "outside.png",
+    "room.png",
+    "house.png"
+  ],
+  [
+    "house-wide.png",
+    "launch_site.png",
+    "cave.png",
+    "underground.png"
+  ],
+  [
+    "hidden_cave.png",
+    "parallax.png",
+    "platform_path.png",
+    "stars.png"
+  ],
+  [
+    "stars_wide.png",
+    "leaving_earth.png",
+    "menu_page1.png",
+    "menu_page2.png"
+  ]
+]

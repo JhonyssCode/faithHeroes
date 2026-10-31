@@ -1,0 +1,180 @@
+{
+  "metadados": {
+    "gospel/assets/avatars/danger.png.gbsres": "82617f81d3abc117bd5b9a72fc4f1f56ce7f3234266a4df70f0eb7aefe43d6a1",
+    "gospel/assets/backgrounds/black.png.gbsres": "e3ac56dd308ce425091c0c3d87f47c317ee6a39a01d39e482d5c2b7a370543ac",
+    "gospel/assets/backgrounds/cave.png.gbsres": "2a7c490fb3baf9f53c215b326242bd7c8b0e49ba5c3d89d4b1fdb02b28618a72",
+    "gospel/assets/backgrounds/hidden_cave.png.gbsres": "93ec6c845a666c5ad214edb957b76383617ad87181c9af9351861b5b340e3528",
+    "gospel/assets/backgrounds/house-wide.png.gbsres": "742473ebd0b237dd66947ec448b6eaa71e18f9b0925a0bf28e701d3436ba72d2",
+    "gospel/assets/backgrounds/house.png.gbsres": "1e8f438a4c3ac5b34c9eef20053e2993d49691c35765ad7136108139b0407805",
+    "gospel/assets/backgrounds/launch_site.png.gbsres": "0175d2ba9b019b17f7c4b679026754c1a784d6cebf7ba57998a0fd104fce5d92",
+    "gospel/assets/backgrounds/leaving_earth.png.gbsres": "a40003bcdb8e41bd06b3991e1ae1d0431e32348a1efcb99d9a569fd6d491f52f",
+    "gospel/assets/backgrounds/logo.png.gbsres": "dcdc8eaab26910ad44b5b81d60d807a5e74cb1d8b9cbe0f7e1f2155f423eed15",
+    "gospel/assets/backgrounds/menu.png.gbsres": "39af1972cfe69474ec33ddbfdf76a3a18ea0c7feea2bffa3c5a185a842c52da4",
+    "gospel/assets/backgrounds/menu_page1.png.gbsres": "33c1d99c4fe88b567a32ae64652e8321b1e13897bd9efcc19a51d1ae375f622b",
+    "gospel/assets/backgrounds/menu_page2.png.gbsres": "5a3b5fa57c1212c873aaeb28f53d036c92fb7103ee0ee490b614b946351e0f71",
+    "gospel/assets/backgrounds/outside.png.gbsres": "f82098568686acadac400bcb9cf504a3312191de4cb7a1bc775694b38eb55e37",
+    "gospel/assets/backgrounds/parallax.png.gbsres": "6a62a577fc604a48d6af491d351bdb14d3295afa9bcddf4555f9b6c79a725ce1",
+    "gospel/assets/backgrounds/platform_path.png.gbsres": "7d9e8f33a00a489475fe1ffb588df1e2f2096b0f29eb86fd6e7fe42f9dc778d7",
+    "gospel/assets/backgrounds/room.png.gbsres": "34acd9eaf15eb8a69e01dbcc5f6de97dc7a1ae35957b25ce0fb5eb1945255edb",
+    "gospel/assets/backgrounds/sample_town.png.gbsres": "5c15702a4621adf248b1ba5de14fc136055e2400bda878d4b61312ee548b2d44",
+    "gospel/assets/backgrounds/stars.png.gbsres": "c16d703684fc5415cf1acf7a2830c77e6a22fb884433ae39a31aa88597b9ecd0",
+    "gospel/assets/backgrounds/stars_wide.png.gbsres": "c4aa6a5d75c9ac51bd9b6be0205622a59b17cd96d01995a792dfe43a08860065",
+    "gospel/assets/backgrounds/titlescreen.png.gbsres": "b8d38b9598036e047cbeec51b2c0b706939547dba7dfe3ed876b92c63d093e96",
+    "gospel/assets/backgrounds/underground.png.gbsres": "e71bb7c77312fca7738ce305f4aa89c8bd224663b5e167760a557ea8f3d052a3",
+    "gospel/assets/emotes/anger.png.gbsres": "c1bbb35fc05b9aea552a7ee83450c9925ef721da9961ffba75f1b1cb445a8097",
+    "gospel/assets/emotes/love.png.gbsres": "1f9508ca644c69a8bdd84ec56227dd9042edf7332ba74abdb12afe712ddc514b",
+    "gospel/assets/emotes/music.png.gbsres": "e9871fa5cdb49c9d93ce2f4ed70d16b8f3b033871f7dbe9969d7e15601e5b8cd",
+    "gospel/assets/emotes/pause.png.gbsres": "fef2d114b2e6e62f29e67cd2344a06affbd9b61800fc5d8c82a1548f9ba4ea60",
+    "gospel/assets/emotes/question.png.gbsres": "1653a34c7ecc496977af62930696ca58da43a36ec8162c44082b17a3f5ce188c",
+    "gospel/assets/emotes/shock.png.gbsres": "d8e55a910c70ef204e9357343386d441261d3d318ccf2e2a88c5f0095a679c27",
+    "gospel/assets/emotes/sleep.png.gbsres": "8ab3bec0ccc4127260e61fa57fd918adb10c962cf2fa9bf3e4f7b6ec98383484",
+    "gospel/assets/emotes/sweat.png.gbsres": "a8c3de3246b5763ab79c84b749f0615137e655f0ffd3151c4860483afa54fd3f",
+    "gospel/assets/fonts/gbs-mono.png.gbsres": "04d00d5950b674e850b672cb9899f6677618c6732423aa75fb36118f05a39318",
+    "gospel/assets/fonts/gbs-var.png.gbsres": "eb0f8573d758205408644d279cd1ec1ec55f9d4fc0915e187a7532b427677e9d",
+    "gospel/assets/music/Rulz_BattleTheme.uge.gbsres": "c4837cdb193a6300bd04558a9ca8dbe2b5fbf08060256d798a2a5be6c31b5239",
+    "gospel/assets/music/Rulz_FastPaceSpeedRace.uge.gbsres": "d9eb6d29592f415e9b17c952b9521cc8965afe5661d02d5a482d7703ace746b5",
+    "gospel/assets/music/Rulz_GonaSpace.uge.gbsres": "404de19c00d388f073020c2c8c5a847da82770d20823c00770cbbaadb90000c6",
+    "gospel/assets/music/Rulz_Into the woods.uge.gbsres": "4b9becaee132b3889b4b13a72a4dff4c1a4fa348097b5260a41a6024e7753c8a",
+    "gospel/assets/music/Rulz_Intro.uge.gbsres": "24266c4441ad9e65458357a74298b96b54b20103a3e50c3683cfdd62878ba2f9",
+    "gospel/assets/music/Rulz_LightMood.uge.gbsres": "541eccaa06f071a524aafa918d584993f69256a1603c5dfb7fd366bd4cf893e2",
+    "gospel/assets/music/Rulz_Outside.uge.gbsres": "7e3b67bb975c94ab836c98145811a66786292a59ef00f8455e64604af132e92c",
+    "gospel/assets/music/Rulz_Pause_Underground.uge.gbsres": "2eed05a28112415e9708315f2d5c25794f99eafbe63bb4c529349e8339c11d74",
+    "gospel/assets/music/Rulz_SpaceEmergency.uge.gbsres": "08e0bb2e6a00bbbdabe0d619e482e1245463d5b2ae37c36da4fde3587bfce0cd",
+    "gospel/assets/music/Rulz_UndergroundCave.uge.gbsres": "d51efe0402ea0e09c04af06e2ccb953003dc42d27137b2c5cbb0e1b443f2fb06",
+    "gospel/assets/music/Tronimal_DrumsExample.uge.gbsres": "131e7134fefdddd3728ba0ec9f41d4e8737c915ead94bcecbf89de098c0e8760",
+    "gospel/assets/music/Tronimal_EchoExample.uge.gbsres": "8baceb760249eedbb0e8858a837bf893f5268041fb7320101be85658737d2882",
+    "gospel/assets/music/template.mod.gbsres": "45f708ece326d1eb6b70d4803ddaac3ddc90052e9cba37abb471156b447d1561",
+    "gospel/assets/sounds/Tronimal_Sound_Effects.sav.gbsres": "320c5573197b894a158e4c2d3305eb8c89c8a9d5223a2838e28e479cc3014fc7",
+    "gospel/assets/sprites/bullet.png.gbsres": "fbcabe7e212bddfba2b0541b13551aa5f6071c51aebb7b5775898f5b5fad5a01",
+    "gospel/assets/sprites/bullet_left.png.gbsres": "73822f46d50e91125cf8d49923cffd520b760a1ead5e26aa8a90b5a587c96583",
+    "gospel/assets/sprites/bullet_right.png.gbsres": "eec4c471d8afcbda708dfbf1914c788a89f093406ea96575173bb942cfa8773d",
+    "gospel/assets/sprites/cat.png.gbsres": "03a3936bfd67af4841372f6568be0738de2c82b3e4a846223031873c407910e3",
+    "gospel/assets/sprites/checkbox.png.gbsres": "9fdb9b82d04bb40cf65a2eca397bbdc01486ef760f71188619c7b9f708da2492",
+    "gospel/assets/sprites/chest.png.gbsres": "22042ef3c01a89a5d8aef60bbb96d35f52f0a0539a6726c87300fc6fd2651dd7",
+    "gospel/assets/sprites/cursor.png.gbsres": "6bb041c2adfd315b17cee1694555b4b0306c2ad38c7cde6d8d40ccb5878834a5",
+    "gospel/assets/sprites/dog.png.gbsres": "bda66580098e2058d0e269814a63e6d6225c10f63898915e874b84cb07b8dcc5",
+    "gospel/assets/sprites/drumkit.png.gbsres": "3585f166c9f842793ae3bcb1435398f295d344aaaf462de07412e4107c7e8f11",
+    "gospel/assets/sprites/duck.png.gbsres": "c1d0ee5602076685908f103bb1717535774dfdca68abfac6c8d2e2ba858f0443",
+    "gospel/assets/sprites/elephant.png.gbsres": "21d163de5d9ab9d3eddc9cd99b96d19bdf0da806d23856d499cc149c4ad184e8",
+    "gospel/assets/sprites/enemy_ship.png.gbsres": "3ae1c42474523fd7837fcace221a36e91a9a82c723350e2c3fb777937ce985a4",
+    "gospel/assets/sprites/explode.png.gbsres": "44ecdcfc0a270555a01bb8be1b7909d5dd4a90cc8c7d022dd58201a49f5042dd",
+    "gospel/assets/sprites/fire.png.gbsres": "83b2ded438160d28fac6ac3e569c9178624ae963a56dcb70156659d86f8dc1db",
+    "gospel/assets/sprites/hearts.png.gbsres": "76dbf1dad467c948692675290ab870230014b3f2f48cc0e22639120737ba4bb8",
+    "gospel/assets/sprites/hidden_stairs.png.gbsres": "20bebbe56bc3abaf82dadc4d138d20e2270443663416f8b9508cd6a742e34e45",
+    "gospel/assets/sprites/ice.png.gbsres": "fe135ef30ae458f5eecd8935e068ed17ebf7dbf93cac726973aa916cc5c5f571",
+    "gospel/assets/sprites/keyboard.png.gbsres": "45eae4d4abc4a2fb0022c03f1621833635f3d98dcbcccb21fc2fd6ee573f7025",
+    "gospel/assets/sprites/machine.png.gbsres": "996c48818506cddd080959eb7ec56c81d92a5d3ceb63a09f9f9ccc7a6bfae790",
+    "gospel/assets/sprites/npc001.png.gbsres": "8de6200362ae6a0214d0bc00034d4331364d8e6b509e16e4daadd45323af4cd6",
+    "gospel/assets/sprites/npc002.png.gbsres": "2be1c68d4e3a30aa5a2aaae949c70f3c2356ea57658807a20f7ef07bfeb07e95",
+    "gospel/assets/sprites/npc003.png.gbsres": "6edda0018921232681e02b3c79157fc0502263eee34ce7acdab2f23292c578d1",
+    "gospel/assets/sprites/npc004.png.gbsres": "4062221ac70ed6502aa8d528afa6a2bb94c6e80cbed92f42f25ca8145372b33a",
+    "gospel/assets/sprites/npc005.png.gbsres": "93cf192c3d96f892f113e3a564195cf90163c4742deff72006f6c3ba6f7d4d45",
+    "gospel/assets/sprites/npc006.png.gbsres": "eebe0227c05b5fd354fff294f4390fe07e57777de40a1d2ad737d8866ec5f7ef",
+    "gospel/assets/sprites/npc007.png.gbsres": "86f8e9cc444352c8901ec44b117c57710bce5f5b188265b157b43604db745064",
+    "gospel/assets/sprites/npc008.png.gbsres": "47a2a524a120b68f81a44ef5915c726974bd3829fae01d5ff91f423f8e802904",
+    "gospel/assets/sprites/npc_gardener.png.gbsres": "07d861de63626152645cbc26b560ed4a22bfd490f196d6b02ec4193d657a7b9b",
+    "gospel/assets/sprites/player.png.gbsres": "cd54b746c70e00e1feefad49f5877bc8b6bd90338103c42f1792674d97a562ae",
+    "gospel/assets/sprites/player_platform.png.gbsres": "8bb753a9cde8d4d5bf6b11d6c276f9e81622742baf72663fca30e5f585b04dfd",
+    "gospel/assets/sprites/player_ship.png.gbsres": "15a08cf27d0c553f797d78c12a52c9bab8f3ee9263c09861f421e6b965cdd137",
+    "gospel/assets/sprites/pod_door.png.gbsres": "1881761e021a160093399e40f4b443623dda85cd6f5efffd1fa4e2b9e242d72e",
+    "gospel/assets/sprites/portal.png.gbsres": "3383f009081ae51e17568ec41d0105ad6b5e4c0b301f171a39e12ea3b22e2e32",
+    "gospel/assets/sprites/radio.png.gbsres": "adc81c6d22ba0e0cace5244e9101048cfdb672bdde212cc21f5deb8d3f1c529f",
+    "gospel/assets/sprites/rock.png.gbsres": "94aca7bfd12f729a57bf4baf523ec75aebffb3fd6a76a9a3eafa25f9774052bb",
+    "gospel/assets/sprites/sage.png.gbsres": "711e897e2bc529626604911bd29c46df2544b8ec4021256e44738bef75de0856",
+    "gospel/assets/sprites/savepoint.png.gbsres": "698c0fbafad94648bfff51d97d133f08f7b52379b55a5fa51d4f3fc46d4ef0e4",
+    "gospel/assets/sprites/signpost.png.gbsres": "1b53ef30f6decf08938133ddb0c4ed21115fdc62af74b62ffc93222df56d2cf7",
+    "gospel/assets/sprites/space_mine.png.gbsres": "0afc17729a383f84e4983e624473548c840dde13edc2fa97967beedb94c164b0",
+    "gospel/assets/sprites/torch.png.gbsres": "c412fd2aedc58116e83a465aadbba06eddecbedbb82fba4d2c10d2ee2258fc60",
+    "gospel/assets/sprites/turnip.png.gbsres": "3926293e0b7aeacdb59c71f19cd306b9446d63aec7ae79e5ad9d5bfcad67d12c",
+    "gospel/assets/sprites/ui_weapon.png.gbsres": "d77d5443b46799ebbcb05cb5b7a60f8fe28d89efb0783cee7d605d8aabe54e05",
+    "gospel/assets/tilesets/flowers.png.gbsres": "22388e2a9a601e5477bbe66ddf2803410fd48f068d535cf53183fe2247ac750b",
+    "gospel/assets/tilesets/waterfall.png.gbsres": "9f6d1bc20a326ed961b92e7213a11bd478fd5166400073fd8bcb91f406018903"
+  },
+  "cenas": {
+    "gospel/project/scenes/caves/cave/scene.gbsres": {
+      "collisions": "003d+0f12+002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f8+002+0f8+009+0f!002+0f!008+",
+      "width": 20,
+      "height": 18
+    },
+    "gospel/project/scenes/caves/deeper_underground/scene.gbsres": {
+      "collisions": "00!0f4+10!0fe+00d+0f!003+10!00d+0f!00d+0f!003+10!00d+0f!00d+0f!003+10!00d+0f!005+0f2+006+0f!003+10!008+10!004+0f!003+0f2+002+0f2+004+0fc+01!11!01!0f7+005+0f3+003+0f!00b+10!006+0f2+007+0f!003+0f!00b+10!006+0f2+007+0f!003+0f!00b+10!006+0f2+007+0f!003+0f!00b+10!006+0f2+007+0f!003+0f!00b+10!004+10!00!0f2+007+0f!002+0f11+01!11!01!0f2+007+0f!002+0f!004+0f2+00b+10!00a+0f!002+0f!0011+10!00a+0f!002+0f!0011+10!00a+0f!002+0f!0011+10!00a+0f!002+0f1e+0021+",
+      "width": 32,
+      "height": 18
+    },
+    "gospel/project/scenes/caves/underground/scene.gbsres": {
+      "collisions": "00c3+0f1a+006+0f!00b+0f2+007+0f2+002+0f!006+0f!00b+0f2+007+0f2+002+0f!006+0f!002+0f2+0014+0f!006+0f!002+0f2+0014+0f!006+0f!0018+0f!006+0f!0018+0f!006+0f!0018+0f!006+0f!00d+0f2+009+0f!006+0f!00d+0f2+009+0f!006+0f!004+0f2+0012+0f!006+0f!004+0f2+0012+0f!006+0f15+002+0f3+004+0f17+002+0f5+002+0f!001c+0f!002+0f!001c+0f!002+0f!00f+0f4+002+0f4+003+0f!002+0f!00d+0f6+002+0f4+003+0f!002+0f!00d+0f4+006+0f2+003+0f!002+0f!00d+0f4+006+0f2+00!0f3+002+0f!00d+0f4+006+0f2+00!0f3+002+0f!00f+0f2+006+0f2+003+0f!002+0f!00f+0f2+006+0f2+00!0f3+002+0f!00f+0f2+006+0f2+00!0f3+002+0f14+002+0f8+0015+0f!002+0f!008+",
+      "width": 32,
+      "height": 32
+    },
+    "gospel/project/scenes/dream/scene.gbsres": {
+      "collisions": "00168+",
+      "width": 20,
+      "height": 18
+    },
+    "gospel/project/scenes/path/parallax_example/scene.gbsres": {
+      "collisions": "00460+0f50+00f0+",
+      "width": 80,
+      "height": 18
+    },
+    "gospel/project/scenes/path/path_to_sample_town/scene.gbsres": {
+      "collisions": "0093+0f!00a0+0f!00a0+0f!00a0+0f!00a0+0f!00a0+0f!00a0+0f!00a0+0f!00a0+0f!0029+0f4+0073+0f!0011+016+0012+0f!002+0f!0073+0f!0026+40!60!01!0f!002+0f!0030+01a+0039+0f!0023+20!012+006+0f3+0071+0f!0021+40!60!00c+01!70!50!0016+0f!002d+0f!0029+0f!00d+0f14+0011+0f13+003+0f2f+005+0f32+0037+0f!003+0f!002d+0f!005+0f!0068+0f!003+0f!002d+0f!005+0f!0068+0f!003+0f!002d+0f!005+0f!0031+",
+      "width": 161,
+      "height": 18
+    },
+    "gospel/project/scenes/players_house/scene.gbsres": {
+      "collisions": "",
+      "width": 20,
+      "height": 18
+    },
+    "gospel/project/scenes/space/deep_space/scene.gbsres": {
+      "collisions": "00400+",
+      "width": 32,
+      "height": 32
+    },
+    "gospel/project/scenes/space/space_battle/scene.gbsres": {
+      "collisions": "0011ee+",
+      "width": 255,
+      "height": 18
+    },
+    "gospel/project/scenes/town/launch_site/scene.gbsres": {
+      "collisions": "0f4+002+0f!006+0f!002+0f7+003+0f!006+0f!003+0f5+004+0f!006+0f!004+0f3+005+0f!006+0f!005+0f3+003+0f2+006+0f2+003+0f4+003+0f2+006+0f2+003+0f4+004+0f!006+0f!004+0f3+005+0f!006+0f5+00!0f3+004+0f!006+0f2+002+0f5+004+0f9+002+0f5+0010+0f3+0012+0f3+0010+0f4+0010+0f4+0010+0f3+0012+0f6+00a+0fb+008+0f6+",
+      "width": 20,
+      "height": 18
+    },
+    "gospel/project/scenes/town/music_house/scene.gbsres": {
+      "collisions": "003d+0f12+002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f8+002+0f8+009+0f!002+0f!0010+0f4+008+",
+      "width": 20,
+      "height": 18
+    },
+    "gospel/project/scenes/town/sample_town/scene.gbsres": {
+      "collisions": "0f13+00c+0f8+00d+0f17+00c+0f8+00d+0f17+00c+0f8+00e+0f4+002+0f2+002+0f2+002+0f2+002+0f2+00!0f!00d+0f6+00e+0f6+006+0f6+004+0f2+00d+0f4+00f+0f6+006+0f6+004+0f3+00d+0f2+0010+0f6+006+0f6+004+0f13+0010+0f4+007+0f2+002+0f2+006+0f4+002+0fc+00f+0f5+006+0f2+002+0f2+007+0f3+002+0fd+00d+0f6+001d+0f4+002+0f6+004+0fb+001d+0f4+002+0f6+004+0fa+001f+0f2+004+0f5+004+0fb+003+0f2+0020+0f4+004+0f5+00!0f5+002+0f4+002e+0f4+002+0f4+002d+0f4+004+0f2+002e+0f5+001d+0f2+0014+0f5+00d+0fd+002+0f4+0014+0f4+009+0f5+00b+0f2+00!0f6+0011+0f4+008+0f3+0010+0f!002+0f6+0010+0f5+007+0f!0012+0f!002+0f6+007+0f2+007+0f5+007+0f4+00f+0f!00!0f6+007+0f4+007+0f4+00a+0f3+00b+0f3+00!0f4+009+0f4+006+0f4+00d+0fd+004+0f2+006+0f2+003+0f2+007+0f5+001d+0f2+005+0f4+009+0f7+001c+0f4+004+0f6+007+0f7+001c+0f4+005+0f6+006+0f6+001e+0f2+008+0f4+007+0f11+00e+0f2+002+0f2+009+0f2+009+0f11+00c+0f8+0013+0f11+00c+0f9+0013+0fb+002+0f2+00e+0f9+00d+0ff+0014+0f8+00d+0fe+0016+0f6+00e+0fd+0018+0f4+00!0f3+009+0f10+0018+0f2+002+0f4+007+0f4+00!0fd+006+0f6+009+0fa+007+0f4+002+0fc+003+0f2+00!0f6+009+0f6+00!0f2+009+0f2+004+0fa+003+0f!00!0f!00!0f6+009+0f6+0012+0fe+00!0f!00!0f2+002+0f2+009+0f2+002+0f2+0010+0f5+00c+0f!00!0f2+002+0f2+009+0f2+002+0f2+0010+0f5+00c+0f!0026+0f5+00c+0f2+001e+0fc+00c+0f2+001e+0fc+00c+0f2+001e+0f1a+001e+0fc+002c+0f3+002+0f7+002c+0f3+002+0f7+0035+0f3+0035+0f11+0026+0f4+00d+0f2+0025+0fe4+",
+      "width": 56,
+      "height": 56
+    },
+    "gospel/project/scenes/town/top_house/scene.gbsres": {
+      "collisions": "003d+0f12+002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f8+002+0f8+009+0f!002+0f!0010+0f4+008+",
+      "width": 20,
+      "height": 18
+    },
+    "gospel/project/scenes/ui/logo/scene.gbsres": {
+      "collisions": "00168+",
+      "width": 20,
+      "height": 18
+    },
+    "gospel/project/scenes/ui/menu/menu_page_1/scene.gbsres": {
+      "collisions": "",
+      "width": 20,
+      "height": 18
+    },
+    "gospel/project/scenes/ui/menu/menu_page_2/scene.gbsres": {
+      "collisions": "",
+      "width": 20,
+      "height": 18
+    },
+    "gospel/project/scenes/ui/title_screen/scene.gbsres": {
+      "collisions": "",
+      "width": 20,
+      "height": 18
+    }
+  }
+}

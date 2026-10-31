@@ -1,0 +1,11 @@
+Arte: 19 fundos e 43 folhas de sprites preparados; 171 quadros referenciados não vazios.
+Todos os PNGs: dimensões preservadas; arte nova com até 4 cores; fundos com até 192 tiles; recortes 8x16 válidos.
+Integridade: 89 metadados originais idênticos; 17 mapas de colisão preservados.
+PASSOU — validação de arquivos; não executa ROM nem substitui conferência visual no GB Studio.
+Estrutura: 284 JSONs; 17 cenas; textos e destinos válidos.
+Portões: 32 combinações verificadas; ambos exigem os quatro fragmentos.
+Recompensas: ovelha, 0–3 obstáculos, cinco impactos e baú sem duplicação verificados.
+Final: 16 combinações verificadas; mensagem exibida uma vez com os quatro fragmentos.
+PASSOU — simulação estática; ROM e jogabilidade não executadas.
+284 arquivos verificados; 0 erros.
+0 caixas com avisos; nenhuma alteração aplicada.
